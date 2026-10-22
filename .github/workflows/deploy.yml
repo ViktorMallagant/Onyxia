@@ -37,8 +37,16 @@ jobs:
       - name: Prepare static website
         run: |
           mkdir -p _site
-          cp index.html styles.css app.js lore-data.js .nojekyll _site/
+          # Include all chapter pages and their associated CSS, JS and lore data.
+          cp ./*.html ./*.css ./*.js ./*.json .nojekyll _site/
           cp -R assets _site/
+          # Fail the build rather than quietly publishing broken chapter links.
+          for page in realms species bestiary magic religions organisations economics; do
+            test -s "_site/${page}.html"
+          done
+          test -s _site/lorebook.js
+          test -s _site/lorebook.css
+          test -s _site/lore-pages-data.json
 
       - name: Restore chapter illustrations
         run: |
