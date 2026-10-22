@@ -1,0 +1,4207 @@
+{
+  "realms": {
+    "id": "realms",
+    "title": "Realms & Kingdoms",
+    "subtitle": "The domains of Onyxia, their rulers, peoples, riches and mysteries.",
+    "intro": [
+      {
+        "type": "subheading",
+        "text": "Onyxia"
+      },
+      {
+        "type": "subheading",
+        "text": "(Click here for a zoomable version of this map.)"
+      },
+      {
+        "type": "subheading",
+        "text": "Realms"
+      },
+      {
+        "type": "subheading",
+        "text": "Major locations in Onyxia"
+      }
+    ],
+    "entries": [
+      {
+        "id": "astazulum-empire",
+        "title": "Astazulum Empire",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Astazulum Empire"
+          },
+          {
+            "type": "field",
+            "label": "Culture Reference",
+            "text": "Medieval Russia and Scandinavia"
+          },
+          {
+            "type": "field",
+            "label": "Capital",
+            "text": "Gila/Dreki Castle"
+          },
+          {
+            "type": "field",
+            "label": "Leader",
+            "text": "Emperor Leonid Renillus (50, OPEN)"
+          },
+          {
+            "type": "field",
+            "label": "Population",
+            "text": "940k"
+          },
+          {
+            "type": "field",
+            "label": "Religion",
+            "text": "For-Ellri"
+          },
+          {
+            "type": "field",
+            "label": "Magic Type",
+            "text": "Uncommon - Egoic"
+          },
+          {
+            "type": "subheading",
+            "text": "5 Jarldoms"
+          },
+          {
+            "type": "field",
+            "label": "Breioavik (Population",
+            "text": "150k)"
+          },
+          {
+            "type": "field",
+            "label": "Oleifsbjorg (Population",
+            "text": "230k)"
+          },
+          {
+            "type": "field",
+            "label": "Einarshofn (Population",
+            "text": "150k)"
+          },
+          {
+            "type": "subheading",
+            "text": "Jarless Janessa Väyrynen"
+          },
+          {
+            "type": "field",
+            "label": "Sandgil (Population",
+            "text": "200k)"
+          },
+          {
+            "type": "field",
+            "label": "Norotunga (Population",
+            "text": "210k)"
+          },
+          {
+            "type": "field",
+            "label": "Military Strength",
+            "text": "33,000"
+          },
+          {
+            "type": "subheading",
+            "text": "Resources"
+          },
+          {
+            "type": "subheading",
+            "text": "Exotic Furs"
+          },
+          {
+            "type": "subheading",
+            "text": "Mining/Ore"
+          },
+          {
+            "type": "subheading",
+            "text": "Silver"
+          },
+          {
+            "type": "subheading",
+            "text": "Copper"
+          },
+          {
+            "type": "subheading",
+            "text": "Limestone"
+          },
+          {
+            "type": "subheading",
+            "text": "Gold"
+          },
+          {
+            "type": "subheading",
+            "text": "Fish"
+          },
+          {
+            "type": "subheading",
+            "text": "Salmon"
+          },
+          {
+            "type": "subheading",
+            "text": "People of Note"
+          },
+          {
+            "type": "subheading",
+            "text": "Imperial Family"
+          },
+          {
+            "type": "subheading",
+            "text": "Princess Liliya (24, OPEN)"
+          },
+          {
+            "type": "subheading",
+            "text": "Prince Nikolas Rennillus (22, OPEN)"
+          },
+          {
+            "type": "subheading",
+            "text": "Princess Freyleth (22, @Freyleth Renillus,)"
+          },
+          {
+            "type": "subheading",
+            "text": "Prince Kirill Renillus (20, ⁠@Ast)"
+          },
+          {
+            "type": "subheading",
+            "text": "Onyx Mage Freyja Hávarðr"
+          },
+          {
+            "type": "subheading",
+            "text": "Onyx Knight Sven Jargersson"
+          },
+          {
+            "type": "subheading",
+            "text": "Chief Kharvorn the Steadfast"
+          },
+          {
+            "type": "subheading",
+            "text": "Spymaster Brynhild Gunnar"
+          }
+        ],
+        "images": [
+          "assets/lore/realms/astazulum-empire-02.webp"
+        ],
+        "filters": {
+          "category": "",
+          "realm": "Gila/Dreki Castle",
+          "playability": ""
+        },
+        "kind": "realm"
+      },
+      {
+        "id": "avout-kingdom",
+        "title": "Avout Kingdom",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Avout Kingdom"
+          },
+          {
+            "type": "field",
+            "label": "Culture Reference",
+            "text": "Medieval France"
+          },
+          {
+            "type": "field",
+            "label": "Capital",
+            "text": "Bellefontaine-le-Château"
+          },
+          {
+            "type": "field",
+            "label": "Leader",
+            "text": "Éloraine Aurelisse de Verdaine"
+          },
+          {
+            "type": "field",
+            "label": "Population",
+            "text": "880k"
+          },
+          {
+            "type": "field",
+            "label": "Religion",
+            "text": "The Sċēaphierde"
+          },
+          {
+            "type": "field",
+            "label": "Magic Type",
+            "text": "Nature based - Healing/Nature manipulation"
+          },
+          {
+            "type": "subheading",
+            "text": "5 Duchies"
+          },
+          {
+            "type": "field",
+            "label": "Le Blanc-Mesnil (Population",
+            "text": "150k)"
+          },
+          {
+            "type": "subheading",
+            "text": "Duchess Almárëa de Beausoleil"
+          },
+          {
+            "type": "field",
+            "label": "Montagnebrise (Population",
+            "text": "200k)"
+          },
+          {
+            "type": "field",
+            "label": "Val-de-Rosiers (Population",
+            "text": "150k)"
+          },
+          {
+            "type": "field",
+            "label": "Cielbleu-Vignoble (Population",
+            "text": "170k)"
+          },
+          {
+            "type": "field",
+            "label": "Valencourt-les-Châteaux (Population",
+            "text": "210k)"
+          },
+          {
+            "type": "field",
+            "label": "Military Strength",
+            "text": "30,250"
+          },
+          {
+            "type": "subheading",
+            "text": "Resources"
+          },
+          {
+            "type": "subheading",
+            "text": "Timber"
+          },
+          {
+            "type": "subheading",
+            "text": "Orchards"
+          },
+          {
+            "type": "subheading",
+            "text": "Cheese"
+          },
+          {
+            "type": "subheading",
+            "text": "Fashionable Clothing"
+          },
+          {
+            "type": "subheading",
+            "text": "Baked Goods"
+          },
+          {
+            "type": "subheading",
+            "text": "Wine"
+          },
+          {
+            "type": "subheading",
+            "text": "People of Note"
+          },
+          {
+            "type": "subheading",
+            "text": "Arch Mage Daeira Lorakalyn de Verdaine"
+          },
+          {
+            "type": "subheading",
+            "text": "Captain of the Royal Guard Lancelot du Lac"
+          }
+        ],
+        "images": [
+          "assets/lore/realms/avout-kingdom-03.webp"
+        ],
+        "filters": {
+          "category": "",
+          "realm": "Bellefontaine-le-Château",
+          "playability": ""
+        },
+        "kind": "realm"
+      },
+      {
+        "id": "guirnaldas-kingdom",
+        "title": "Guirnaldas Kingdom",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Guirnaldas Kingdom"
+          },
+          {
+            "type": "field",
+            "label": "Culture Reference",
+            "text": "Medieval Spain"
+          },
+          {
+            "type": "field",
+            "label": "Capital",
+            "text": "Llanoverde"
+          },
+          {
+            "type": "field",
+            "label": "Leader",
+            "text": "Queen Adriana de Artiaga"
+          },
+          {
+            "type": "field",
+            "label": "Population",
+            "text": "760k"
+          },
+          {
+            "type": "field",
+            "label": "Religion",
+            "text": "The Sċēaphierde"
+          },
+          {
+            "type": "field",
+            "label": "Magic Type",
+            "text": "Creation - Evocation"
+          },
+          {
+            "type": "subheading",
+            "text": "4 Counties"
+          },
+          {
+            "type": "field",
+            "label": "Montenegro de Alba (Population",
+            "text": "210k)"
+          },
+          {
+            "type": "subheading",
+            "text": "Countess Tinúviel García"
+          },
+          {
+            "type": "subheading",
+            "text": "Count Efraín de Artiaga"
+          },
+          {
+            "type": "field",
+            "label": "Valdelapiedra (Population",
+            "text": "130k)"
+          },
+          {
+            "type": "field",
+            "label": "Fuentebrava (Population",
+            "text": "210k)"
+          },
+          {
+            "type": "subheading",
+            "text": "Count Elysian Valoran"
+          },
+          {
+            "type": "field",
+            "label": "El Sabinar (Population",
+            "text": "210k)"
+          },
+          {
+            "type": "subheading",
+            "text": "Queen Adriana de Artiaga"
+          },
+          {
+            "type": "field",
+            "label": "Military Strength",
+            "text": "30,250"
+          },
+          {
+            "type": "subheading",
+            "text": "Resources"
+          },
+          {
+            "type": "subheading",
+            "text": "Olive Oil"
+          },
+          {
+            "type": "subheading",
+            "text": "Horses"
+          },
+          {
+            "type": "subheading",
+            "text": "Mining/Ore"
+          },
+          {
+            "type": "subheading",
+            "text": "Iron"
+          },
+          {
+            "type": "subheading",
+            "text": "Orchards"
+          },
+          {
+            "type": "subheading",
+            "text": "Wine"
+          },
+          {
+            "type": "subheading",
+            "text": "Baked Goods"
+          },
+          {
+            "type": "subheading",
+            "text": "People of Note"
+          },
+          {
+            "type": "subheading",
+            "text": "Cousins of the Queen"
+          },
+          {
+            "type": "subheading",
+            "text": "Alejandro de Artiaga (22, OPEN)"
+          },
+          {
+            "type": "subheading",
+            "text": "Isabella de Artiaga (20, OPEN)"
+          },
+          {
+            "type": "subheading",
+            "text": "Miguel de Artiaga (18, OPEN)"
+          },
+          {
+            "type": "subheading",
+            "text": "Onyx Mage Ainara Pendragón"
+          }
+        ],
+        "images": [
+          "assets/lore/realms/guirnaldas-kingdom-04.webp"
+        ],
+        "filters": {
+          "category": "",
+          "realm": "Llanoverde",
+          "playability": ""
+        },
+        "kind": "realm"
+      },
+      {
+        "id": "republic-of-merania",
+        "title": "Republic of Merania",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Republic of Merania"
+          },
+          {
+            "type": "field",
+            "label": "Culture Reference",
+            "text": "Greco-Roman"
+          },
+          {
+            "type": "field",
+            "label": "Capitals",
+            "text": "Himonia and Brivas"
+          },
+          {
+            "type": "field",
+            "label": "Leaders",
+            "text": ""
+          },
+          {
+            "type": "subheading",
+            "text": "Consul Aranion Vlazis"
+          },
+          {
+            "type": "subheading",
+            "text": "Consul Diana Iulia Masea"
+          },
+          {
+            "type": "field",
+            "label": "Population",
+            "text": "620k"
+          },
+          {
+            "type": "field",
+            "label": "Religion",
+            "text": "For-Ellri"
+          },
+          {
+            "type": "field",
+            "label": "Magic Type",
+            "text": "Alteration - Musical Enchantment"
+          },
+          {
+            "type": "subheading",
+            "text": "2 Consulates"
+          },
+          {
+            "type": "field",
+            "label": "Heleus (Population",
+            "text": "360k)"
+          },
+          {
+            "type": "field",
+            "label": "Abdera (Population",
+            "text": "260k)"
+          },
+          {
+            "type": "field",
+            "label": "Military Strength",
+            "text": "20,900"
+          },
+          {
+            "type": "subheading",
+            "text": "Resources"
+          },
+          {
+            "type": "subheading",
+            "text": "Mining/Ore"
+          },
+          {
+            "type": "subheading",
+            "text": "Salt"
+          },
+          {
+            "type": "subheading",
+            "text": "Jewelry"
+          },
+          {
+            "type": "subheading",
+            "text": "Olives"
+          },
+          {
+            "type": "subheading",
+            "text": "Musical Instruments"
+          },
+          {
+            "type": "subheading",
+            "text": "People of Note"
+          },
+          {
+            "type": "subheading",
+            "text": "Diplomat Alexandra Aetos"
+          },
+          {
+            "type": "subheading",
+            "text": "High Priestess Aedesia Pallas"
+          }
+        ],
+        "images": [
+          "assets/lore/realms/republic-of-merania-05.webp"
+        ],
+        "filters": {
+          "category": "",
+          "realm": "Himonia and Brivas",
+          "playability": ""
+        },
+        "kind": "realm"
+      },
+      {
+        "id": "obedotish-dynasty",
+        "title": "Obedotish Dynasty",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Obedotish Dynasty"
+          },
+          {
+            "type": "field",
+            "label": "Culture Reference",
+            "text": "Kingdom of native tribes inspired by North America, New Zealand, etc."
+          },
+          {
+            "type": "field",
+            "label": "Capitals",
+            "text": "Atlizoc"
+          },
+          {
+            "type": "field",
+            "label": "Leader",
+            "text": "Open"
+          },
+          {
+            "type": "field",
+            "label": "Population",
+            "text": "760k"
+          },
+          {
+            "type": "field",
+            "label": "Religion",
+            "text": "Diov"
+          },
+          {
+            "type": "field",
+            "label": "Magic Type",
+            "text": "Alteration - Transmutation"
+          },
+          {
+            "type": "subheading",
+            "text": "6 Tribes"
+          },
+          {
+            "type": "field",
+            "label": "Amney (Population",
+            "text": "120k)"
+          },
+          {
+            "type": "field",
+            "label": "Dupargrave (Population",
+            "text": "80k)"
+          },
+          {
+            "type": "field",
+            "label": "Lamlam (Population",
+            "text": "240k)"
+          },
+          {
+            "type": "field",
+            "label": "Kuumlattoq (Population",
+            "text": "110k)"
+          },
+          {
+            "type": "field",
+            "label": "Qaqorhivik (Population",
+            "text": "80k)"
+          },
+          {
+            "type": "field",
+            "label": "Aappilatsaarsuk (Population",
+            "text": "130k)"
+          },
+          {
+            "type": "subheading",
+            "text": "Chief Montezumma"
+          },
+          {
+            "type": "field",
+            "label": "Military Strength",
+            "text": "26,400"
+          },
+          {
+            "type": "subheading",
+            "text": "Resources"
+          },
+          {
+            "type": "subheading",
+            "text": "Healing Herbs"
+          },
+          {
+            "type": "subheading",
+            "text": "Cocoa Beans"
+          },
+          {
+            "type": "subheading",
+            "text": "Coffee Beans"
+          },
+          {
+            "type": "subheading",
+            "text": "Exotic Furs"
+          },
+          {
+            "type": "subheading",
+            "text": "People of Note"
+          },
+          {
+            "type": "subheading",
+            "text": "Open"
+          }
+        ],
+        "images": [
+          "assets/lore/realms/obedotish-dynasty-06.webp"
+        ],
+        "filters": {
+          "category": "",
+          "realm": "Atlizoc",
+          "playability": ""
+        },
+        "kind": "realm"
+      },
+      {
+        "id": "qaenyth-kingdom",
+        "title": "Qaenyth Kingdom",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Qaenyth Kingdom"
+          },
+          {
+            "type": "field",
+            "label": "Culture Reference",
+            "text": "Middle East and Ottoman Empire"
+          },
+          {
+            "type": "field",
+            "label": "Capitals",
+            "text": "Shabila"
+          },
+          {
+            "type": "field",
+            "label": "Leader",
+            "text": "King Ashraf Ali"
+          },
+          {
+            "type": "field",
+            "label": "Population",
+            "text": "980k"
+          },
+          {
+            "type": "field",
+            "label": "Religion",
+            "text": "Goz'garon"
+          },
+          {
+            "type": "field",
+            "label": "Magic Type",
+            "text": "Spectral - Necromancy"
+          },
+          {
+            "type": "subheading",
+            "text": "6 Sayyids"
+          },
+          {
+            "type": "field",
+            "label": "Gümündi (Population",
+            "text": "140k)"
+          },
+          {
+            "type": "field",
+            "label": "Yarilif (Population",
+            "text": "170k)"
+          },
+          {
+            "type": "field",
+            "label": "Masyafita (Population",
+            "text": "210k)"
+          },
+          {
+            "type": "field",
+            "label": "Jaleker (Population",
+            "text": "230k)"
+          },
+          {
+            "type": "subheading",
+            "text": "Sayyid Soraya Azimii"
+          },
+          {
+            "type": "field",
+            "label": "Al-Miwkhah (Population",
+            "text": "120k)"
+          },
+          {
+            "type": "field",
+            "label": "Dihosul (Population",
+            "text": "110k)"
+          },
+          {
+            "type": "field",
+            "label": "Military Strength",
+            "text": "34,650"
+          },
+          {
+            "type": "subheading",
+            "text": "Resources"
+          },
+          {
+            "type": "subheading",
+            "text": "Silks"
+          },
+          {
+            "type": "subheading",
+            "text": "Mining/Ore"
+          },
+          {
+            "type": "subheading",
+            "text": "Coal"
+          },
+          {
+            "type": "subheading",
+            "text": "Date Desserts"
+          },
+          {
+            "type": "subheading",
+            "text": "Alcoholic Beverages"
+          },
+          {
+            "type": "subheading",
+            "text": "Wooden artifacts"
+          },
+          {
+            "type": "subheading",
+            "text": "Oil"
+          },
+          {
+            "type": "subheading",
+            "text": "People of Note"
+          },
+          {
+            "type": "subheading",
+            "text": "Arch Mage & High Priest Adar Shah"
+          },
+          {
+            "type": "subheading",
+            "text": "Onyx Mage Soraya Jahangiri"
+          },
+          {
+            "type": "subheading",
+            "text": "Rebel Warlord Grimgash"
+          },
+          {
+            "type": "subheading",
+            "text": "Cultural Notes"
+          },
+          {
+            "type": "paragraph",
+            "text": "Qaenyth is the only realm where magic and religion are one in the same. Goz’garon is the Prophet of the God of Death and his worship goes hand-in-hand with Necromancy. As such, many mages are also considered priests or priestesses."
+          }
+        ],
+        "images": [
+          "assets/lore/realms/qaenyth-kingdom-07.webp"
+        ],
+        "filters": {
+          "category": "",
+          "realm": "Shabila",
+          "playability": ""
+        },
+        "kind": "realm"
+      },
+      {
+        "id": "shido-empire",
+        "title": "Shido Empire",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Shido Empire"
+          },
+          {
+            "type": "field",
+            "label": "Culture Reference",
+            "text": "Feudal Asia (China, Korea, Japan)"
+          },
+          {
+            "type": "field",
+            "label": "Capitals",
+            "text": "Daxin"
+          },
+          {
+            "type": "field",
+            "label": "Leader",
+            "text": "Open"
+          },
+          {
+            "type": "field",
+            "label": "Population",
+            "text": "770k"
+          },
+          {
+            "type": "field",
+            "label": "Religion",
+            "text": "Kami"
+          },
+          {
+            "type": "field",
+            "label": "Magic Type",
+            "text": "Creation - Illusion"
+          },
+          {
+            "type": "subheading",
+            "text": "4 Warlord States"
+          },
+          {
+            "type": "field",
+            "label": "Yusamatsu (Population",
+            "text": "170k)"
+          },
+          {
+            "type": "field",
+            "label": "Asimonita (Population",
+            "text": "210k)"
+          },
+          {
+            "type": "field",
+            "label": "Jewon (Population",
+            "text": "200k)"
+          },
+          {
+            "type": "field",
+            "label": "Qingfeng (Population",
+            "text": "190k)"
+          },
+          {
+            "type": "field",
+            "label": "Military Strength",
+            "text": "26,950"
+          },
+          {
+            "type": "subheading",
+            "text": "Resources"
+          },
+          {
+            "type": "subheading",
+            "text": "Tea"
+          },
+          {
+            "type": "subheading",
+            "text": "Alcoholic Beverages"
+          },
+          {
+            "type": "subheading",
+            "text": "Mining/Ore"
+          },
+          {
+            "type": "subheading",
+            "text": "Iron"
+          },
+          {
+            "type": "subheading",
+            "text": "Blacksmithing"
+          },
+          {
+            "type": "subheading",
+            "text": "Kites"
+          },
+          {
+            "type": "subheading",
+            "text": "Paper Art"
+          },
+          {
+            "type": "subheading",
+            "text": "People of Note"
+          },
+          {
+            "type": "subheading",
+            "text": "General Hayato Zhou"
+          },
+          {
+            "type": "subheading",
+            "text": "General Izuminokami Shingen"
+          }
+        ],
+        "images": [
+          "assets/lore/realms/shido-empire-08.webp"
+        ],
+        "filters": {
+          "category": "",
+          "realm": "Daxin",
+          "playability": ""
+        },
+        "kind": "realm"
+      },
+      {
+        "id": "yuthia-kingdom",
+        "title": "Yuthia Kingdom",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Yuthia Kingdom"
+          },
+          {
+            "type": "field",
+            "label": "Culture Reference",
+            "text": "Medieval England"
+          },
+          {
+            "type": "field",
+            "label": "Capitals",
+            "text": "Loxthwaite"
+          },
+          {
+            "type": "field",
+            "label": "Leaders",
+            "text": ""
+          },
+          {
+            "type": "subheading",
+            "text": "King Nathaniel Kaye"
+          },
+          {
+            "type": "subheading",
+            "text": "Queen Da Xia Kaye"
+          },
+          {
+            "type": "field",
+            "label": "Population",
+            "text": "950k"
+          },
+          {
+            "type": "field",
+            "label": "Religion",
+            "text": "The Sċēaphierde"
+          },
+          {
+            "type": "field",
+            "label": "Magic Type",
+            "text": "Psychic - Telepathy/Telekinesis"
+          },
+          {
+            "type": "subheading",
+            "text": "5 Earldoms"
+          },
+          {
+            "type": "field",
+            "label": "Birchleigh (Population",
+            "text": "240k)"
+          },
+          {
+            "type": "subheading",
+            "text": "Earl Algerone Staverton"
+          },
+          {
+            "type": "field",
+            "label": "Millbrook (Population",
+            "text": "160k)"
+          },
+          {
+            "type": "field",
+            "label": "Redhalgh (Population",
+            "text": "150k)"
+          },
+          {
+            "type": "subheading",
+            "text": "Earl William Grahame"
+          },
+          {
+            "type": "field",
+            "label": "Oxburn (Population",
+            "text": "200k)"
+          },
+          {
+            "type": "field",
+            "label": "Hencaster (Population",
+            "text": "200k)"
+          },
+          {
+            "type": "field",
+            "label": "Military Strength",
+            "text": "34,100"
+          },
+          {
+            "type": "subheading",
+            "text": "Resources"
+          },
+          {
+            "type": "subheading",
+            "text": "Timber"
+          },
+          {
+            "type": "subheading",
+            "text": "Wheat"
+          },
+          {
+            "type": "subheading",
+            "text": "Mining/Ore"
+          },
+          {
+            "type": "subheading",
+            "text": "Limestone"
+          },
+          {
+            "type": "subheading",
+            "text": "Clay"
+          },
+          {
+            "type": "subheading",
+            "text": "Copper"
+          },
+          {
+            "type": "subheading",
+            "text": "Coal"
+          },
+          {
+            "type": "subheading",
+            "text": "Fashionable Clothing"
+          },
+          {
+            "type": "subheading",
+            "text": "Baked Goods"
+          },
+          {
+            "type": "subheading",
+            "text": "People of Note"
+          },
+          {
+            "type": "subheading",
+            "text": "Onyx Mage Victoria Arkwright"
+          },
+          {
+            "type": "subheading",
+            "text": "Onyx Knight Elric Hakebourne"
+          },
+          {
+            "type": "subheading",
+            "text": "King Hrothgar Firebeard"
+          },
+          {
+            "type": "subheading",
+            "text": "Lady Maxine Grahame"
+          }
+        ],
+        "images": [
+          "assets/lore/realms/yuthia-kingdom-09.webp"
+        ],
+        "filters": {
+          "category": "",
+          "realm": "Loxthwaite",
+          "playability": ""
+        },
+        "kind": "realm"
+      },
+      {
+        "id": "the-soaring-spires",
+        "title": "The Soaring Spires",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "The Soaring Spires"
+          },
+          {
+            "type": "paragraph",
+            "text": "Hovering high above the waves of the Kirman Ocean are massive islands of rock that are disconnected from the world, suspended in the air by some sort of mystical energy. Though emerald structures are visible jutting skyward from the tops of these islands, giving them the name The Soaring Spires, no life has ever been witnessed moving to or from these ancient towers. All attempts to explore these islands by conventional or magical means have failed thus far, seemingly turned back by a veil of verdant energy that enshrouds them. Legends and theories abound, but none have been proven."
+          }
+        ],
+        "images": [
+          "assets/lore/realms/the-soaring-spires-10.webp"
+        ],
+        "filters": {
+          "category": "",
+          "realm": "",
+          "playability": ""
+        },
+        "kind": "location"
+      },
+      {
+        "id": "the-crucible-islands",
+        "title": "The Crucible Islands",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "The Crucible Islands"
+          },
+          {
+            "type": "paragraph",
+            "text": "In the midst of the Tides of Hundelte, between the westward stretching arms of Dihosul and Montenegro de Alba, lies the scorching island known as Crucible and a small chain of islets around it. The Crucible Islands serve as a natural barrier to the bay beyond and the outlying juts of land provide safe haven for pirates that prey upon shipping heading in and out of the ports. Crucible itself is an unforgiving place, covered with jagged peaks of black rock, continuously flowing lava pools and large crimson crystal formations of an unknown origin. Few people are brave enough to set foot upon its shores and those who have ventured into its interior do not return."
+          }
+        ],
+        "images": [
+          "assets/lore/realms/the-crucible-islands-11.webp"
+        ],
+        "filters": {
+          "category": "",
+          "realm": "",
+          "playability": ""
+        },
+        "kind": "location"
+      }
+    ],
+    "count": 10
+  },
+  "species": {
+    "id": "species",
+    "title": "Sentient Species",
+    "subtitle": "The peoples and ancient bloodlines of Onyxia, presented in their order of emergence.",
+    "intro": [
+      {
+        "type": "subheading",
+        "text": "Sentient Species\nShown in order of emergence into Onyxia"
+      }
+    ],
+    "entries": [
+      {
+        "id": "fae",
+        "title": "Fae",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Fae"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable (Level Gated - 5)"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "True Immortal"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "1,400"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "5’8”"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Fae are a very fair species, with an even lighter build but greater agility than Elves. Fae are true immortals; wounds may render them incapacitated but they will eventually regenerate even from dismemberment, though it may take decades to fully recover. They are capable of flight and have an otherworldly charm about them. They are extremely attuned with nature and may speak to trees and other vegetation as well as communicate with many animals. They have a varying reputation; on one hand being virtuous creatures while on the other being good-natured tricksters."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Fae and Dark Fae emerged into the world simultaneously as the first creatures created by the Keeper of Time and the Onyx Stone. The two races lived in isolation with the two barely aware of each other's existence. Early Fae viewed early Humans much like pets to be tended to and yet with similar physiology, the inevitable happened and they bred with them, creating the first Elves. As Fae are Immortal, they have very few children of their own and did not populate Onyxia as rapidly as the Human species, suddenly finding themselves outmatched by overwhelming numbers. Fae do not work the fields or take up trades requiring manual labor. In society, they are often found as entertainers, priests, mages and even the occasional family of nobility."
+          }
+        ],
+        "images": [
+          "assets/lore/species/fae-01.webp"
+        ],
+        "filters": {
+          "category": "Playable (Level Gated - 5)",
+          "realm": "",
+          "playability": "Playable (Level Gated - 5)"
+        }
+      },
+      {
+        "id": "dark-fae",
+        "title": "Dark Fae",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Dark Fae"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable (Level Gated - 10)"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "True Immortal"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "1,400"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "5’8”"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Like other Fae, Dark Fae are exceptionally exquisite creatures and prone to injury if their exceptional agility somehow fails them. They are true immortals and can regenerate from fatal wounds and even total annihilation if given enough time. As well as being capable of flight, they can see in complete darkness. Though none have been seen in ages, they have a reputation as beings that one simply should not cross."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Fae and Dark Fae emerged into the world simultaneously as the first creatures created by the Keeper of Time and the Onyx Stone. The two races lived in isolation with the two barely aware of each other's existence. Being immortal, Dark Fae had even less interest in reproduction than typical Fae, though they too found sport in mating with Humans, producing the first Dark Elves which carry a small portion of their legacy in their veins. Dark Fae, if they still exist, do not mingle with other cultures and no one living is aware of their social structure or what sort of walks of life they tread."
+          }
+        ],
+        "images": [
+          "assets/lore/species/dark-fae-02.webp"
+        ],
+        "filters": {
+          "category": "Playable (Level Gated - 10)",
+          "realm": "",
+          "playability": "Playable (Level Gated - 10)"
+        }
+      },
+      {
+        "id": "humans",
+        "title": "Humans",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Humans"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "100"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "100"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "6’6”"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Humans are considered a baseline race and have no special characteristics."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Humans are the second oldest race to inhabit Onyxia. Compared to the Fae and Dark Fae, they bred like rabbits and quickly became the dominant species of Onyxia by sheer numbers alone. They occupy all walks of life including peasants, warriors, clergy, mages and nobility."
+          }
+        ],
+        "images": [
+          "assets/lore/species/humans-03.webp"
+        ],
+        "filters": {
+          "category": "Playable",
+          "realm": "",
+          "playability": "Playable"
+        }
+      },
+      {
+        "id": "dragons",
+        "title": "Dragons",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Dragons"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable (Level Gated - 10)"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "Immortal"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "1,380"
+          },
+          {
+            "type": "field",
+            "label": "Size Limits",
+            "text": "7’0” (2.13 meters) (Humanoid Form) / 150’ long x 300’ wingspan (45.7 x 91.4 meters) (Dragon Form)"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "The limits of a Dragon's abilities are unknown, however, it is worth noting that they are an intelligent species capable of speaking in their own tongue as well as the languages of other races and nations. They are, of course, a graceful aerial species, but much more clumsy on land. Their hides are nearly impenetrable and they can see across vast distances, both in the daylight and in full darkness. These magnificent beings can also shapeshift into a pocket sized version of themselves or a humanoid appearance with elegant horns protruding from their heads, preserving their reptilian eyes if they wish so and ears similar to those of the Fae or Elves."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "No one knows exactly when Dragons came into being, though the Fae do not remember seeing the first until after they had encountered Humans. Dragon sightings are so rare that the average individual considers them mythical. Yet they do exist, though in extremely limited numbers."
+          }
+        ],
+        "images": [
+          "assets/lore/species/dragons-04.webp"
+        ],
+        "filters": {
+          "category": "Playable (Level Gated - 10)",
+          "realm": "",
+          "playability": "Playable (Level Gated - 10)"
+        }
+      },
+      {
+        "id": "elves",
+        "title": "Elves",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Elves"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "Immortal"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "1,350"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "6’6”"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Elves are generally a fairer species, being slighter of build than humans. Even though they are naturally immortal, they are physically fragile and can die if the wounds are critical. However, they also tend to be more graceful and agile, making them less likely to get hit by an attack. They are very attuned with nature and have a natural talent for archery."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Elves are the result of early cross breeding between the two oldest races, Fae and Humans. This occurred millennia of years ago and since that time, they have become their own species, fully capable of sustaining themselves and being fully integrated into the society of all nations. Like humans, they can be seen in all walks of life, though there tend to be very few Elvish peasants."
+          }
+        ],
+        "images": [
+          "assets/lore/species/elves-05.webp"
+        ],
+        "filters": {
+          "category": "Playable",
+          "realm": "",
+          "playability": "Playable"
+        }
+      },
+      {
+        "id": "dark-elves",
+        "title": "Dark Elves",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Dark Elves"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "Immortal"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "1,350"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "6’6”"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Similar to their lighter skinned cousins, Dark Elves are immortal but subject to damage from wounds that prove lethal. They are a bit less fragile than lighter Elves but no less graceful in their movements. However, they are not attuned to nature and do not have the same affinity for bows. They are naturally stealthy and prefer short bladed weapons such as daggers and stilettos and can see for some distance in complete darkness. Though not bound by it, Dark Elves have a somewhat sinister reputation."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Dark Elves are the result of early cross breeding between the two oldest races, Dark Fae and Humans. This occurred millennia of years ago and since that time, they have become their own species, fully capable of sustaining themselves. Though they tend to live in enclaves of their own kind, they are nevertheless integrated into society on nearly every level. It is however, extremely rare to see a Dark Elf peasant."
+          }
+        ],
+        "images": [
+          "assets/lore/species/dark-elves-06.webp"
+        ],
+        "filters": {
+          "category": "Playable",
+          "realm": "",
+          "playability": "Playable"
+        }
+      },
+      {
+        "id": "vampires",
+        "title": "Vampires",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Vampires"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable (Level Gated - 5)"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "True Immortal"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "1,300"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "Dependent on base Species"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Although vampires are blessed with true immortality similar to Fae and can take advantage of certain attributes like increased strength and agility as well as the ability to shapeshift into different forms, they are cursed for eternity with the thirst for the blood of the living and forced to live forever in the gloom of night. Exposure to sunlight can reduce a vampire to ash and disintegration can take a full century of regeneration to fully recover. So long as they feed regularly, vampires can be indistinguishable from their original species, but they can lengthen their fangs, fingernails and alter their eye color at will."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Legends tell of a Dark Elf Necromancer with so much power that he sought to cheat death and deny Zoggakomen of his soul by becoming a True Immortal. This angered the God of Death, who decided to punish the Necromancer by giving him the very thing he desired. He would live forever, but he would do so in eternal night and the thirst for blood would be overwhelming. Expelled from his homeland, the progenitor of the vampire species would never again feel the warmth of the sun on his skin."
+          },
+          {
+            "type": "field",
+            "label": "Additional Information",
+            "text": "A Treatise on Vampires"
+          }
+        ],
+        "images": [
+          "assets/lore/species/vampires-07.webp"
+        ],
+        "filters": {
+          "category": "Playable (Level Gated - 5)",
+          "realm": "",
+          "playability": "Playable (Level Gated - 5)"
+        }
+      },
+      {
+        "id": "dwarves",
+        "title": "Dwarves",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Dwarves"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "300"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "300"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "4’8”"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Dwarves are a sturdy race, being more compact and stronger than average Humans. They are generally slower, but less prone to injury should they make a misstep or get hit by an attack. Though they are not immortal, they age slower and live much longer lived than Humans. They are attuned to the earth, especially stone, having an almost unnatural talent for mining and metalwork. Adaptation to living in deep caverns has given them the ability to see in absolute darkness for a limited distance."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Around the same time that the Elves and Dark Elves were beginning to grow as a species, Dwarves seemed to spring out of the mountains, where they live in vast tunnel complexes in surprising numbers. Though they were peaceful at first, incursions into their mountains caused retaliation against the other races, though none so much as the Ogres, who they have a deep loathing for that continues to persist even to this day, though to a lesser degree than ancient times. From nobility to peasants, dwarves can be seen in all occupations, though they tend to favor mining and smithing as great craftsmen or mighty warriors that are unmatched with keen axes. Though they can be found in any corner of Onyxia engaged in these occupations, they prefer to live isolated in their mountain halls."
+          }
+        ],
+        "images": [
+          "assets/lore/species/dwarves-08.webp"
+        ],
+        "filters": {
+          "category": "Playable",
+          "realm": "",
+          "playability": "Playable"
+        }
+      },
+      {
+        "id": "ogres",
+        "title": "Ogres",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Ogres"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "70"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "70"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "8’0”"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Ogres are, by far, the strongest and most sturdy race on Onyxia and their thick hides make them resistant to all but the sharpest and heaviest of blades. However, they are also slow and somewhat dim-witted. Lifetimes spent in the deep places of the world have given them exceptional darkvision. A short lived race, Ogres tend to try to get the most out of the life they are given. This used to be spent mostly in a constant battle for resources with Dwarves, but now it is often spent carousing when they are not working to earn enough money to do so."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "It is believed that Ogres and Dwarves came into being at approximately the same time and occupied similar regions. This put the two species at odds immediately, even though Ogres tended to live even deeper than Dwarves. Ogres are often found among their own people in certain sections of cities populated by other races. It is nearly unheard of for one to be a noble, but they make excellent fighters, can cast magic, serve the gods and work in any number of trades that do not require much intelligence."
+          }
+        ],
+        "images": [
+          "assets/lore/species/ogres-09.webp"
+        ],
+        "filters": {
+          "category": "Playable",
+          "realm": "",
+          "playability": "Playable"
+        }
+      },
+      {
+        "id": "lumarai",
+        "title": "Lumarai",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Lumarai"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "500"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "500"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "9’0” (including tails, 6’0” in land-walker form)"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Also known as Merfolk, Lumarai are one of two aquatic sentient species in Onyxia. They often live in cities of coral located in shallower water or dwell in upper regions of the oceans where sunlight can still be seen. They have the ability to communicate with most other aquatic species and live in harmony among them for the most part. For limited periods, Lumarai are able to assume a humanoid form and walk on land and those wishing to be mages often obtain special transport to the Onyx Stone with which they wish to commune."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Arriving in Onyxia around the same time as Dwarves, Lumarai share much of their ancient history with their cousins, the Abyssals, and it is believed that they once sprang from one species known as Thalarkyn, the Children of the Tides. According to their own texts, a war known as The Shattering followed by a period known as The Age of Drift, separated the two species on a biological level. It is believed that at one point this united species had an Onyx Stone of their own, but war destroyed the stone as the two fought for supremacy over the seas."
+          }
+        ],
+        "images": [
+          "assets/lore/species/lumarai-10.webp"
+        ],
+        "filters": {
+          "category": "Playable",
+          "realm": "",
+          "playability": "Playable"
+        }
+      },
+      {
+        "id": "abyssals",
+        "title": "Abyssals",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Abyssals"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "500"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "500"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "9’0” (including tails, 6’0” in land-walker form)"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Also known as Sirens, Abyssals are one of two aquatic sentient species in Onyxia. They often live in deep caves and trenches where the light of the sun no longer penetrates. Their song, both underwater or above the waves is said to have a haunting and captivating melody that other species find nearly impossible to resist. For limited periods, Abyssals are able to assume a humanoid form and walk on land and those wishing to be mages often obtain special transport to the Onyx Stone with which they wish to commune."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Arriving in Onyxia around the same time as Dwarves, Abyssals share much of their ancient history with their cousins, the Lumarai, and it is believed that they once sprang from one species known as Thalarkyn, the Children of the Tides. According to their own texts, a war known as The Shattering followed by a period known as The Age of Drift, separated the two species on a biological level. It is believed that at one point this united species had an Onyx Stone of their own, but war destroyed the stone as the two fought for supremacy over the seas."
+          }
+        ],
+        "images": [
+          "assets/lore/species/abyssals-11.webp"
+        ],
+        "filters": {
+          "category": "Playable",
+          "realm": "",
+          "playability": "Playable"
+        }
+      },
+      {
+        "id": "orcs",
+        "title": "Orcs",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Orcs"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "150"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "150"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "7’0”"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Orcs are one of the most varied races in Onyxia. Some can be nearly as tall and strong as Ogres while others are more nimble and have less physical aptitude. The latter are generally referred to as Goblins, one of the primary subspecies. However, they all have two things in common: they can see in the dark and they have a reputation for being ill-tempered."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Orcs are the result of cross breeding between Ogres and any number of other species that they captured and then further interbreeding between these first generation orcs as well as other species. This has resulted in the wide spectrum of orcs and their varying abilities. Orcs mingle with other species in nearly every place in Onyxia, often to the chagrin of the other species. There are no orc nobles, but they can be found in all other walks of life."
+          }
+        ],
+        "images": [
+          "assets/lore/species/orcs-12.webp"
+        ],
+        "filters": {
+          "category": "Playable",
+          "realm": "",
+          "playability": "Playable"
+        }
+      },
+      {
+        "id": "giants",
+        "title": "Giants",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Giants"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable (Level Gated - 5)"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "600 years"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "600"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "8’0”"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Known in Onyxia as “tall humans”, Giants take pride in their dominating presence and incredible height. Where it isn’t just their height that’s impressive, their strength is up to par with that of the Ogre’s. With their size they’re often slightly slower when it comes to combat, but they make up for it with strength."
+          },
+          {
+            "type": "paragraph",
+            "text": "Most Giants live peaceful lives in their area of origin; Astazulum. They are seen as dumb creatures, but often possess a fair amount of knowledge. They are welcoming to any who visit, but won’t take kindly to dishonorable guests."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Giants were first discovered in Onyxia around the year 600. Adventurers stumbled upon their large village in the Chipalon Highlands. They were greeted by a male who eagerly invited them to stay the night. That evening they feasted and introductions were exchanged. They later learned that Khoron was the Chieftain who married Fríggr. Both were hospitable and the exchange lasted for three nights."
+          },
+          {
+            "type": "paragraph",
+            "text": "In the present day, Giants are rarely seen in other parts of Onyxia. It’s not impossible however. Most do prefer to stay in Astazulum or they are hired for their strength for various jobs."
+          },
+          {
+            "type": "field",
+            "label": "Additional Information",
+            "text": "A Treatise on Giants"
+          }
+        ],
+        "images": [
+          "assets/lore/species/giants-13.webp"
+        ],
+        "filters": {
+          "category": "Playable (Level Gated - 5)",
+          "realm": "",
+          "playability": "Playable (Level Gated - 5)"
+        }
+      },
+      {
+        "id": "halflings",
+        "title": "Halflings",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Halflings"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "150"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "100"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "4’0”"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Among the smallest residents of Onyxia, Halflings are surprisingly hardy and resilient folk, especially to the lure of power. For the most part they live modest lives, content in farming and other agrarian occupations. Their accuracy with thrown weapons is uncanny and their manual dexterity is superb, allowing them to become excellent craftsmen as well. They also have quite a knack for becoming unseen, and can blend into a familiar environment with such perfection that only the most keen eye can perceive their location."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Though the fertile lands they occupy had been previously explored, suddenly, in the year 1250 of the Sun, fully formed communities of several hundred halflings were only discovered in the foothills of the Yuthian mountains. As these lands had not been claimed by any farmers, the government of Yuthia allowed these strange, diminutive and yet cheerful people to keep their homes, which are largely burrowed into the hills which they till and farm."
+          }
+        ],
+        "images": [
+          "assets/lore/species/halflings-14.webp"
+        ],
+        "filters": {
+          "category": "Playable",
+          "realm": "",
+          "playability": "Playable"
+        }
+      },
+      {
+        "id": "umbraeth",
+        "title": "Umbraeth",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Umbraeth"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable (Level Gated - 15)"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "Unknown"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "5"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "6’0”"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Existing largely as noncorporeal shadows, Umbraeth are extremely dangerous beings, able to shift their form into a solid shape at will to attack with lethal claws or deadly shadow magic. They are easily damaged while in a tangible state; however, they can quickly heal wounds and regenerate limbs by simply slipping back into any dark shadow, which they can also use for limited distance teleportation."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Umbraeth were first encountered in 1395 when the Darkness began spreading across Onyxia. They emerge, fully formed, from Shadow Rifts that open up in areas near Waystones that have been or are in the process of being corrupted. Seemingly, they can only be destroyed by closing the Rift, a magical process that involves the Waystone itself or a specialized sorceress which has merged with a Lumivoras.  Though they do not speak any known language in Onyxia, they have been witness communicating with each other as well as beasts and monsters that have been tainted by Darkness. This lends credence to the theory that they are intelligent beings as they can coordinate attacks with extreme efficiency. Luckily, they do not attack in vast numbers, quite typically appear individually and are vulnerable to focused sunlight."
+          },
+          {
+            "type": "field",
+            "label": "Additional Information",
+            "text": "A Treatise on Umbraeth"
+          }
+        ],
+        "images": [
+          "assets/lore/species/umbraeth-15.webp"
+        ],
+        "filters": {
+          "category": "Playable (Level Gated - 15)",
+          "realm": "",
+          "playability": "Playable (Level Gated - 15)"
+        }
+      },
+      {
+        "id": "lumivoras",
+        "title": "Lumivoras",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Lumivoras"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable (Level Gated - 15)"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "Unknown"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "4"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "6’0”"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Lumivoras exists as beings of pure light and are capable of shifting shape and color seemingly at will. They are entirely noncorporeal and are incapable of being harmed or causing harm by either physical or magical attack. Umbraeth withdraw if one draws too near, though Lumivoras typically avoid direct confrontation with the Shadows."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Though the first was seen in 1396, no one has witnessed a Lumivoras enter the world, so the manner in which they arrive in Onyxia and if they are capable of reproduction are unknown. However, they are considered intelligent beings as they have engaged in limited communication with other races using patterns of shifting lights which can be interpreted with great difficulty. Specially chosen sorceresses may attempt to bond with a Lumivoras through a dangerous ritual that takes the power of their Light into themselves. Once this is accomplished, the sorceress is able to use their magic to combat Umbraeth and close Shadow Rifts."
+          }
+        ],
+        "images": [
+          "assets/lore/species/lumivoras-16.webp"
+        ],
+        "filters": {
+          "category": "Playable (Level Gated - 15)",
+          "realm": "",
+          "playability": "Playable (Level Gated - 15)"
+        }
+      },
+      {
+        "id": "werewolves",
+        "title": "Werewolves",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Werewolves"
+          },
+          {
+            "type": "field",
+            "label": "Character Type",
+            "text": "Playable (Level Gated - 5)"
+          },
+          {
+            "type": "field",
+            "label": "Lifespan",
+            "text": "Immortal"
+          },
+          {
+            "type": "field",
+            "label": "Maximum Age",
+            "text": "Dependent on base Species"
+          },
+          {
+            "type": "field",
+            "label": "Height Limit",
+            "text": "Dependent on base Species"
+          },
+          {
+            "type": "field",
+            "label": "Characteristic Modifiers",
+            "text": "Beginning life as another sentient species, werewolves change form based on a number of factors including rage and the lunar cycle. This alteration is difficult for a werewolf to control at first as is their need to hunt. The metamorphosis can change the individual into an almost natural wolf-like state or a hybrid of a wolf and its original form, resulting in a substantial increase in size and massive hair growth. In this primal stage, the werewolf has unnatural strength, senses, speed and reflexes. The curse of the werewolf, known as lycanthropy, is spread to new victims by bites from an existing lycanthrope."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Lycanthropy is a new phenomenon in Onyxia, with cases only beginning to appear and be understood. It is believed that the first of the werewolves was created after being mauled and bitten by a wolf that had been corrupted by an Umbraeth and the Darkness that is spreading across the Realms. Though technically not a species in its own right, a werewolf maintains its sentience to a lesser or greater degree during its transformation and because there is no known cure as of yet, it is believed that lycanthropes will develop their own culture if allowed to do so by Onyxian society."
+          },
+          {
+            "type": "field",
+            "label": "Additional Information",
+            "text": "A Treatise on Werewolves"
+          }
+        ],
+        "images": [
+          "assets/lore/species/werewolves-17.webp"
+        ],
+        "filters": {
+          "category": "Playable (Level Gated - 5)",
+          "realm": "",
+          "playability": "Playable (Level Gated - 5)"
+        }
+      }
+    ],
+    "count": 17,
+    "cover": "assets/lore/covers/species.webp"
+  },
+  "bestiary": {
+    "id": "bestiary",
+    "title": "Bestiary",
+    "subtitle": "Strange creatures, familiar beasts and the wonders that roam the world.",
+    "intro": [
+      {
+        "type": "paragraph",
+        "text": "Bestiary\nIf you find yourself here, dear Traveller, it is because you seek knowledge of the variety of fauna present in Onyxia. Many are of the familiar sort, cattle, horses, bear, wolf and swine. But there are those that are more rare, more exotic. These pages will familiarize you with these creatures, many of which are magical in nature. For it is important, is it not, that one knows the difference between beasts that are gentle and those which are deadly."
+      }
+    ],
+    "entries": [
+      {
+        "id": "aetherealis",
+        "title": "Aetherealis",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Aetherealis"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Equine"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "Plains of Yuthia Kingdom"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "Beautiful and elegant white horses, taller than most equines with a coat that is soft as silk and a mane that never tangles. Their eyes glow a soft blue at night and their horn is imbued with the magic of the Onyx stones allowing them to communicate telepathically."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "One of the most beautiful creatures of Onyxia that are nearly as old as the Fae and Humans, the first to inhabit this world. They are seldom seen as they keep to themselves and are weary of the more intelligent species. Still, many a story is told by the bards of the beauty and heroic nature of the Aetherealis."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/aetherealis-01.webp"
+        ],
+        "filters": {
+          "category": "Equine",
+          "realm": "Plains of Yuthia Kingdom",
+          "playability": ""
+        }
+      },
+      {
+        "id": "coperus-lynuxi",
+        "title": "Coperus Lynuxi",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Coperus Lynuxi"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Feline"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "Qaenyth"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "A majestic feline that stands nearly as tall and wide as an elephant and with a coat thicker than any big feline also found in Onyxia. It has the power to induce fear in the eyes of those that meet its powerful gaze and can even force the truth out of those that are taken by the fear."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "It is said that a feline that felt the power of magic being used as a test subject in Necromancy experiments, legends have it that the soul of a summoned person inhabited the lynx turning it into what it is today."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/coperus-lynuxi-02.webp"
+        ],
+        "filters": {
+          "category": "Feline",
+          "realm": "Qaenyth",
+          "playability": ""
+        }
+      },
+      {
+        "id": "drooklins",
+        "title": "Drooklins",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Drooklins"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Dragon"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "Obedotish Dynasty, Guirnaldas and Avout Kingdoms (subspecies pictured in this order)"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "They are a subspecies of dragons that are shoulder-sized and that tend to live in prairies, valleys or meadows and sleep in caves. They are of the most extensive variety of colours and instead of scales they have feathers. They are very intelligent creatures but no one can choose them. If they come across someone they deem worthy then they follow that person and become their companion."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "One of the most beautiful creatures of Onyxia and the third generation of dragons brought them about, they are cunning creatures but also as adorable as they look. They do not allow anyone to tame them but rather study persons and once they decide if they are worthy or not they may choose to become their companions for life, for a little while or just watch over them from afar. These little creatures are treasured by all realms even if they mainly inhabit three, because of this, hunting them is illegal."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/supplement-15.webp",
+          "assets/lore/bestiary/supplement-16.webp",
+          "assets/lore/bestiary/supplement-17.webp"
+        ],
+        "filters": {
+          "category": "Dragon",
+          "realm": "Obedotish Dynasty, Guirnaldas and Avout Kingdoms (subspecies pictured in this order)",
+          "playability": ""
+        }
+      },
+      {
+        "id": "fowlk",
+        "title": "Fowlk",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Fowlk"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Mammal"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "Astazulum Empire, Yuthia Kingdom and Shido Empire"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "It is a hybrid with the body of a fox and the wings and face of an owl, it is the same size as a normal red box but it also has the agility and advantages of an owl regarding its hearing and the way it catches its prey. It mainly inhabits the dwarves' realms as they are night creatures and rather come out when the rest of the world sleeps."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "One there was a young female dwarf who wished for a small and furry friend but most of the animals in Onyxia did not like being inside caves for too long and she could not imagine forcing one to live under the mountains. It was then that one day, when she found a feather lying on the ground and picked it up, a meteor shower had her gasping and wishing that she could have a little friend to share her life with. Having made her wish she fell asleep still holding the feather in her hand. The next morning, she woke up to a sight she had never expected; a Fowlk was looking down at her with deep curiosity and the feather in her hand was gone."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/fowlk-03.webp"
+        ],
+        "filters": {
+          "category": "Mammal",
+          "realm": "Astazulum Empire, Yuthia Kingdom and Shido Empire",
+          "playability": ""
+        }
+      },
+      {
+        "id": "gryphons",
+        "title": "Gryphons",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Gryphons"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Mammal"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "Astazulum Empire, Avout Kingdom, Republic of Merania and Obedotish Dynasty"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "It is a hybrid creature with the body, tail, and back legs of a lion, and the head and wings of an eagle with its talons on the front legs. It is as big as a boar and nearly as tall as a horse."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "This creature is generally quite common in Onyxia but its origins are quite unknown, most realms have their own legends on how the creature came to be, but the most widely known is that at some point, a small bird that’s terrified of big animals found itself wanting to protect another little bird, and fear to it, until it shook its wings as if wishing and hoping it will be enough to defeat the creature that was about to eat them both, and it was this desire of self-preservation that touched the hearts of the gods before he turned into the beautiful and yet fearsome creature he now is, and it is rumoured it spread all over Onyxia to protect any other birds from predators."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/gryphons-04.webp"
+        ],
+        "filters": {
+          "category": "Mammal",
+          "realm": "Astazulum Empire, Avout Kingdom, Republic of Merania and Obedotish Dynasty",
+          "playability": ""
+        }
+      },
+      {
+        "id": "gurogi",
+        "title": "Gurogi",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Gurogi"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Reptilian"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "Qaenyth and Yuthia Kingdoms"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "Looming over 8' tall, this vicious reptilian predator roams the deserts of Qaenyth and Yuthia, attacking with razor sharp claws and a deadly maw. It is capable of spitting a caustic venom that can blind, paralyse and even deteriorate flesh and bone. Fortunately, these are solitary, though extremely territorial hunters."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "In the depths of the desert there lies a cave never explored before, it is said that a greedy nobleman ventured there in the hopes of finding exotic beasts he could capture and sell for a good amount of daktari and in doing so become a renown merchant, building bridges with other realms and increasing his riches. What he did not expect was to unleash a powerful monster into the outside world that would easily multiply and become quite a fearsome creature in two realms."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/gurogi-05.webp"
+        ],
+        "filters": {
+          "category": "Reptilian",
+          "realm": "Qaenyth and Yuthia Kingdoms",
+          "playability": ""
+        }
+      },
+      {
+        "id": "levaithans",
+        "title": "Levaithans",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Levaithans"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Mammal"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "The oceans and seas of Onyxia"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "It is a massive sea serpent that is rumoured to be unequalled in size, strength and sheer ferocity. Its body is of the colour of deep blue."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Often referred to as the Sea Dragon, it was first spotted during the second Great War of Hundelte and later on the Battle of the Gulf. It is a creature that most ships fear and few beings would like to come across as, for the most part, there can be no victory due to its gigantic proportions and weight; it can easily swallow ships whole or sink them with massive tentacles. Luckily, encounters are extremely rare and there may, in fact, be only one of these massive and ancient predators."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/levaithans-06.webp"
+        ],
+        "filters": {
+          "category": "Mammal",
+          "realm": "The oceans and seas of Onyxia",
+          "playability": ""
+        }
+      },
+      {
+        "id": "lathos",
+        "title": "Láthos",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Láthos"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Elemental"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "Underground, in the mountain range and volcanoes of the Republic of Merania"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "**Description:** From the depths of a scorched underworld emerges a colossal creature known as the Láthos, named after the one mistake made by a fae warrior that activated an immense amount of corruption into still matter and mixed it with the sacrifice of her loved ones, something she could never forget. It is a living mountain of stone and fire. Its body appears hewn from jagged volcanic rock, layered and cracked as though shaped by centuries of tectonic fury. Between those cracks, a molten glow pulses like a heartbeat, casting a dim, hellish light that flickers with each slow breath it takes."
+          },
+          {
+            "type": "paragraph",
+            "text": "Its eyes burn brightest of all, twin furnaces set deep within a craggy, ancient face. They radiate both intelligence and rage, suggesting a being that is not merely a brute, but a sentinel or ruler of its domain. Each step it takes shakes the Earth, scattering ash and igniting embers in its wake."
+          },
+          {
+            "type": "paragraph",
+            "text": "The creature dwells in the depths of the volcanic and mountain ranges that delimit Avout and Merania that seems almost carved to contain it, though just barely. Stalactites hang like broken fangs from above, and pools of smoldering lava dot the ground around it, as if the environment itself is reacting to its presence. Heat warps the air, and the scent of sulfur lingers heavily, warning intruders long before they see it."
+          },
+          {
+            "type": "paragraph",
+            "text": "When enraged, the creature enters a molten surge state—its body softens and glows intensely, increasing its speed and aggression. In this form, it can partially liquefy its limbs, reforming them to strike from unexpected angles or engulf enemies. It also possesses a regenerative ability, slowly drawing heat and minerals from its surroundings to repair cracks and damage in its rocky form."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Legends say the Láthos was born from the heart of a dying volcano, awakened when the earth itself grew restless. It does not hunt for sustenance, it endures, guards, and destroys. Those who wander too close are met not with curiosity, but with the crushing certainty that they have trespassed into something ancient, elemental, and utterly unforgiving. But only one being in the whole of Merania knows the truth of the emergence of this colossus and has not spoken of its origins ever since it came to be."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/lathos-07.webp"
+        ],
+        "filters": {
+          "category": "Elemental",
+          "realm": "Underground, in the mountain range and volcanoes of the Republic of Merania",
+          "playability": ""
+        }
+      },
+      {
+        "id": "loki-deer",
+        "title": "Loki Deer",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Loki Deer"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Deer"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "Northern reaches of the Astazulum Empire"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "A magical type of deer that, in its adult form, is bigger than most species of deer and close in size to a reindeer. It is fluffier than most subspecies of deer and is of a dusty grey colour that contrasts with the snowy hill tops in Astazulum, their deep blue eyes are magical and shine the brightest during a meteor shower."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Bards sing of experiences people have had regarding encounters with these beautiful creatures and state how their eyes can inspire peace and pleasant dreams to those who are troubled by their pasts."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/loki-deer-08.webp"
+        ],
+        "filters": {
+          "category": "Deer",
+          "realm": "Northern reaches of the Astazulum Empire",
+          "playability": ""
+        }
+      },
+      {
+        "id": "moonkins",
+        "title": "Moonkins",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Moonkins"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Monkey"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "Astazulum Empire and Guirnaldas Kingdom (subspecies pictured in this order)"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "A subspecies of monkey that was also touched by the magic of the Onyx Stone that inhabit the cold mountains of the Northern realms of the two islands, they are shoulder-sized and have magical wings that enable them to glide and fly for short distances, relying mainly on gliding and climbing."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "The first time these sneaky and crafty fellows were discovered, they had a traveller chase them after his packs of treats for the long journey, he described them as being quite agile and very clever. They like shiny things and can steal at times, but they are good natured and sometimes return what is stolen, if they like what they are offered instead."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/supplement-18.webp",
+          "assets/lore/bestiary/supplement-19.webp",
+          "assets/lore/bestiary/supplement-20.webp"
+        ],
+        "filters": {
+          "category": "Monkey",
+          "realm": "Astazulum Empire and Guirnaldas Kingdom (subspecies pictured in this order)",
+          "playability": ""
+        }
+      },
+      {
+        "id": "pegasi",
+        "title": "Pegasi",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Pegasi"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Equine"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "Shido Empire and Republic of Merania"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "Beautiful wild horses of various colours, though white are the ones mostly seen and spoken about in song. They have majestic wings with feathers as soft as cotton and can fly great heights and at great speed."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Songs of old denote the fate of a Fae whose beloved wept for his loss and wished upon the moonlight to be reunited with her beloved. As she wept, the white feather she held was imbued with magic and it floated away until the very next day she saw the most beautiful equine she had ever seen with a wing span she could have never described in one word. And as they rode near the clouds she realised this was her beloved. But as destiny kept them apart at least they could meet to go flying in the sky."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/pegasi-09.webp"
+        ],
+        "filters": {
+          "category": "Equine",
+          "realm": "Shido Empire and Republic of Merania",
+          "playability": ""
+        }
+      },
+      {
+        "id": "strixi",
+        "title": "Strixi",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Strixi"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Insectoid"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "Forested regions of temperate and tropical climates across Onyxia"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "At nearly 7' long, this giant, horrific, mantid creature has the ability to camouflage itself into forest foliage and attack animals and the sentient species of Onyxia with speed and nearly unerring precision. Its thin, membranous wings give it limited flight potential allowing it to chase down prey that manage to elude its first strike and flee from anything large enough to harm it."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "It is said that in the forgotten past, one of the great volcanoes of Onyxia erupted, but rather than belching fire and ash, a great swarm of monsters spewed from the unimaginable depths. The resulting plague of the infamous Strixi soon spread across every continent taking residence in shadowy forests and reproducing prodigiously. Many kingdoms were forced to create specialized brigades of Strixi hunters to contain them, as eradication proved impossible. After intense study, a group of mages were able to devise spells that sterilized many of their eggs, reducing their ability to breed successfully and turning them into more solitary, though nonetheless lethal predators."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/strixi-10.webp"
+        ],
+        "filters": {
+          "category": "Insectoid",
+          "realm": "Forested regions of temperate and tropical climates across Onyxia",
+          "playability": ""
+        }
+      },
+      {
+        "id": "sukulluku",
+        "title": "Sukulluku",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Sukulluku"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Reptile"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "Forests, fields and deserts across Onyxia"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "Though originally from the forests of Obedotish, these carnivorous reptiles are docile enough to be used as mounts and have been bred across Onyxia for that purpose. They are adaptable to any warm or hot terrain, though require a great deal of hydration in desert environments. Male and female Sukulluku are virtually identical except for their reproductive organs. In the wild, the females lay clutches of eggs and defend their young until they are old enough to hunt on their own, while in captivity the breeders typically raise the young. Though faster in short sprints than a horse, they generally travel slower and do not have the stamina of typical beasts of burden. Many riders prefer them because they move silently and can climb nearly any surface they are able to grip with their claws."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Legend has it that there was once a warrior of the Obedotish Dynasty, Ocelotl, who was so virtuous that one of the Great Spirits, Cipactli, defender of the earth and its creatures, took the form of a great reptile to test him in virtue and strength. After passing the test, the spirit was so moved that she gave birth to Sukulluku to become his companion and protector. Sukulluku and Ocelotl searched all across the lands of Obedotish to find more worthy warriors no matter where they may be and render them the grace and protection of Cipactli. Some nights, at the grace of a starry sky, it is said that the stars take the shape of Cipactli, looking down upon her children and the virtuous warriors across all of Onyxia."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/sukulluku-11.webp"
+        ],
+        "filters": {
+          "category": "Reptile",
+          "realm": "Forests, fields and deserts across Onyxia",
+          "playability": ""
+        }
+      },
+      {
+        "id": "thawr",
+        "title": "Thawr",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Thawr"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Mammal"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "Deserts and plains across Onyxia"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "Living in herds of up to twenty, Thawr are relatively gentle herbivorous beasts that can be domesticated and used as pack animals. Each herd is led by an alpha male which can be up to 8' tall, 20' long and weigh in at an astounding 8,000 pounds. Males defend the herd and have extremely long, curled horns. Females are smaller and generally more docile, approximately 75% of the size of the male, with much smaller horns, though both genders have a large bony shield protruding from their skull that protects their head and neck. They are hardy animals that can eat virtually any plants, even ones that are toxic to other species."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Legend has it that when the world was young and nature was majestic, with trees taller than towers and diameters larger than the widest marble pillar, there lived creatures of sizes like never seen before. Little is known as to what could have happened to these creatures, some attribute it to the changes Onyxia experienced through the centuries and others to the existence of powerful and magical beings that became the strongest and most effective predator: dragons. However, these majestic creatures survived up to this day and stand as proof of a past that is yet to be uncovered and few beings remember or dare to talk about."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/thawr-12.webp"
+        ],
+        "filters": {
+          "category": "Mammal",
+          "realm": "Deserts and plains across Onyxia",
+          "playability": ""
+        }
+      },
+      {
+        "id": "trolls",
+        "title": "Trolls",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Trolls"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Mammal"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "Rare but can be found anywhere in Onyxia"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "Trolls can vary in size but for the most part are taller than elephants and their skin is almost as hard as armour and difficult to penetrate unless you wield weapons with imbued with magic that makes the blade stronger, sharper or otherwise enchanted. They also tend to avoid the sunlight as it represents their greatest weakness."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Legend has it that trolls came to be as a punishment to a man whose greed led him to commit great atrocities and an Arch Mage took it upon himself to punish him to roam the world without a home to go back to and unable to enjoy the warmth of the sun."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/trolls-13.webp"
+        ],
+        "filters": {
+          "category": "Mammal",
+          "realm": "Rare but can be found anywhere in Onyxia",
+          "playability": ""
+        }
+      },
+      {
+        "id": "vargdrakki",
+        "title": "Vargdrakki",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Vargdrakki"
+          },
+          {
+            "type": "field",
+            "label": "Species",
+            "text": "Dragon"
+          },
+          {
+            "type": "field",
+            "label": "Native Habitat",
+            "text": "Frigid Mountains such as northern Astazulum and Guirnaldas, but also southern Shido and Obedotish"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "Though normally less than 20' in length, these massive creatures can reach 100', making them some of the largest land predators in Onyxia. They are perfectly at home in ice and snow, particularly in mountainous terrain as they are excellent climbers. Appearing as a hybrid of lupine and draconic origins, they have limited innate magical abilities in the form of lightning strikes and stunning blasts. Another interesting feature is that they are able to manipulate the spikes on the tips of their tails to grasp prey almost as if with a crude claw."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Legend speaks of a cry heard long ago of a wolf that paid the price of angering a dragon and a dragon who, in turn, angered the gods. The dragon, Ulric, was young and too spirited to respect smaller creatures, but his atrocious behaviour angered the For-Ellri who cast upon him a curse. He was to learn of the difficulties that a smaller species can have but also the alienation he would encounter being the only one of a kind, a hybrid between a wolf and a dragon. The For-Ellri still spread their teachings to this day, do not look down on the smaller beings for even these have a role to play."
+          }
+        ],
+        "images": [
+          "assets/lore/bestiary/vargdrakki-14.webp"
+        ],
+        "filters": {
+          "category": "Dragon",
+          "realm": "Frigid Mountains such as northern Astazulum and Guirnaldas, but also southern Shido and Obedotish",
+          "playability": ""
+        }
+      }
+    ],
+    "count": 16,
+    "cover": "assets/lore/covers/bestiary.webp"
+  },
+  "magic": {
+    "id": "magic",
+    "title": "Magic",
+    "subtitle": "Eight affinities bound to eight Onyx Stones, and the cost of choosing one.",
+    "intro": [
+      {
+        "type": "subheading",
+        "text": "Magic"
+      },
+      {
+        "type": "image",
+        "src": "assets/lore/magic/introduction-01.webp"
+      },
+      {
+        "type": "paragraph",
+        "text": "Be forewarned dear traveller…"
+      },
+      {
+        "type": "paragraph",
+        "text": "When you choose a magic that you have an affinity to, you must travel to the Onyx Stone of that realm and undertake the ritual bonding ceremony. Each realm has its own method of doing this and once that bond is made, you can only wield the magic of that type. Once bonding is complete, you are trained in four distinct spells within your chosen affinity. Additional spells are only available as your power grows."
+      }
+    ],
+    "entries": [
+      {
+        "id": "egoic",
+        "title": "Egoic",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Egoic"
+          },
+          {
+            "type": "field",
+            "label": "Realm",
+            "text": "Astazulum Empire"
+          },
+          {
+            "type": "field",
+            "label": "Counter",
+            "text": "Psychic"
+          },
+          {
+            "type": "field",
+            "label": "Definition",
+            "text": "It is a type of magic that can be casted to enhance the physical attributes of the caster, such as strength, speed, reaction time, stamina, resistance to damage, breathing underwater, etc."
+          }
+        ],
+        "images": [],
+        "filters": {
+          "category": "",
+          "realm": "Astazulum Empire",
+          "playability": ""
+        }
+      },
+      {
+        "id": "evocation",
+        "title": "Evocation",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Evocation"
+          },
+          {
+            "type": "field",
+            "label": "Realm",
+            "text": "Guirnaldas Kingdom"
+          },
+          {
+            "type": "field",
+            "label": "Counter",
+            "text": "Transmutation"
+          },
+          {
+            "type": "field",
+            "label": "Definition",
+            "text": "It is a type of magic where the caster can call upon or summon spirits or other kinds of entities for specific tasks such as gathering information or some practical application aimed at manifestation in the physical world."
+          }
+        ],
+        "images": [],
+        "filters": {
+          "category": "",
+          "realm": "Guirnaldas Kingdom",
+          "playability": ""
+        }
+      },
+      {
+        "id": "illusion",
+        "title": "Illusion",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Illusion"
+          },
+          {
+            "type": "field",
+            "label": "Realm",
+            "text": "Shido Empire"
+          },
+          {
+            "type": "field",
+            "label": "Counter",
+            "text": "Necromancy"
+          },
+          {
+            "type": "field",
+            "label": "Definition",
+            "text": "It is a type of magic where the caster can manipulate illusions/hallucinations, causing targets to see, hear, touch, smell or taste things differently from what they truly are. At its base, users can distort the shape and size of an object or area."
+          }
+        ],
+        "images": [],
+        "filters": {
+          "category": "",
+          "realm": "Shido Empire",
+          "playability": ""
+        }
+      },
+      {
+        "id": "musical-enchantment",
+        "title": "Musical Enchantment",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Musical Enchantment"
+          },
+          {
+            "type": "field",
+            "label": "Realm",
+            "text": "Republic of Merania"
+          },
+          {
+            "type": "field",
+            "label": "Counter",
+            "text": "Illusion"
+          },
+          {
+            "type": "field",
+            "label": "Definition",
+            "text": "Enchantment magic affects the minds and emotions of others, influencing or controlling their behaviour, it is the art of twisting the minds and souls of others to one's will."
+          }
+        ],
+        "images": [],
+        "filters": {
+          "category": "",
+          "realm": "Republic of Merania",
+          "playability": ""
+        }
+      },
+      {
+        "id": "necromancy",
+        "title": "Necromancy",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Necromancy"
+          },
+          {
+            "type": "field",
+            "label": "Realm",
+            "text": "Qaenyth Kingdom"
+          },
+          {
+            "type": "field",
+            "label": "Counter",
+            "text": "Nature"
+          },
+          {
+            "type": "field",
+            "label": "Definition",
+            "text": "It is a type of magic where the caster can harness life forces to restore, ravage, and reanimate living and formerly living beings. Necromancers learn to manipulate the energy that animates all living things."
+          },
+          {
+            "type": "field",
+            "label": "Note",
+            "text": "Necromancy is outlawed in every realm except Qaenyth."
+          }
+        ],
+        "images": [],
+        "filters": {
+          "category": "",
+          "realm": "Qaenyth Kingdom",
+          "playability": ""
+        }
+      },
+      {
+        "id": "nature",
+        "title": "Nature",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Nature"
+          },
+          {
+            "type": "field",
+            "label": "Realm",
+            "text": "Avout Kingdom"
+          },
+          {
+            "type": "field",
+            "label": "Counter",
+            "text": "Egoic"
+          },
+          {
+            "type": "field",
+            "label": "Definition",
+            "text": "It is a type of magic in which casters can manipulate the forces of nature to a degree. This is also where primary healing magic thrives."
+          }
+        ],
+        "images": [],
+        "filters": {
+          "category": "",
+          "realm": "Avout Kingdom",
+          "playability": ""
+        }
+      },
+      {
+        "id": "psychic",
+        "title": "Psychic",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Psychic"
+          },
+          {
+            "type": "field",
+            "label": "Realm",
+            "text": "Yuthia Kingdom"
+          },
+          {
+            "type": "field",
+            "label": "Counter",
+            "text": "Musical Enchantment"
+          },
+          {
+            "type": "field",
+            "label": "Definition",
+            "text": "It is a type of magic that can harness the spell-caster’s mental abilities to affect the human, and non-human, psyche, including their own. For example dreams, perceptions, consciousness, telepathy, telekinesis, etc."
+          }
+        ],
+        "images": [],
+        "filters": {
+          "category": "",
+          "realm": "Yuthia Kingdom",
+          "playability": ""
+        }
+      },
+      {
+        "id": "transmutation",
+        "title": "Transmutation",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Transmutation"
+          },
+          {
+            "type": "field",
+            "label": "Realm",
+            "text": "Obedotish Dynasty"
+          },
+          {
+            "type": "field",
+            "label": "Counter",
+            "text": "Evocation"
+          },
+          {
+            "type": "field",
+            "label": "Definition",
+            "text": "It is a type of magic where the caster can use a form of magic based on and/or take control of the transmutation of living or non-living things, ranging from simple changes and modifications to more complex and powerful transformations. The most common form of this school of magic within this realm is the casters transforming into animals."
+          }
+        ],
+        "images": [],
+        "filters": {
+          "category": "",
+          "realm": "Obedotish Dynasty",
+          "playability": ""
+        }
+      }
+    ],
+    "count": 8,
+    "cover": "assets/lore/covers/magic.webp"
+  },
+  "religions": {
+    "id": "religions",
+    "title": "Religions",
+    "subtitle": "The beliefs, spirits and gods through which Onyxians understand their world.",
+    "intro": [
+      {
+        "type": "subheading",
+        "text": "Religions"
+      },
+      {
+        "type": "image",
+        "src": "assets/lore/religions/introduction-01.webp"
+      },
+      {
+        "type": "paragraph",
+        "text": "Behold dear traveller…"
+      },
+      {
+        "type": "paragraph",
+        "text": "Herein lie the religions of the various realms and some lore to help you on your journey."
+      }
+    ],
+    "entries": [
+      {
+        "id": "diov-kami",
+        "title": "Diov / Kami",
+        "blocks": [
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "It has been passed down by word of mouth for many generations that the world is a perfect balance between intelligent beings and all the creatures that inhabit the land, the Diov/Kami or Great Spirits keep the balance in all things through the four main elements (earth, water, fire and wind) and the world is inhabited by animal spirits of great power that are to be respected as they are also linked to their ancestors and those the people have recently lost. While this religion developed simultaneously along similar lines on the smaller island realms, the Shido Empire also believe that the Kami can also lend their powers to those they deem worthy in times of need while those of the Obedotish Dynasty do not follow this belief among the deities of the Diov."
+          },
+          {
+            "type": "subheading",
+            "text": "Diov / Kami"
+          },
+          {
+            "type": "field",
+            "label": "Realms",
+            "text": "Obedotish Dynasty (Diov) and Shido Empire (Kami)"
+          },
+          {
+            "type": "field",
+            "label": "Type",
+            "text": "Polytheist"
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "It has been passed down by word of mouth for many generations that the world is a perfect balance between intelligent beings and all the creatures that inhabit the land, the Diov/Kami or Great Spirits keep the balance in all things through the four main elements (earth, water, fire and wind) and the world is inhabited by animal spirits of great power that are to be respected as they are also linked to their ancestors and those the people have recently lost. While this religion developed simultaneously along similar lines on the smaller island realms, the Shido Empire also believe that the Kami can also lend their powers to those they deem worthy in times of need while those of the Obedotish Dynasty do not follow this belief among the deities of the Diov."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "In a time remembered only by ancient texts the Prophet Goz'garon foretold the coming of the God of the Death, Zoggakomen. Those that wish to be reborn in the Eternal Night or curry favor with Zoggakomen will make living sacrifices in his name. From this religion, coupled with the Spectral Onyx Stone's residence in the capital, gave rise to a strong religion based on the art of necromancy throughout Qaenyth. However, this barbaric religion remains confined to the borders of this Kingdom, or so the greater population of Onyxia hopes."
+          }
+        ],
+        "images": [],
+        "filters": {
+          "category": "Polytheist",
+          "realm": "Obedotish Dynasty (Diov) and Shido Empire (Kami)",
+          "playability": ""
+        }
+      },
+      {
+        "id": "for-ellri",
+        "title": "For-Ellri",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "For-Ellri"
+          },
+          {
+            "type": "field",
+            "label": "Realms",
+            "text": "Astazulum Empire and Republic of Merania"
+          },
+          {
+            "type": "field",
+            "label": "Type",
+            "text": "Polytheist"
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "At the origin of the world, the inhabitants of Astazulum believed to have been blessed by divine sight and they saw the deities in all their forms and splendour, calling them For-Ellri which means \"Elders\" in the common tongue. They saw them in the elements, animals and plants, everywhere around them they believed divine life could be perceived giving them the chance to create a multitude of deities to explain natural phenomena, the seasons, and so on and so forth, this expanded south all the way to the now Republic of Merania, both realms being the only ones who profess this religion now. The main deity is called Astrid, the goddess of titanic strength."
+          }
+        ],
+        "images": [],
+        "filters": {
+          "category": "Polytheist",
+          "realm": "Astazulum Empire and Republic of Merania",
+          "playability": ""
+        }
+      },
+      {
+        "id": "gozgaron",
+        "title": "Goz’garon",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Goz’garon"
+          },
+          {
+            "type": "paragraph",
+            "text": "“Death is not the end, but a passage to the Eternal Night.”"
+          },
+          {
+            "type": "field",
+            "label": "Type",
+            "text": "Monotheist"
+          },
+          {
+            "type": "field",
+            "label": "Deity",
+            "text": "Zoggakomen"
+          },
+          {
+            "type": "field",
+            "label": "Prophet",
+            "text": "Goz’garon"
+          },
+          {
+            "type": "field",
+            "label": "Realm",
+            "text": "Qaenyth Kingdom"
+          },
+          {
+            "type": "subheading",
+            "text": "Core Beliefs"
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "In a time remembered only by ancient texts the Prophet Goz'garon foretold the coming of the God of the Death, Zoggakomen. Those that wish to be reborn in the Eternal Night or curry favor with Zoggakomen will make living sacrifices in his name. From this religion, coupled with the Spectral Onyx Stone's residence in the capital, gave rise to a strong religion based on the art of necromancy throughout Qaenyth. However, this barbaric religion remains confined to the borders of this Kingdom, or so the greater population of Onyxia hopes."
+          },
+          {
+            "type": "paragraph",
+            "text": "It should be noted that most of the followers of the teachings of Goz’garon believe Zoggakomen to be a benevolent god who welcomes most of those who have died into an eternal embrace, reserving punishment only for the wicked. However, there are outliers from this mainstream religion that use necromancy for far more nefarious purposes."
+          }
+        ],
+        "images": [],
+        "filters": {
+          "category": "Monotheist",
+          "realm": "Qaenyth Kingdom",
+          "playability": ""
+        }
+      },
+      {
+        "id": "the-sceaphierde",
+        "title": "The Sċēaphierde",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "The Sċēaphierde"
+          },
+          {
+            "type": "field",
+            "label": "Realms",
+            "text": "Avout Kingdom, Guirnaldas Kingdom, and Yuthia Kingdom"
+          },
+          {
+            "type": "field",
+            "label": "Type",
+            "text": "Monotheist"
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "With the passing of the centuries in the heart of Yuthia a lady claimed to have been told by a beautiful being engulfed in brilliant light that he had taken pity on the world and wished to guide it to a brighter tomorrow, to a land of promise and inspire in each and every person the best versions of themselves, to come together in unity and balance, to work together and help one another. They called him Sċēaphierde, which means \"shepherd\" in the common tongue. This faith extended to other parts, such as of Avout and Guirnaldas."
+          }
+        ],
+        "images": [],
+        "filters": {
+          "category": "Monotheist",
+          "realm": "Avout Kingdom, Guirnaldas Kingdom, and Yuthia Kingdom",
+          "playability": ""
+        }
+      }
+    ],
+    "count": 4,
+    "cover": "assets/lore/covers/religions.webp"
+  },
+  "organisations": {
+    "id": "organisations",
+    "title": "Organisations",
+    "subtitle": "Orders, guilds and companies whose influence reaches beyond kingdoms.",
+    "intro": [
+      {
+        "type": "subheading",
+        "text": "Organizations"
+      }
+    ],
+    "entries": [
+      {
+        "id": "the-dawns-light-vanguard",
+        "title": "The Dawn’s Light Vanguard",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "The Dawn’s Light Vanguard"
+          },
+          {
+            "type": "field",
+            "label": "Type",
+            "text": "Military Order"
+          },
+          {
+            "type": "field",
+            "label": "Leader",
+            "text": "Grandmaster Aubertin Vaillancourt (OPEN)"
+          },
+          {
+            "type": "field",
+            "label": "Headquarters",
+            "text": "Bellefontaine, Avout"
+          },
+          {
+            "type": "field",
+            "label": "Founded",
+            "text": "812"
+          },
+          {
+            "type": "field",
+            "label": "Members",
+            "text": "13,000"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "The Dawn’s Light Vanguard is a large-scale religious military order dedicated to upholding peace between the followers of the Sċēaphierde and representing the religion to other nations. Their organization is run by a Grandmaster who is advised by a small council of three Cardinals, each of whom presides over one Order of the organization in his (or her) name. They have three primary Orders, each with their own duties in times of peace that join in times of war as one."
+          },
+          {
+            "type": "field",
+            "label": "The Order of the Golden Sun",
+            "text": "This is their primary military division —also known as the Inquisitors— and is by far the largest, making up over half of the organization’s members. It is currently headed by Cardinal Lanara “Sunstriker” Éclair."
+          },
+          {
+            "type": "field",
+            "label": "The Order of St. Marcellie",
+            "text": "This is the Healer’s Corps and is where the medical officials of the Vanguard train. This is their second largest division, and is divided into frontline physicians, nurses, and a small research division in Bellefontaine known as Serpent’s Bane — named after a treatment the original team discovered utilizing treated serpent’s venom to kill off infected flesh."
+          },
+          {
+            "type": "field",
+            "label": "The Order of the Blessed Word",
+            "text": "This is the clerical division, and though it is the smallest, its members are the most widespread, with representatives in several major countries. The Order of the Holy Light is dedicated to spreading the religious values of the Sċēaphierde to other nations as missionaries, and is made up of mostly clergy."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Their tale began during the epidemic in the Rebellion of the First, where they started as a healer’s brigade beneath the banners of Bellefontaine’s church branch of The Sċēaphierde. Quickly, however, thanks to their specialization in medical magic and history of long hours of monastic study, they quickly became some of the leading researchers and medical frontliners in the battle against the plague. For years they were on the cutting edge of all recovery efforts not only in their home country of Avout but across all the faithful kingdoms of Onyxia, until in 905 their efforts in relief and recovery were finally recognized with a designation of their own as the Dawn’s Light Vanguard: the frontline relief team of the church. Over time, the Vanguard transitioned towards more military-focused endeavours, starting with only a few orders of knights and crusaders that now numbers collectively over 13,000 strong. Though on the surface they seem like a holy order, there’s rumour of a deep seed of corruption that has been poisoning their ranks for many years, and the looming threat of the Umbraeths shattering the people’s fragile faith has only darkened their once pure hearts…"
+          },
+          {
+            "type": "field",
+            "label": "Funding",
+            "text": "Most funds for the Vanguard are provided by the church in the form of a share of their tithes, though they do make some profit off of large scale direct donations from noblemen or wealthy religious families. Land assets and other properties of its members account for the other percentage of its wealth."
+          },
+          {
+            "type": "field",
+            "label": "Membership",
+            "text": "Typical membership starts at ages 16-18 for all three Orders, and entails a minimum two-year training period before being sent into active duty as a member (except in war times, when the troops are necessary)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Those fresh out of training are not-so-affectionately referred to as “Greens,” and typically are given the “grunt work” no one else wants to do for the first year. Individuals in the Order of St. Marceille will undergo an additional two years of apprenticeship under a selected mentor after their training, and those in the Golden Sun will often end up as “squires” for a few years in a similar program."
+          },
+          {
+            "type": "paragraph",
+            "text": "Chosen squires for noble-born knights can start younger to accommodate for the tradition of younger squires in noble families."
+          }
+        ],
+        "images": [
+          "assets/lore/organisations/the-dawns-light-vanguard-01.webp"
+        ],
+        "filters": {
+          "category": "Military Order",
+          "realm": "",
+          "playability": ""
+        }
+      },
+      {
+        "id": "the-golden-gryphons",
+        "title": "The Golden Gryphons",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "The Golden Gryphons"
+          },
+          {
+            "type": "field",
+            "label": "Type",
+            "text": "Mercenary Company"
+          },
+          {
+            "type": "field",
+            "label": "Leader",
+            "text": "Lord Commander Jhaeros Montero"
+          },
+          {
+            "type": "field",
+            "label": "Headquarters",
+            "text": "Bellefontaine-le-Château, Avout Kingdom"
+          },
+          {
+            "type": "field",
+            "label": "Founded",
+            "text": "1263"
+          },
+          {
+            "type": "field",
+            "label": "Members",
+            "text": "9,000"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "The Golden Gryphons are one of the larger of the mercenary armies operating in Onyxia and provide services across all of its various Realms. It usually takes multiple contracts, due to the size of its force, but never from opposing sides of a conflict. Only a sizable contract will draw the entire company together at once. It is a distinguished company with a nearly flawless reputation. Unlike many other mercenary groups or even government militaries, the Gryphons do not augment their coffers with spoils of war and their men will not engage in dishonorable acts such as the slaughter of innocents, desecration of temples or the mistreatment of civilians in any form."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "The battle standard that flutters before their armies is a one-winged gryphon in gold embroidery upon a field of red. The crimson honors the memory of their comrades that have fallen in past conflicts while the gryphon heralds back to the formation of the company. During the fifty-year war between Avout and Yuthia, a gallant knight leading a group of militia came across a terribly wounded gryphon, blood from its torn wing splattered across brilliant golden feathers. Normally one would stay away from such a predator, especially with the likelihood that a far more dangerous monster was lurking about. Yet, the knight felt pity upon the beast and decided to put it out of it's misery. However, as he approached and drew his sword the Strix that had wounded the creature emerged to finish the job. The gryphon stepped forward and together with the knight and some brave fighters of the militia, they slew the vicious insect. The knight amputated the destroyed wing and then sealed the wound with fire. The gryphon inspired the knight and the tale passed into legend."
+          }
+        ],
+        "images": [
+          "assets/lore/organisations/the-golden-gryphons-02.webp"
+        ],
+        "filters": {
+          "category": "Mercenary Company",
+          "realm": "",
+          "playability": ""
+        }
+      },
+      {
+        "id": "the-merciful-companions",
+        "title": "The Merciful Companions",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "The Merciful Companions"
+          },
+          {
+            "type": "field",
+            "label": "Type",
+            "text": "Militant Guild"
+          },
+          {
+            "type": "field",
+            "label": "Leader",
+            "text": "Esteemed Companion (OPEN)"
+          },
+          {
+            "type": "field",
+            "label": "Headquarters",
+            "text": "Llanoverde, Guirnaldas Kingdom"
+          },
+          {
+            "type": "field",
+            "label": "Founded",
+            "text": "1138"
+          },
+          {
+            "type": "field",
+            "label": "Members",
+            "text": "3,808"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "Beholden to no nation, race or religion, The Merciful Companions are a group of knights sworn to uphold the weak and protect the innocent. They roam the roads and wilderness, safeguarding travelers and those that are incapable of defending themselves. They take contracts as well, so long as they believe the cause is just. They ask for little in return but rarely come together in large or even moderate numbers and are more often found in pairs or groups of a half-dozen or less. While there are numerous small fortifications, called Respites, for weary Companions to rest, they have no home of their own and very little personal property. Donations made to the various Respites pay for the maintenance of arms and equipment and often property given in trade for services rendered by individual Companions are deeded to the Respites for increased income to the group as a whole. Any internal conflicts or justice is handled by the Esteemed Companion and an elder council in Llanoverde"
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "The origins of The Merciful Companions is as humble as the guild itself. There is no grand story to be told. After the peoples of Onyxia began to mingle with one another after nearly a millennia of strife, seven knights represented by Fae, Humans, Elves, Dark Elves, Dwarves, Ogres and Orcs came across one another at a crossroads and camped together for mutual protection during the night. Sharing virtuous hearts, heroic stories and stout ale made them fast friends leading them to also share the road. As they roamed, protecting travelers and villages from the terrors of the world, their company grew until they had made a substantial fortune from simple donations. They invested this carefully and then used the profits to purchase a small keep in Llanoverde, establishing the first Respite."
+          },
+          {
+            "type": "subheading",
+            "text": "Merciful Companions Expansion Document"
+          }
+        ],
+        "images": [
+          "assets/lore/organisations/the-merciful-companions-03.webp",
+          "assets/lore/organisations/the-merciful-companions-04.webp"
+        ],
+        "filters": {
+          "category": "Militant Guild",
+          "realm": "",
+          "playability": ""
+        }
+      },
+      {
+        "id": "the-silent-shadows",
+        "title": "The Silent Shadows",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "The Silent Shadows"
+          },
+          {
+            "type": "field",
+            "label": "Type",
+            "text": "Secret Society"
+          },
+          {
+            "type": "field",
+            "label": "Leader",
+            "text": "Ayas Ilijyre (NPC)"
+          },
+          {
+            "type": "field",
+            "label": "Headquarters",
+            "text": "Unknown, multiple Chapter Houses"
+          },
+          {
+            "type": "field",
+            "label": "Founded",
+            "text": "307"
+          },
+          {
+            "type": "field",
+            "label": "Members",
+            "text": "Unknown"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "A guild of thieves, assassins and spies, The Silent Shadows is spread all over Onyxia, albeit, little is commonly known about the great organisation. If it has a headquarters, the location is unknown. Instead it boasts a decentralised leadership with multiple Chapter Houses in different kingdoms, with at least one in every major city. The heads of each Chapter only know about the heads of a few others in order to make it difficult for them to be completely eliminated. The guild secretly collects youngsters and children, whether orphans, street kids or kidnapped children for gain. These children are subsequently trained and raised to be thieves, assassins or spies by The Silent Shadows."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Little is known regarding the origins of the guild, but legend has it that a Dark Fae of old, Ayas Ilijyre, founded the organisation in order to balance the scales against the threat of Humanity, which were growing in number at a prodigious rate. However, greed and power quickly overshadowed more grand intentions and he began to play all sides of the conflicts between the various emerging races. What happened after that? Some say he continues to control the organisation from a distance, like a great puppet master, occasionally even having his own Chapters eliminated to prevent them from becoming too wealthy and powerful. Others have a more romanticised view of The Silent Shadows, claiming that it prevents any one nation from being too strong and overtaking its neighbors. Whatever the truth may be, those that find themselves a target of the guild must be especially vigilant as they rarely fail to eventually complete their objectives."
+          }
+        ],
+        "images": [
+          "assets/lore/organisations/the-silent-shadows-05.webp"
+        ],
+        "filters": {
+          "category": "Secret Society",
+          "realm": "",
+          "playability": ""
+        }
+      },
+      {
+        "id": "the-starless-legion",
+        "title": "The Starless Legion",
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "The Starless Legion"
+          },
+          {
+            "type": "paragraph",
+            "text": "“The first time I saw their banner it looked stark and cold, almost funereal. Against firelight or under moonlight, the silver stitching caught the glow, making the star look as though it is faintly burning — a ghost of light in a starless night. That’s when I knew that either Hope or Death had arrived.” - Dacian Esarosa"
+          },
+          {
+            "type": "field",
+            "label": "Type",
+            "text": "Mercenary Company"
+          },
+          {
+            "type": "field",
+            "label": "Leader",
+            "text": "Captain Farodyn Fallon"
+          },
+          {
+            "type": "field",
+            "label": "Headquarters",
+            "text": "Himonia, Republic of Merania"
+          },
+          {
+            "type": "field",
+            "label": "Founded",
+            "text": "841"
+          },
+          {
+            "type": "field",
+            "label": "Members",
+            "text": "1,200"
+          },
+          {
+            "type": "field",
+            "label": "Description",
+            "text": "They are an military organised Legion that might not scare someone with their size, but their efficiency on the battlefield has been proven over and over. It is rare that any of the Starless Legion fall and even more rare to be accepted among their ranks. Some will say that it’s harder to stay in than out, for the captain is colder than ice."
+          },
+          {
+            "type": "field",
+            "label": "Lore",
+            "text": "Farodyn has been wandering for centuries. Whenever she came to aid, her appearance had been an inspiration to those in need. She became the face of the Legion herself. Without the name in the beginning, Farodyn was the banner that inspired each and everyone of them to fight. Branna Holt was the first to join, bringing Kaelen with her soon. The next mission Ysolde and Tharion joined and lastly Serik. These five form her “right hand” and have substantial influence in the Legion When their size increased, it was Branna that came up with the name on a starless night. And with Farodyn being in a more “emotional” state, she agreed that they’d continue under the name The Starless Legion. They executed missions most wouldn’t, went where others were scared to go and refused to give up in the most dire of situations."
+          },
+          {
+            "type": "paragraph",
+            "text": "This silver coin—mixed with meteorite dust—is heavy for it's size. In a certain light, its meteorite specks will glimmer. The fractured silver star is a identical match with The Starless Legion's banner. It's the size of a large thumbprint, circular but with beveled edged so it feels distinct when handled."
+          },
+          {
+            "type": "paragraph",
+            "text": "To outsiders, it looks like a rare mercenary token or keepsake. Within the Legion, presenting the coin directly to Farodyn—or one of her Lieutenants—marks the bearer as someone who is granted a private audience at least. Only a few of these coins exist. Each one is accounted for, making them impossible to \"just stumble upon.\""
+          }
+        ],
+        "images": [
+          "assets/lore/organisations/the-starless-legion-06.webp",
+          "assets/lore/organisations/the-starless-legion-07.webp"
+        ],
+        "filters": {
+          "category": "Mercenary Company",
+          "realm": "",
+          "playability": ""
+        }
+      }
+    ],
+    "count": 5,
+    "cover": "assets/lore/covers/organisations.webp"
+  },
+  "economics": {
+    "id": "economics",
+    "title": "A Treatise on Economics",
+    "subtitle": "Daktari, wages, taxes, prices and the keeping of the realm’s accounts.",
+    "intro": [
+      {
+        "type": "image",
+        "src": "assets/lore/economics/introduction-01.webp"
+      }
+    ],
+    "entries": [
+      {
+        "id": "daktari",
+        "title": "Daktari",
+        "blocks": [
+          {
+            "type": "field",
+            "label": "Daktari",
+            "text": "Long ago, the kingdoms of Onyxia abandoned their individual currency for a unified economic system, known as Daktari. These coins, each weighing approximately an ounce, are minted from three different metals, copper, silver and gold with the value increasing exponentially as the preciousness of the metal increases. The exchange rate is as follows:"
+          },
+          {
+            "type": "field",
+            "label": "1 Silver Daktari",
+            "text": "100 Copper Daktari (6.25 lbs of copper)"
+          },
+          {
+            "type": "field",
+            "label": "1 Gold Daktari",
+            "text": "100 Silver Daktari (6.25 lbs of silver) = 10,000 Copper Daktari (31.25 tons of copper)"
+          }
+        ],
+        "images": [],
+        "filters": {}
+      },
+      {
+        "id": "in-game-notes-intentions",
+        "title": "In-Game Notes & Intentions",
+        "blocks": [
+          {
+            "type": "field",
+            "label": "In-Game Notes & Intentions",
+            "text": "All notes regarding the usage of this system for strictly in-game terms are expressed in italics. The intention of this document is to provide a general idea of the way the economic system works in Onyxia on a personal level as well as regional and Realm levels. It is a loose system designed to provide depth, but focused on freedom of play rather than strict adherence to every copper."
+          }
+        ],
+        "images": [],
+        "filters": {}
+      },
+      {
+        "id": "earnings",
+        "title": "Earnings",
+        "blocks": [
+          {
+            "type": "field",
+            "label": "Earnings",
+            "text": "Most citizens earn coppers while the middle and upper class deal more with silver. It is unheard of for a typical worker to ever see a gold daktari, which are typically only used for large transactions. Even governments base their accounting documentation on silver, though much of their treasury is accounted for in gold. Though nobility and royalty may control vast fortunes among their holdings, their personal income is much smaller and serves as their basis for taxation. Below are the average wages for each class per lunar cycle:"
+          },
+          {
+            "type": "field",
+            "label": "Nobles",
+            "text": "10 Silver Daktari"
+          },
+          {
+            "type": "field",
+            "label": "Tradespeople",
+            "text": "2 Silver Daktari (200 Copper Daktari)"
+          },
+          {
+            "type": "field",
+            "label": "Peasants",
+            "text": "50 Copper Daktari"
+          }
+        ],
+        "images": [],
+        "filters": {}
+      },
+      {
+        "id": "expenditures",
+        "title": "Expenditures",
+        "blocks": [
+          {
+            "type": "field",
+            "label": "Expenditures",
+            "text": "The average individual spends approximately 70% of their monthly income in living expenses, with their entire income distributed on the following spread:"
+          },
+          {
+            "type": "field",
+            "label": "Food & Lodging",
+            "text": "35%"
+          },
+          {
+            "type": "field",
+            "label": "Savings",
+            "text": "30%"
+          },
+          {
+            "type": "field",
+            "label": "Clothing",
+            "text": "10.5%"
+          },
+          {
+            "type": "field",
+            "label": "Tools & Other Goods",
+            "text": "10.5%"
+          },
+          {
+            "type": "field",
+            "label": "Services",
+            "text": "10.5%"
+          },
+          {
+            "type": "field",
+            "label": "Luxury Items",
+            "text": "5.5%"
+          }
+        ],
+        "images": [],
+        "filters": {}
+      },
+      {
+        "id": "taxation-on-income",
+        "title": "Taxation on Income",
+        "blocks": [
+          {
+            "type": "field",
+            "label": "Taxation on Income",
+            "text": "The bulk of a region’s income is derived from taxation on the income of the nobles. A smaller portion is paid by the average working person with only a pittance taken from the poorer peasants. Taxation can vary from region to region, but the average tax rates are as follows:"
+          },
+          {
+            "type": "field",
+            "label": "Nobles",
+            "text": "10%"
+          },
+          {
+            "type": "field",
+            "label": "Tradespeople",
+            "text": "8%"
+          },
+          {
+            "type": "field",
+            "label": "Peasants",
+            "text": "2%"
+          }
+        ],
+        "images": [],
+        "filters": {}
+      },
+      {
+        "id": "sales-tax",
+        "title": "Sales Tax",
+        "blocks": [
+          {
+            "type": "field",
+            "label": "Sales Tax",
+            "text": "A smaller, but not insignificant, portion of a region’s income is derived from the taxation on the exchange of goods. This is referred to as sales tax and though the burden of the tax falls to the merchant, they tend to pass this fee on to their customers. The tax rates are based upon the type of goods or services being exchanged:"
+          },
+          {
+            "type": "field",
+            "label": "Food & Lodging",
+            "text": "1%"
+          },
+          {
+            "type": "field",
+            "label": "Clothing",
+            "text": "2%"
+          },
+          {
+            "type": "field",
+            "label": "Tools & Other Goods",
+            "text": "4%"
+          },
+          {
+            "type": "field",
+            "label": "Services",
+            "text": "5%"
+          },
+          {
+            "type": "field",
+            "label": "Luxury Items",
+            "text": "10%"
+          }
+        ],
+        "images": [],
+        "filters": {}
+      },
+      {
+        "id": "net-income",
+        "title": "Net Income",
+        "blocks": [
+          {
+            "type": "field",
+            "label": "Net Income",
+            "text": "After expenses and taxes, most people can expect to net the following income per month, based on their status:\nIn game terms this is generally how much you can add to your account per month, unless otherwise specified."
+          },
+          {
+            "type": "field",
+            "label": "Nobles",
+            "text": "2 Silver Daktari and 53 Copper Daktari (expressed as 2.53 Silver) (Nobles control most major assets of a kingdom, such as mines, timber claims and farms. However, they have substantial expenses in operating these ventures as well as supporting their vast holdings. Additional income, if any, will be specified by the Keepers.)"
+          },
+          {
+            "type": "field",
+            "label": "Tradespeople",
+            "text": "51 Copper Daktari (Tradespeople can control businesses such as blacksmith shops, tailors or dressmakers, and other small goods. Any additional income from these businesses, if any, will be specified by the Keepers.)"
+          },
+          {
+            "type": "field",
+            "label": "Peasants",
+            "text": "14 Copper Daktari (Peasants rarely have any other trade besides the work they do for their lords.)"
+          }
+        ],
+        "images": [],
+        "filters": {}
+      },
+      {
+        "id": "starting-daktari",
+        "title": "Starting Daktari",
+        "blocks": [
+          {
+            "type": "field",
+            "label": "Starting Daktari",
+            "text": "To be fair, all players fall into several categories below will start with 10 years of income as specified by their classification below"
+          },
+          {
+            "type": "field",
+            "label": "Royals",
+            "text": "30 Gold Daktari, 36 Silver Daktari and 0 Copper Daktari (expressed as 3036.00 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Nobles",
+            "text": "303 Silver Daktari and 60 Copper Daktari (expressed as 303.60 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Knights (except Companions)",
+            "text": "122 Silver Daktari and 40 Copper Daktari (expressed as 122.40 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Tradespeople",
+            "text": "91 Silver Daktari and 80 Copper Daktari (expressed as 91.80 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Adventurers",
+            "text": "61 Silver Daktari and 20 Copper Daktari (expressed as 61.20 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Companions",
+            "text": "57 Silver Daktari and 60 Copper Daktari (expressed as 57.60 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Peasants",
+            "text": "16 Silver Daktari and 80 Copper Daktari (expressed as 16.80 Silver)"
+          }
+        ],
+        "images": [],
+        "filters": {}
+      },
+      {
+        "id": "purchases-accounting",
+        "title": "Purchases & Accounting",
+        "blocks": [
+          {
+            "type": "field",
+            "label": "Purchases & Accounting",
+            "text": "If purchases are moderate and within the range set by the Expenditures section above, they do not need to be accounted for. Only purchases out of the ordinary need to be accounted for, which adjusts the amount of Dakari listed on your OC sheet. Players are responsible for their own accounting when they spend or earn daktari, including their normal monthly income. For reference, typical expenditures are listed below:"
+          },
+          {
+            "type": "field",
+            "label": "Nobles",
+            "text": ""
+          },
+          {
+            "type": "field",
+            "label": "Food & Lodging",
+            "text": "3.50 Silver"
+          },
+          {
+            "type": "field",
+            "label": "Clothing",
+            "text": "1.05 Silver"
+          },
+          {
+            "type": "field",
+            "label": "Tools & Other Goods",
+            "text": "1.05 Silver"
+          },
+          {
+            "type": "field",
+            "label": "Services",
+            "text": "1.05 Silver"
+          },
+          {
+            "type": "field",
+            "label": "Luxury Items",
+            "text": "55 Copper (0.55 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Tradespeople",
+            "text": ""
+          },
+          {
+            "type": "field",
+            "label": "Food & Lodging",
+            "text": "70 Copper (0.70 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Clothing",
+            "text": "21 Copper (0.21 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Tools & Other Goods",
+            "text": "21 Copper (0.21 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Services",
+            "text": "21 Copper (0.21 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Luxury Items",
+            "text": "11 Copper (0.11 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Peasants",
+            "text": ""
+          },
+          {
+            "type": "field",
+            "label": "Food & Lodging",
+            "text": "18 Copper (0.18 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Clothing",
+            "text": "5 Copper (0.05 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Tools & Other Goods",
+            "text": "5 Copper (0.05 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Services",
+            "text": "5 Copper (0.05 Silver)"
+          },
+          {
+            "type": "field",
+            "label": "Luxury Items",
+            "text": "3 Copper (0.03 Silver)"
+          }
+        ],
+        "images": [],
+        "filters": {}
+      },
+      {
+        "id": "common-items",
+        "title": "Common Items",
+        "blocks": [
+          {
+            "type": "field",
+            "label": "Common Items",
+            "text": "The following list is used to determine the price of many tradable goods. Unless otherwise specified, the goods are listed as the cost in copper per pound of goods purchased."
+          },
+          {
+            "type": "paragraph",
+            "text": "For reference, the cost of goods in Silver Per Ton is also included for large trades. The chart also includes the weight of goods produced per source of the goods as well as the government subsidy required to add a new source to a region. These columns are used in Regional Economics, below."
+          }
+        ],
+        "images": [],
+        "filters": {},
+        "table": {
+          "headers": [
+            "Trade Goods",
+            "Cost (Copper per lb)",
+            "Silver per Ton",
+            "Pounds per Source",
+            "Construction Subsidy"
+          ],
+          "rows": [
+            [
+              "Alcoholic Beverages",
+              "2 per pint",
+              "60",
+              "4,000",
+              "18"
+            ],
+            [
+              "Baked Goods",
+              "1 per loaf",
+              "50",
+              "4,000",
+              "15"
+            ],
+            [
+              "Blacksmithing",
+              "125 per lb of metalwork\n(6 silver for basic platemail)",
+              "2,500",
+              "400",
+              "75"
+            ],
+            [
+              "Coal",
+              "20",
+              "400",
+              "4,000",
+              "120"
+            ],
+            [
+              "Cocoa Beans",
+              "25 (10 for a chocolate bar)",
+              "500",
+              "4,000",
+              "150"
+            ],
+            [
+              "Coffee Beans",
+              "3 (1 for a cup of coffee)",
+              "60",
+              "4,000",
+              "18"
+            ],
+            [
+              "Copper",
+              "16",
+              "320",
+              "2,000",
+              "48"
+            ],
+            [
+              "Cheese",
+              "3",
+              "60",
+              "4,000",
+              "18"
+            ],
+            [
+              "Clay",
+              "8",
+              "150",
+              "4,000",
+              "45"
+            ],
+            [
+              "Date Desserts",
+              "25 (5 for one dessert)",
+              "500",
+              "400",
+              "15"
+            ],
+            [
+              "Exotic Furs",
+              "3 (15 copper for a basic fur coat)",
+              "50",
+              "4,000",
+              "15"
+            ],
+            [
+              "Fashionable Clothing",
+              "5 (1 silver for a lady’s dress)\n(50 copper for a nobleman’s suit)",
+              "100",
+              "2,000",
+              "15"
+            ],
+            [
+              "Fish",
+              "3",
+              "60",
+              "4,000",
+              "18"
+            ],
+            [
+              "Gold",
+              "160,000",
+              "3,200,000",
+              "20",
+              "4800"
+            ],
+            [
+              "Healing Herbs",
+              "3 (1 for a dose)",
+              "60",
+              "2,000",
+              "9"
+            ],
+            [
+              "Horses",
+              "2 silver for an average horse",
+              "40",
+              "4,000",
+              "12"
+            ],
+            [
+              "Iron",
+              "35",
+              "700",
+              "4,000",
+              "210"
+            ],
+            [
+              "Jewelry",
+              "7,500 (70 copper for a small ring)\n(3 silver for a gaudy necklace)",
+              "150,000",
+              "20",
+              "225"
+            ],
+            [
+              "Kites",
+              "10 (3-5 copper per kite)",
+              "200",
+              "1,000",
+              "15"
+            ],
+            [
+              "Limestone",
+              "13",
+              "250",
+              "4,000",
+              "75"
+            ],
+            [
+              "Musical Instruments",
+              "10 (25-30 copper for a lute)",
+              "200",
+              "1,000",
+              "15"
+            ],
+            [
+              "Oil",
+              "3 (1 copper to fill a lamp)",
+              "40",
+              "4,000",
+              "12"
+            ],
+            [
+              "Olive Oil",
+              "7 (13 copper per quart jar)",
+              "150",
+              "1,600",
+              "18"
+            ],
+            [
+              "Olives",
+              "4 (1 copper per quart jar)",
+              "80",
+              "2,000",
+              "12"
+            ],
+            [
+              "Orchards",
+              "2 (3 apples for 2 copper)",
+              "40",
+              "4,000",
+              "12"
+            ],
+            [
+              "Paper Art",
+              "8 (40 copper for 24 square painting)",
+              "160",
+              "1,000",
+              "12"
+            ],
+            [
+              "Salmon",
+              "5",
+              "100",
+              "2,000",
+              "15"
+            ],
+            [
+              "Salt",
+              "3 (5 copper for a 2 lb bag)",
+              "50",
+              "4,000",
+              "15"
+            ],
+            [
+              "Silks",
+              "2",
+              "50",
+              "4,000",
+              "15"
+            ],
+            [
+              "Silver",
+              "1,600",
+              "32,000",
+              "100",
+              "240"
+            ],
+            [
+              "Tea",
+              "2 (1 for a cup of tea)",
+              "30",
+              "4,000",
+              "9"
+            ],
+            [
+              "Timber",
+              "2",
+              "40",
+              "10,000",
+              "30"
+            ],
+            [
+              "Wine",
+              "5 (12 copper for a bottle)",
+              "90",
+              "4,000",
+              "27"
+            ],
+            [
+              "Wooden artifacts",
+              "5",
+              "100",
+              "2,000",
+              "15"
+            ],
+            [
+              "Wheat",
+              "1 (1 copper per pound of flour)",
+              "20",
+              "20,000",
+              "30"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "regional-income",
+        "title": "Regional Income",
+        "blocks": [
+          {
+            "type": "field",
+            "label": "Regional Income",
+            "text": "As explained above, most of the region’s income is derived from personal income taxes with a fair portion coming from sales taxes. The balance of the taxes are collected on the trade of the major goods listed above with other regions or realms. In most cases, this accounts for a very small percentage of the total income of a region, however it is still noteworthy and will be discussed below."
+          },
+          {
+            "type": "paragraph",
+            "text": "All regional economics are recorded on monthly balance sheets maintained by the Keepers. Monthly income can be modified by altering tax or tariff rates, subsidizing the expansion of trade goods and by the slow growth of population. All modifications must be recorded by issuing decrees."
+          }
+        ],
+        "images": [],
+        "filters": {}
+      },
+      {
+        "id": "regional-expenses",
+        "title": "Regional Expenses",
+        "blocks": [
+          {
+            "type": "field",
+            "label": "Regional Expenses",
+            "text": "The majority of regional expenses come from maintaining their respective militaries with the secondary expense being public works such as roads, cities and towns. A secondary expense is the payment of taxes to the realm the region belongs to. If the treasury of a region allows, it may be desired to expand the military force, build fortifications or grow trade. This is done by issuing decrees for recruitment, construction and subsidies, respectively."
+          },
+          {
+            "type": "paragraph",
+            "text": "This is also recorded on the monthly balance sheets maintained by the Keepers. Monthly expenses increase primarily due to increased military maintenance, recruitment costs, construction and subsidized trade good growth. Again all modifications must be recorded by issuing decrees."
+          }
+        ],
+        "images": [],
+        "filters": {}
+      },
+      {
+        "id": "realm-economics",
+        "title": "Realm Economics",
+        "blocks": [
+          {
+            "type": "field",
+            "label": "Realm Economics",
+            "text": "The only source of income for a realm is taxation on the individual regions within its domain. A regional leader may control the tax rates of their individual regions to account for economic hardships or to take advantage of a booming economy. The realm’s treasury is required to pay for the royal palaces as well as citadels, strongholds used by the realm’s army."
+          },
+          {
+            "type": "paragraph",
+            "text": "All realm economics are also recorded on monthly balance sheets maintained by the Keepers. Changes to monthly tax rates, recruitment and construction must all be recorded by issuing decrees."
+          }
+        ],
+        "images": [],
+        "filters": {}
+      },
+      {
+        "id": "balance-sheets",
+        "title": "Balance Sheets",
+        "blocks": [
+          {
+            "type": "field",
+            "label": "Balance Sheets",
+            "text": "A record of all balance sheets are listed below in reverse chronological order:"
+          },
+          {
+            "type": "subheading",
+            "text": "September 1401 Balance Sheet"
+          },
+          {
+            "type": "subheading",
+            "text": "August 1401 Balance Sheet"
+          },
+          {
+            "type": "subheading",
+            "text": "July 1401 Balance Sheet"
+          },
+          {
+            "type": "subheading",
+            "text": "June 1401 Balance Sheet"
+          },
+          {
+            "type": "subheading",
+            "text": "May 1401 Balance Sheet"
+          },
+          {
+            "type": "subheading",
+            "text": "April 1401 Balance Sheet"
+          },
+          {
+            "type": "subheading",
+            "text": "March 1401 Balance Sheet"
+          },
+          {
+            "type": "subheading",
+            "text": "February 1401 Balance Sheet"
+          },
+          {
+            "type": "subheading",
+            "text": "January 1401 Balance Sheet"
+          }
+        ],
+        "images": [],
+        "filters": {}
+      }
+    ],
+    "count": 14,
+    "cover": "assets/lore/covers/economics.webp"
+  }
+}

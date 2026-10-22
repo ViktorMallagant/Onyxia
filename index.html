@@ -9,7 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css" /><link rel="stylesheet" href="lorebook.css" />
+  <link rel="stylesheet" href="lorebook.css" />
 </head>
 <body>
   <div class="app-shell">
@@ -26,9 +27,13 @@
         <a href="#current-plot" class="nav-link" data-nav="current-plot"><span class="nav-icon">◈</span><span>Shadows in Stone</span><span class="nav-index">03</span></a>
         <a href="#timeline" class="nav-link" data-nav="timeline"><span class="nav-icon">⌛</span><span>Timeline</span><span class="nav-index">04</span></a>
       </nav>
-      <div class="sidebar-rule dim"></div>
-      <div class="nav-title">To be chronicled</div>
-      <div class="future-chapters" aria-label="Upcoming chapters"><span>Realms &amp; Kingdoms</span><span>Peoples &amp; Cultures</span><span>Magic &amp; the Onyx Stones</span><span>Creatures &amp; Legends</span></div>
+      <div class="sidebar-rule dim"></div><div class="nav-title">The world beyond</div><nav class="chapter-nav lore-nav" aria-label="Lorebook chapters"><a href="realms.html" class="nav-link " data-nav="realms"><span class="nav-icon">♜</span><span>Realms & Kingdoms</span><span class="nav-index">05</span></a>
+<a href="species.html" class="nav-link " data-nav="species"><span class="nav-icon">◇</span><span>Sentient Species</span><span class="nav-index">06</span></a>
+<a href="bestiary.html" class="nav-link " data-nav="bestiary"><span class="nav-icon">♞</span><span>Bestiary</span><span class="nav-index">07</span></a>
+<a href="magic.html" class="nav-link " data-nav="magic"><span class="nav-icon">✧</span><span>Magic</span><span class="nav-index">08</span></a>
+<a href="religions.html" class="nav-link " data-nav="religions"><span class="nav-icon">✥</span><span>Religions</span><span class="nav-index">09</span></a>
+<a href="organisations.html" class="nav-link " data-nav="organisations"><span class="nav-icon">⚑</span><span>Organisations</span><span class="nav-index">10</span></a>
+<a href="economics.html" class="nav-link " data-nav="economics"><span class="nav-icon">◈</span><span>Economics</span><span class="nav-index">11</span></a></nav>
       <div class="sidebar-bottom"><span class="orb" aria-hidden="true"></span><div>THE YEAR IS<br/><strong>1400 OF THE SUN</strong></div></div>
     </aside>
 
@@ -49,17 +54,17 @@
           <div class="atlas-topline"><span><span class="live-gem"></span> CARTOGRAPHER'S VIEW</span><span class="atlas-hint">Drag to explore · Scroll to zoom · Select a realm</span></div>
           <div class="atlas-viewport" id="atlasViewport" aria-label="Interactive map of Onyxia" tabindex="0">
             <div class="atlas-stage" id="atlasStage">
-              <img id="worldMap" src="assets/onyxia-world-map@2x.webp" data-fallback-src="assets/onyxia-world-map.jpg" alt="Detailed fantasy world map of Onyxia, showing its realms, settlements, geography, and surrounding seas" draggable="false" width="1735" height="911" />
+              <img id="worldMap" src="assets/onyxia-world-map@2x.webp" data-fallback-src="assets/onyxia-world-map-source.png" alt="Detailed fantasy world map of Onyxia, showing its realms, settlements, geography, and surrounding seas" draggable="false" width="1735" height="911" />
               <div class="realm-layer" id="realmLayer" aria-label="Clickable realm markers"></div>
             </div>
-            <div class="atlas-empty" id="atlasEmpty" hidden>The cartographer's map is missing. Add <code>assets/onyxia-world-map.jpg</code> to the repository.</div>
+            <div class="atlas-empty" id="atlasEmpty" hidden>The cartographer's map is missing. Add <code>assets/onyxia-world-map-source.png</code> (preferred) or <code>assets/onyxia-world-map.jpg</code> to the repository.</div>
             <div class="map-compass" aria-hidden="true"><span>N</span>✦</div>
             <div class="map-tools" aria-label="Map controls"><button type="button" id="zoomIn" aria-label="Zoom in" title="Zoom in">+</button><button type="button" id="zoomOut" aria-label="Zoom out" title="Zoom out">−</button><button type="button" id="resetMap" aria-label="Fit map to window" title="Fit map to window">⌖</button></div>
             <div class="map-scale" id="mapScale">100%</div>
           </div>
           <div class="atlas-bottombar"><div class="atlas-status"><span id="mapStatus">Select a realm to discover its history.</span></div><label class="toggle-markers"><input type="checkbox" id="markerToggle" checked /><span>Realm markers</span></label></div>
         </div>
-        <div class="realm-card" id="realmCard" hidden><div class="realm-card-head"><div><span class="mini-label">FROM THE ATLAS</span><h3 id="realmName"></h3></div><button type="button" id="closeRealm" aria-label="Close realm details">×</button></div><p id="realmDescription"></p><div class="realm-card-actions"><button id="realmHistory" type="button" class="text-action">See related history <span>↗</span></button><span id="realmEventCount"></span></div></div>
+        <div class="realm-card" id="realmCard" hidden><div class="realm-card-head"><div><span class="mini-label">FROM THE ATLAS</span><h3 id="realmName"></h3></div><button type="button" id="closeRealm" aria-label="Close realm details">×</button></div><p id="realmDescription"></p><div class="realm-card-actions"><a id="realmArticle" class="realm-article-link" href="realms.html">Read the realm chronicle <span aria-hidden="true">↗</span></a><button id="realmHistory" type="button" class="text-action">See related history <span>↗</span></button><span id="realmEventCount"></span></div></div>
         <div class="realm-directory" id="realmDirectory" aria-label="Explore realms"></div>
       </section>
 
@@ -83,6 +88,7 @@
         <div class="timeline-empty" id="timelineEmpty" hidden>No entries match these filters. Try another era, realm, or search.</div>
         <div class="timeline-end"><span>✧</span><h3>Year 1400 of the Sun</h3><p>What happens next belongs to you.</p></div>
       </section>
+<section class="content-section lore-directory-section"><div class="section-heading"><div><span class="section-kicker">BEYOND THE CHRONICLE</span><h2>The Greater Lorebook</h2><p>Discover the peoples, realms, creatures, magic, faiths and factions of Onyxia.</p></div></div><div class="chapter-teaser-grid"><a class="chapter-teaser" href="realms.html"><span>♜</span><strong>Realms &amp; Kingdoms</strong><small>Enter chapter ↗</small></a><a class="chapter-teaser" href="species.html"><span>◇</span><strong>Sentient Species</strong><small>Enter chapter ↗</small></a><a class="chapter-teaser" href="bestiary.html"><span>♞</span><strong>Bestiary</strong><small>Enter chapter ↗</small></a><a class="chapter-teaser" href="magic.html"><span>✧</span><strong>Magic</strong><small>Enter chapter ↗</small></a><a class="chapter-teaser" href="religions.html"><span>✥</span><strong>Religions</strong><small>Enter chapter ↗</small></a><a class="chapter-teaser" href="organisations.html"><span>⚑</span><strong>Organisations</strong><small>Enter chapter ↗</small></a><a class="chapter-teaser" href="economics.html"><span>◈</span><strong>Economics</strong><small>Enter chapter ↗</small></a></div></section>
       <footer class="footer"><span>✦ &nbsp; ONYXIA &nbsp; ✦</span><p>"I shall watch as your story unfolds."</p><small>THE LIVING LOREBOOK · ESTABLISHED LORE FROM THE PROVIDED CHRONICLE</small></footer>
     </main>
   </div>

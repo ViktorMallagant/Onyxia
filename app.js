@@ -5,14 +5,14 @@
   const $ = (id) => document.getElementById(id);
   const events = lore.events.slice().sort((a,b) => a.year - b.year || a.sort_index - b.sort_index);
   const realms = [
-    {id:'astazulum',name:'Astazulum Empire',x:510,y:119,description:'Northern realm of Onyxia, set among towering mountains and the lands surrounding the Yuthia Kingdom.'},
-    {id:'yuthia',name:'Yuthia Kingdom',x:508,y:320,description:'The chronicles place Millbrook in Yuthia, one side of the fifty-year Channel War against Le Blanc-Mesnil in Avout.'},
-    {id:'avout',name:'Avout Kingdom',x:204,y:430,description:'Home of Le Blanc-Mesnil. Its long Channel War with Yuthia began in Year 1250 of the Sun.'},
-    {id:'merania',name:'Republic of Merania',x:396,y:631,description:'Became a republic in Year 1200 following a century of civil strife between northern and southern cultures.'},
-    {id:'guirnaldas',name:'Guirnaldas Kingdom',x:1223,y:166,description:'A kingdom with contested lands along the border with Qaenyth, including the battlefield of Alba and the salt-rich shores.'},
-    {id:'qaenyth',name:'Qaenyth Kingdom',x:1321,y:352,description:'Victorious at the Battle of the Salty Shores. Its lands remain disputed with Guirnaldas following the Battle of the Shari.'},
-    {id:'obedotish',name:'Obedotish Dynasty',x:977,y:659,description:'The dynasty resisted the Shido Empire in the Battle of the Gulf in Year 1000, and later contested its outpost in Lamlam.'},
-    {id:'shido',name:'Shido Empire',x:1306,y:695,description:'First to establish a program pairing bonded sorceresses with specially trained knights to close shadow portals.'}
+    {id:'astazulum',article:'astazulum-empire',name:'Astazulum Empire',x:510,y:119,description:'Northern realm of Onyxia, set among towering mountains and the lands surrounding the Yuthia Kingdom.'},
+    {id:'yuthia',article:'yuthia-kingdom',name:'Yuthia Kingdom',x:508,y:320,description:'The chronicles place Millbrook in Yuthia, one side of the fifty-year Channel War against Le Blanc-Mesnil in Avout.'},
+    {id:'avout',article:'avout-kingdom',name:'Avout Kingdom',x:204,y:430,description:'Home of Le Blanc-Mesnil. Its long Channel War with Yuthia began in Year 1250 of the Sun.'},
+    {id:'merania',article:'republic-of-merania',name:'Republic of Merania',x:396,y:631,description:'Became a republic in Year 1200 following a century of civil strife between northern and southern cultures.'},
+    {id:'guirnaldas',article:'guirnaldas-kingdom',name:'Guirnaldas Kingdom',x:1223,y:166,description:'A kingdom with contested lands along the border with Qaenyth, including the battlefield of Alba and the salt-rich shores.'},
+    {id:'qaenyth',article:'qaenyth-kingdom',name:'Qaenyth Kingdom',x:1321,y:352,description:'Victorious at the Battle of the Salty Shores. Its lands remain disputed with Guirnaldas following the Battle of the Shari.'},
+    {id:'obedotish',article:'obedotish-dynasty',name:'Obedotish Dynasty',x:977,y:659,description:'The dynasty resisted the Shido Empire in the Battle of the Gulf in Year 1000, and later contested its outpost in Lamlam.'},
+    {id:'shido',article:'shido-empire',name:'Shido Empire',x:1306,y:695,description:'First to establish a program pairing bonded sorceresses with specially trained knights to close shadow portals.'}
   ];
   const categories = [
     ['all','All events'],['origin','Origins'],['war','Conflict'],['magic','Magic'],['crisis','Calamity'],['politics','Politics'],['peace','Renewal'],['present','Present']
@@ -71,6 +71,8 @@
     $('realmDescription').textContent=realm.description;
     const related=events.filter(e=>e.regions.includes(realm.name));
     $('realmEventCount').textContent=related.length ? `${related.length} related ${related.length===1?'entry':'entries'}` : 'Further histories to come';
+    $('realmArticle').href='realms.html#'+encodeURIComponent(realm.article);
+    $('realmArticle').setAttribute('aria-label','Read the full entry for '+realm.name);
     $('realmCard').hidden=false;
     $('mapStatus').textContent=realm.name+' · Selected';
     if(focus){
@@ -136,6 +138,18 @@
   mapImage.addEventListener('load',()=>{$('atlasEmpty').hidden=true;fitMap();});
   window.addEventListener('resize',()=>{const prevRatio=scale/fitScale;fitMap();if(prevRatio>1.02)zoomCenter(prevRatio);});
   fitMap();
+
+  // Bidirectional deep links: index.html?realm=qaenyth#atlas
+  // Query parameter is deliberately used instead of a fragment so the atlas anchor works.
+  function revealLinkedRealm() {
+    const id = new URLSearchParams(window.location.search).get('realm');
+    const realm = realms.find(r=>r.id===id);
+    if (!realm) return;
+    // Defer until layout and map image have had an opportunity to settle.
+    requestAnimationFrame(()=>selectRealm(realm, true));
+  }
+  revealLinkedRealm();
+  mapImage.addEventListener('load', revealLinkedRealm);
 
   // CHRONICLE — chronology and prose derive from the source manuscript.
   const regionSelect=$('regionFilter');

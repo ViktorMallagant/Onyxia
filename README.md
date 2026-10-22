@@ -1,41 +1,33 @@
-# Onyxia — The Living Lorebook
+# Onyxia — Expanded Living Lorebook
 
-An interactive high-fantasy atlas and chronicle in British English, based on Maria's original world and historical manuscript.
+This build adds seven linked, responsive reference chapters to the existing Onyxia atlas, Genesis, Shadows in Stone and interactive timeline. Each new chapter is based on the supplied manuscript, with optimised illustrations and searchable, expandable articles.
 
-## Features
+## New chapters
+- `realms.html` — 8 realms, the Soaring Spires and the Crucible Islands
+- `species.html` — 17 sentient species, in order of emergence
+- `bestiary.html` — 16 creatures including subspecies illustrations
+- `magic.html` — the 8 Onyx Stone affinities and their counters
+- `religions.html` — 4 religious traditions
+- `organisations.html` — 5 organisations
+- `economics.html` — Daktari, wages, taxes, starting money, trade and the 35-item pricing table
 
-- Pannable and zoomable atlas with eight interactive realm markers and accessible controls
-- **The Beginning**, **Shadows in Stone**, and the interactive **Chronicle of the Sun**
-- Searchable and filterable historical entries
-- Static HTML, CSS and JavaScript, published automatically with GitHub Actions
+## Deployment
+Keep **all files and directories** together. The current GitHub Actions workflow can continue to publish the static files from `main`; no package manager or server-side code is required. The only extra asset is `lore-pages-data.json`, which the seven chapters load using JavaScript.
 
-## Improved map source (October 2026)
+Important: On GitHub Pages, all 7 new HTML files, `lorebook.css`, `lorebook.js`, `lore-pages-data.json`, and the `assets/lore/` directory must be uploaded together. A ZIP is for backup and distribution; GitHub’s web uploader does not unzip it automatically. To deploy in one step, clone/pull the existing repository, copy the contents of this package into its root and run:
 
-GitHub Actions runs `python tools/build_atlas.py` whenever changes are pushed to `main`. The builder uses:
-
-1. **Preferred**: `assets/onyxia-world-map-source.png` — Maria's larger **2340 × 1229** PNG export (upload this file to activate the upgrade).
-2. **Fallback**: `assets/onyxia-world-map.jpg` — the previous **1735 × 911** JPEG, already in the repository.
-
-The builder produces `assets/onyxia-world-map@2x.webp` for the deployed site. With the preferred PNG it produces a **4680 × 2458** WebP; until then, it produces a 3470 × 1822 version from the original JPEG. Resampling can smooth zoomed edges but cannot recover detail absent from the source. We preserve the existing JPEG in the repository and as the browser's error fallback.
-
-**Upload instruction:** Add the file exactly as `assets/onyxia-world-map-source.png` on the `main` branch using GitHub's **Add file → Upload files** interface. The deployment workflow will build and publish the high-resolution WebP on that push.
-
-## Working locally
-
-```bash
-python -m pip install Pillow
-python tools/build_atlas.py
-python -m http.server 8000
+```sh
+git add -A
+git commit -m "Add Onyxia lorebook reference chapters"
+git push origin main
 ```
 
-Browse to `http://localhost:8000/`. This project has no runtime dependencies or build framework.
+The original map image and map build script remain intact. **No lore entry has been invented.** Source inconsistencies are documented in `EDITORIAL_REVIEW_NOTES.md` rather than corrected without permission.
 
-## Editing
 
-- Chapters and events: `lore-data.js`
-- Map and timeline interactions: `app.js`
-- Layout and chapter names: `index.html` and `styles.css`
-- Map generator: `tools/build_atlas.py`
-- Future high-detail export instructions: `MAP_EXPORT_GUIDE.md`
+## Atlas ↔ Realm articles
 
-Two years (1020 and 1350) are inferred from relative dating in the source manuscript.
+- Clicking a marker on the World Atlas selects the realm and offers **Read the realm chronicle**.
+- Opening a complete realm entry shows **View this realm on the atlas**, which returns to the map with that realm selected and in focus.
+- Realm deep links use `index.html?realm=astazulum#atlas`, with IDs for the eight named kingdoms/dynasty/republic/empire.
+- The existing map coordinates and marker placements are unchanged.

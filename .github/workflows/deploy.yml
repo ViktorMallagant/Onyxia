@@ -40,6 +40,14 @@ jobs:
           cp index.html styles.css app.js lore-data.js .nojekyll _site/
           cp -R assets _site/
 
+      - name: Restore chapter illustrations
+        run: |
+          cat deploy/artwork/onyxia-art-*.txt | base64 --decode > /tmp/onyxia-artwork.zip
+          echo "71a304549f99c10c3ce17fe3977c83f25007d07fcbfd094a92eb749288d436d9  /tmp/onyxia-artwork.zip" | sha256sum --check
+          unzip -q -o /tmp/onyxia-artwork.zip -d _site
+          test -f _site/assets/lore/covers/species.webp
+          test -f _site/assets/lore/realms/qaenyth-kingdom-07.webp
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
