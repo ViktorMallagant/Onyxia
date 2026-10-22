@@ -1,21 +1,26 @@
 # Onyxia — The Living Lorebook
 
-A standalone high-fantasy atlas and chronicle, written in British English.
+An interactive high-fantasy atlas and chronicle in British English, based on Maria's original world and historical manuscript.
 
 ## Features
-- Pannable and zoomable world map with keyboard, mouse and touch controls
-- Higher-density map image prepared during deployment from the original source
-- A fallback to the existing map if high-density WebP cannot be loaded
-- The Beginning and Shadows in Stone, polished without changing the established lore
-- Interactive Year of the Sun chronicle (22 events), with search and filters
-- Vanilla HTML/CSS/JS; no runtime framework needed
 
-## Publishing
-The GitHub Actions workflow at `.github/workflows/deploy.yml` publishes the site whenever `main` changes. It installs Pillow, runs `python tools/build_atlas.py`, then uploads the static site to GitHub Pages.
+- Pannable and zoomable atlas with eight interactive realm markers and accessible controls
+- **The Beginning**, **Shadows in Stone**, and the interactive **Chronicle of the Sun**
+- Searchable and filterable historical entries
+- Static HTML, CSS and JavaScript, published automatically with GitHub Actions
 
-The generator enlarges `assets/onyxia-world-map.jpg` to a 2× WebP using Lanczos resampling and gentle sharpening. **This reduces visible blockiness, but does not introduce genuine new map detail**. If a larger original export becomes available, replace the JPG (keeping the original 1735:911 aspect ratio; update code's dimensions for a different ratio), and re-evaluate the upscaler settings. Do not redraw names with generative AI as this can corrupt map lettering.
+## Improved map source (October 2026)
 
-For a local preview of the complete site:
+GitHub Actions runs `python tools/build_atlas.py` whenever changes are pushed to `main`. The builder uses:
+
+1. **Preferred**: `assets/onyxia-world-map-source.png` — Maria's larger **2340 × 1229** PNG export (upload this file to activate the upgrade).
+2. **Fallback**: `assets/onyxia-world-map.jpg` — the previous **1735 × 911** JPEG, already in the repository.
+
+The builder produces `assets/onyxia-world-map@2x.webp` for the deployed site. With the preferred PNG it produces a **4680 × 2458** WebP; until then, it produces a 3470 × 1822 version from the original JPEG. Resampling can smooth zoomed edges but cannot recover detail absent from the source. We preserve the existing JPEG in the repository and as the browser's error fallback.
+
+**Upload instruction:** Add the file exactly as `assets/onyxia-world-map-source.png` on the `main` branch using GitHub's **Add file → Upload files** interface. The deployment workflow will build and publish the high-resolution WebP on that push.
+
+## Working locally
 
 ```bash
 python -m pip install Pillow
@@ -23,11 +28,14 @@ python tools/build_atlas.py
 python -m http.server 8000
 ```
 
-Visit `http://localhost:8000/`.
+Browse to `http://localhost:8000/`. This project has no runtime dependencies or build framework.
 
 ## Editing
-- Prose and timeline events are in `lore-data.js`.
-- Layout and chapters are in `index.html` and `styles.css`.
-- Map markers, zoom and chronology controls are in `app.js`.
-- Source manuscript: *The Beginning, Current Plot & Timeline*.
-- The two dates 1020 and 1350 are inferred from relative dates in the manuscript, not independently established calendar years.
+
+- Chapters and events: `lore-data.js`
+- Map and timeline interactions: `app.js`
+- Layout and chapter names: `index.html` and `styles.css`
+- Map generator: `tools/build_atlas.py`
+- Future high-detail export instructions: `MAP_EXPORT_GUIDE.md`
+
+Two years (1020 and 1350) are inferred from relative dating in the source manuscript.
