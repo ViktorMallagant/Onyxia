@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1c25" />
+  <meta name="description" content="Explore the world of Onyxia: its interactive atlas, genesis, present mysteries, and history of the Sun." />
+  <title>Onyxia · The Living Lorebook</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Lorebook navigation">
+      <a href="#top" class="brand" aria-label="Onyxia home">
+        <span class="brand-sigil" aria-hidden="true">✦</span>
+        <span class="brand-name">ONYXIA<small>THE LIVING LOREBOOK</small></span>
+      </a>
+      <div class="sidebar-rule"></div>
+      <div class="nav-title">The world</div>
+      <nav class="chapter-nav" aria-label="Chapters">
+        <a href="#atlas" class="nav-link active" data-nav="atlas"><span class="nav-icon">✥</span><span>World Atlas</span><span class="nav-index">01</span></a>
+        <a href="#beginning" class="nav-link" data-nav="beginning"><span class="nav-icon">❖</span><span>The Beginning</span><span class="nav-index">02</span></a>
+        <a href="#current-plot" class="nav-link" data-nav="current-plot"><span class="nav-icon">◈</span><span>Current Plot</span><span class="nav-index">03</span></a>
+        <a href="#timeline" class="nav-link" data-nav="timeline"><span class="nav-icon">⌛</span><span>Timeline</span><span class="nav-index">04</span></a>
+      </nav>
+      <div class="sidebar-rule dim"></div>
+      <div class="nav-title">To be chronicled</div>
+      <div class="future-chapters" aria-label="Upcoming chapters"><span>Realms &amp; Kingdoms</span><span>Peoples &amp; Cultures</span><span>Magic &amp; the Onyx Stones</span><span>Creatures &amp; Legends</span></div>
+      <div class="sidebar-bottom"><span class="orb" aria-hidden="true"></span><div>THE YEAR IS<br/><strong>1400 OF THE SUN</strong></div></div>
+    </aside>
+
+    <main class="main-content" id="top">
+      <div class="topbar"><button id="mobileMenu" class="mobile-menu" aria-label="Toggle navigation" aria-expanded="false">☰</button><span>THE CHRONICLES OF ONYXIA</span><a href="https://github.com/ViktorMallagant/Onyxia" target="_blank" rel="noopener noreferrer" class="github-link">The Archive <span aria-hidden="true">↗</span></a></div>
+      <header class="hero">
+        <div class="hero-decoration" aria-hidden="true">✧ &nbsp; ✦ &nbsp; ✧</div>
+        <p class="eyebrow">WELCOME TO THE WORLD BETWEEN THE STARS</p>
+        <h1>Onyxia<span>.</span></h1>
+        <p class="hero-tagline">A world born of an onyx stone, guarded by time,<br/>and haunted by the darkness at its heart.</p>
+        <div class="hero-divider" aria-hidden="true"><i></i><span>✧</span><i></i></div>
+        <a href="#atlas" class="primary-cta">Enter the Atlas <span aria-hidden="true">↓</span></a>
+      </header>
+
+      <section id="atlas" class="content-section atlas-section">
+        <div class="section-heading"><div><span class="section-kicker">CHAPTER I · THE WORLD</span><h2>The Atlas of Onyxia</h2><p>Eight realms. Two great lands. A thousand stories yet to be told.</p></div><div class="section-seal" aria-hidden="true">✥</div></div>
+        <div class="atlas-frame">
+          <div class="atlas-topline"><span><span class="live-gem"></span> CARTOGRAPHER'S VIEW</span><span class="atlas-hint">Drag to explore · Scroll to zoom · Select a realm</span></div>
+          <div class="atlas-viewport" id="atlasViewport" aria-label="Interactive map of Onyxia" tabindex="0">
+            <div class="atlas-stage" id="atlasStage">
+              <img id="worldMap" src="assets/onyxia-world-map.jpg" alt="Detailed fantasy world map of Onyxia, showing its realms, settlements, geography, and surrounding seas" draggable="false" width="1735" height="911" />
+              <div class="realm-layer" id="realmLayer" aria-label="Clickable realm markers"></div>
+            </div>
+            <div class="atlas-empty" id="atlasEmpty" hidden>The cartographer's map is missing. Add <code>assets/onyxia-world-map.jpg</code> to the repository.</div>
+            <div class="map-compass" aria-hidden="true"><span>N</span>✦</div>
+            <div class="map-tools" aria-label="Map controls"><button type="button" id="zoomIn" aria-label="Zoom in" title="Zoom in">+</button><button type="button" id="zoomOut" aria-label="Zoom out" title="Zoom out">−</button><button type="button" id="resetMap" aria-label="Fit map to window" title="Fit map to window">⌖</button></div>
+            <div class="map-scale" id="mapScale">100%</div>
+          </div>
+          <div class="atlas-bottombar"><div class="atlas-status"><span id="mapStatus">Select a realm to discover its history.</span></div><label class="toggle-markers"><input type="checkbox" id="markerToggle" checked /><span>Realm markers</span></label></div>
+        </div>
+        <div class="realm-card" id="realmCard" hidden><div class="realm-card-head"><div><span class="mini-label">FROM THE ATLAS</span><h3 id="realmName"></h3></div><button type="button" id="closeRealm" aria-label="Close realm details">×</button></div><p id="realmDescription"></p><div class="realm-card-actions"><button id="realmHistory" type="button" class="text-action">See related history <span>↗</span></button><span id="realmEventCount"></span></div></div>
+        <div class="realm-directory" id="realmDirectory" aria-label="Explore realms"></div>
+      </section>
+
+      <section id="beginning" class="content-section manuscript-section">
+        <div class="section-heading"><div><span class="section-kicker">CHAPTER II · ORIGINS</span><h2>The Beginning</h2><p>In the beginning, there was the Keeper of Time.</p></div><div class="section-seal" aria-hidden="true">❖</div></div>
+        <div class="story-paper"><span class="paper-corner paper-corner-a" aria-hidden="true">✧</span><span class="paper-corner paper-corner-b" aria-hidden="true">✧</span><div class="story-heading">G E N E S I S</div><div class="story-prose" id="genesisText"></div><div class="story-flourish" aria-hidden="true">❧</div></div>
+      </section>
+
+      <section id="current-plot" class="content-section plot-section">
+        <div class="section-heading"><div><span class="section-kicker">CHAPTER III · THE PRESENT AGE</span><h2>Shadows in the Stone</h2><p>A fragile peace, a gathering darkness, and those sworn to fight it.</p></div><div class="section-seal" aria-hidden="true">◈</div></div>
+        <div class="plot-feature"><div class="plot-feature-mark">✦</div><div><span class="mini-label">THE KEEPERS' WARNING</span><p>"Fellow traveller, the world is not what it seems."</p><small>— The Keeper of Time</small></div></div>
+        <div class="plot-copy" id="plotText"></div>
+        <div class="plot-facts"><div><span class="fact-symbol">◆</span><strong>THE STONES</strong><p>Sources of magical affinity, now believed to be the origin of the darkness.</p></div><div><span class="fact-symbol">♜</span><strong>THE BONDED PAIRS</strong><p>Sorceresses and specially trained knights close the portals that release the shadows.</p></div><div><span class="fact-symbol">⟡</span><strong>THE PRESENT</strong><p>Year 1400 of the Sun. The fate of the realms remains unwritten.</p></div></div>
+      </section>
+
+      <section id="timeline" class="content-section timeline-section">
+        <div class="section-heading"><div><span class="section-kicker">CHAPTER IV · THE PASSING AGES</span><h2>The Chronicle of the Sun</h2><p>Fourteen centuries of creation, conquest, magic, and hope.</p></div><div class="section-seal" aria-hidden="true">⌛</div></div>
+        <div class="chronicle-controls"><div class="search-shell"><span aria-hidden="true">⌕</span><input id="timelineSearch" type="search" placeholder="Search wars, realms, ages, legends…" aria-label="Search timeline events" autocomplete="off"/></div><div class="filter-chips" id="categoryFilters" aria-label="Filter timeline by event category"></div><div class="regional-row"><label for="regionFilter">Realm</label><select id="regionFilter"><option value="all">All realms</option></select><span id="eventCount" aria-live="polite"></span></div></div>
+        <div class="year-scrubber"><div class="scrubber-header"><span>TRAVEL THROUGH TIME</span><strong id="selectedYear">YEAR 1400</strong></div><input id="yearSlider" type="range" min="1" max="1400" step="1" value="1400" aria-label="Jump to a year of the Sun"/><div class="scrubber-labels"><span>1 · CREATION</span><span>600 · MAGIC</span><span>1000 · CONFLICT</span><span>1400 · NOW</span></div><p class="scrubber-help">Move the marker to jump to the nearest event in the chronicle.</p></div>
+        <div class="timeline-container" id="timelineEvents" aria-live="polite"></div>
+        <div class="timeline-empty" id="timelineEmpty" hidden>No entries match these filters. Try another era, realm, or search.</div>
+        <div class="timeline-end"><span>✧</span><h3>Year 1400 of the Sun</h3><p>What happens next belongs to you.</p></div>
+      </section>
+      <footer class="footer"><span>✦ &nbsp; ONYXIA &nbsp; ✦</span><p>"I shall watch as your story unfolds."</p><small>THE LIVING LOREBOOK · ESTABLISHED LORE FROM THE PROVIDED CHRONICLE</small></footer>
+    </main>
+  </div>
+  <script src="lore-data.js"></script><script src="app.js"></script>
+</body>
+</html>
