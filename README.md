@@ -1,25 +1,33 @@
 # Onyxia — The Living Lorebook
 
-A responsive, standalone high-fantasy lorebook featuring the world atlas, **The Beginning**, **Current Plot**, and an interactive **Chronicle of the Sun**.
+A standalone high-fantasy atlas and chronicle, written in British English.
 
 ## Features
-- Pan/zoom world map with wheel, pinch, double-click, keyboard, and on-screen controls
-- Eight selectable realm markers with links to relevant timeline entries
-- Genesis and Current Plot rendered directly from the supplied manuscript
-- 22 chronological entries (including inferred years **1020** and **1350** from the manuscript's relative dates)
-- Search, category filtering, realm filtering, year scrubber, and expandable history cards
-- Pure HTML/CSS/JavaScript; no build step, server, or dependencies
+- Pannable and zoomable world map with keyboard, mouse and touch controls
+- Higher-density map image prepared during deployment from the original source
+- A fallback to the existing map if high-density WebP cannot be loaded
+- The Beginning and Shadows in Stone, polished without changing the established lore
+- Interactive Year of the Sun chronicle (22 events), with search and filters
+- Vanilla HTML/CSS/JS; no runtime framework needed
 
-## Deployment
-1. Place `index.html`, `styles.css`, `app.js`, `lore-data.js`, and `.nojekyll` in the repository root.
-2. Place the supplied world map at `assets/onyxia-world-map.jpg` (1735×911). **This file is required.**
-3. In GitHub, open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, and save. The site will be available at the GitHub Pages URL once publishing completes.
+## Publishing
+The GitHub Actions workflow at `.github/workflows/deploy.yml` publishes the site whenever `main` changes. It installs Pillow, runs `python tools/build_atlas.py`, then uploads the static site to GitHub Pages.
 
-To preview locally, run `python -m http.server 8000` in the project directory and visit `http://localhost:8000/`.
+The generator enlarges `assets/onyxia-world-map.jpg` to a 2× WebP using Lanczos resampling and gentle sharpening. **This reduces visible blockiness, but does not introduce genuine new map detail**. If a larger original export becomes available, replace the JPG (keeping the original 1735:911 aspect ratio; update code's dimensions for a different ratio), and re-evaluate the upscaler settings. Do not redraw names with generative AI as this can corrupt map lettering.
 
-## Editing lore
-- Edit `lore-data.js` to update Genesis, Current Plot, or individual events.
-- Events use `year`, `title`, `category`, `text`, and `regions`. The `year` field is for chronological sorting; the `text` field preserves source details.
-- Add realm entries to the `realms` array in `app.js` for further map destinations.
+For a local preview of the complete site:
 
-Source: *The Beginning, Current Plot & Timeline* (user-supplied manuscript). All timeline event descriptions are drawn from that source. This first version includes no speculative new historical events.
+```bash
+python -m pip install Pillow
+python tools/build_atlas.py
+python -m http.server 8000
+```
+
+Visit `http://localhost:8000/`.
+
+## Editing
+- Prose and timeline events are in `lore-data.js`.
+- Layout and chapters are in `index.html` and `styles.css`.
+- Map markers, zoom and chronology controls are in `app.js`.
+- Source manuscript: *The Beginning, Current Plot & Timeline*.
+- The two dates 1020 and 1350 are inferred from relative dates in the manuscript, not independently established calendar years.

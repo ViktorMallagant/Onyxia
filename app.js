@@ -42,7 +42,7 @@
     ty=sh < ch ? (ch-sh)/2 : Math.min(overscroll, Math.max(ch-sh-overscroll,ty));
   }
   function paintMap(){
-    stage.style.transform=`translate(${tx}px, ${ty}px) scale(${scale})`;
+    stage.style.transform=`translate3d(${tx}px, ${ty}px, 0) scale(${scale})`;
     stage.style.setProperty('--pin-scale',String(1/scale));
     $('mapScale').textContent=Math.round(scale/fitScale*100)+'%';
   }
@@ -124,7 +124,15 @@
   });
   function endPointer(e){pointers.delete(e.pointerId);if(pointers.size<2)lastPinchDistance=0;if(!pointers.size){dragging=false;viewport.classList.remove('dragging');setTimeout(()=>{dragMoved=false;},30);}}
   viewport.addEventListener('pointerup',endPointer);viewport.addEventListener('pointercancel',endPointer);
-  mapImage.addEventListener('error',()=>{$('atlasEmpty').hidden=false;});
+  let fallbackMapLoaded = false;
+  mapImage.addEventListener('error',()=>{
+    if (!fallbackMapLoaded && mapImage.dataset.fallbackSrc) {
+      fallbackMapLoaded = true;
+      mapImage.src = mapImage.dataset.fallbackSrc;
+      return;
+    }
+    $('atlasEmpty').hidden=false;
+  });
   mapImage.addEventListener('load',()=>{$('atlasEmpty').hidden=true;fitMap();});
   window.addEventListener('resize',()=>{const prevRatio=scale/fitScale;fitMap();if(prevRatio>1.02)zoomCenter(prevRatio);});
   fitMap();

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,7 +23,7 @@
       <nav class="chapter-nav" aria-label="Chapters">
         <a href="#atlas" class="nav-link active" data-nav="atlas"><span class="nav-icon">✥</span><span>World Atlas</span><span class="nav-index">01</span></a>
         <a href="#beginning" class="nav-link" data-nav="beginning"><span class="nav-icon">❖</span><span>The Beginning</span><span class="nav-index">02</span></a>
-        <a href="#current-plot" class="nav-link" data-nav="current-plot"><span class="nav-icon">◈</span><span>Current Plot</span><span class="nav-index">03</span></a>
+        <a href="#current-plot" class="nav-link" data-nav="current-plot"><span class="nav-icon">◈</span><span>Shadows in Stone</span><span class="nav-index">03</span></a>
         <a href="#timeline" class="nav-link" data-nav="timeline"><span class="nav-icon">⌛</span><span>Timeline</span><span class="nav-index">04</span></a>
       </nav>
       <div class="sidebar-rule dim"></div>
@@ -49,7 +49,7 @@
           <div class="atlas-topline"><span><span class="live-gem"></span> CARTOGRAPHER'S VIEW</span><span class="atlas-hint">Drag to explore · Scroll to zoom · Select a realm</span></div>
           <div class="atlas-viewport" id="atlasViewport" aria-label="Interactive map of Onyxia" tabindex="0">
             <div class="atlas-stage" id="atlasStage">
-              <img id="worldMap" src="assets/onyxia-world-map.jpg" alt="Detailed fantasy world map of Onyxia, showing its realms, settlements, geography, and surrounding seas" draggable="false" width="1735" height="911" />
+              <img id="worldMap" src="assets/onyxia-world-map@2x.webp" data-fallback-src="assets/onyxia-world-map.jpg" alt="Detailed fantasy world map of Onyxia, showing its realms, settlements, geography, and surrounding seas" draggable="false" width="1735" height="911" />
               <div class="realm-layer" id="realmLayer" aria-label="Clickable realm markers"></div>
             </div>
             <div class="atlas-empty" id="atlasEmpty" hidden>The cartographer's map is missing. Add <code>assets/onyxia-world-map.jpg</code> to the repository.</div>
@@ -69,8 +69,8 @@
       </section>
 
       <section id="current-plot" class="content-section plot-section">
-        <div class="section-heading"><div><span class="section-kicker">CHAPTER III · THE PRESENT AGE</span><h2>Shadows in the Stone</h2><p>A fragile peace, a gathering darkness, and those sworn to fight it.</p></div><div class="section-seal" aria-hidden="true">◈</div></div>
-        <div class="plot-feature"><div class="plot-feature-mark">✦</div><div><span class="mini-label">THE KEEPERS' WARNING</span><p>"Fellow traveller, the world is not what it seems."</p><small>— The Keeper of Time</small></div></div>
+        <div class="section-heading"><div><span class="section-kicker">CHAPTER III · THE PRESENT AGE</span><h2>Shadows in Stone</h2><p>A fragile peace, a gathering darkness, and those sworn to fight it.</p></div><div class="section-seal" aria-hidden="true">◈</div></div>
+        <div class="plot-feature"><div class="plot-feature-mark">✦</div><div><span class="mini-label">THE KEEPER'S WARNING</span><p>"Fellow traveller, the world is not what it seems."</p><small>— The Keeper of Time</small></div></div>
         <div class="plot-copy" id="plotText"></div>
         <div class="plot-facts"><div><span class="fact-symbol">◆</span><strong>THE STONES</strong><p>Sources of magical affinity, now believed to be the origin of the darkness.</p></div><div><span class="fact-symbol">♜</span><strong>THE BONDED PAIRS</strong><p>Sorceresses and specially trained knights close the portals that release the shadows.</p></div><div><span class="fact-symbol">⟡</span><strong>THE PRESENT</strong><p>Year 1400 of the Sun. The fate of the realms remains unwritten.</p></div></div>
       </section>

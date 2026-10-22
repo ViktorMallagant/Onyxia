@@ -24,6 +24,11 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Prepare high-definition atlas
+        run: |
+          python -m pip install --quiet 'Pillow>=10,<13'
+          python tools/build_atlas.py
+
       - name: Prepare static website
         run: |
           mkdir -p _site
