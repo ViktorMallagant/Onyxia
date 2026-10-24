@@ -1,0 +1,239 @@
+{
+  "id": "merciful-companions",
+  "title": "The Merciful Companions",
+  "subtitle": "Expansion Document — Ranks, the Codex, Formations and Respites",
+  "sections": [
+    {
+      "id": "ranks",
+      "title": "Merciful Companion Ranks & Titles",
+      "blocks": [],
+      "tables": [
+        {
+          "title": "Merciful Companion Ranks & Titles",
+          "headers": [
+            "Rank",
+            "Coin Material",
+            "Description"
+          ],
+          "rows": [
+            [
+              "Ally",
+              "Copper",
+              "Members of the order who tend to the Respites, being too young or old to go ranging. Also common among those who tend the inns and support structures within the organisation."
+            ],
+            [
+              "Acquaint",
+              "Cast Iron",
+              "Newly joined members yet to undergo training, children born into the guild, or orphans taken in with their agreement. (As in Acquaintance.)"
+            ],
+            [
+              "Journeyperson",
+              "Cast Iron – Rusted",
+              "Member who has yet to pass the trials. Typically a squire to a Companion; children who complete schooling and elect a craft that takes them into the world."
+            ],
+            [
+              "Companion",
+              "Steel",
+              "A fully fledged member of the Guild who ranges the roads, trails and wilds to protect others. Also the base rank in the Guild's military formations."
+            ],
+            [
+              "Mentor Companion",
+              "Rusted Steel",
+              "A senior Companion, typically five to ten years in the Guild or sufficiently supported by their fellows. Commands a Corps (30–60 Companions), with seniority determining command among Mentors."
+            ],
+            [
+              "Master Companion",
+              "Silver",
+              "A long-serving Companion, often in charge of a Respite's daily running. Typically commands Company- to Battalion-sized formations; the senior Master takes overall command."
+            ],
+            [
+              "Elder Companion",
+              "Silver – Aged",
+              "A lifelong member of the Guild, generally remaining in Llanoverde to manage the estates, affairs and logistics of the Respites, although they may still take the field."
+            ],
+            [
+              "Esteemed Companion",
+              "Dark Steel",
+              "Elected leader of the Merciful Companions with wartime overall command. Holds the title until death. If an Esteemed Companion dies during war, the senior Master Companion is elevated to Esteemed."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "customs",
+      "title": "Fellowship and Custom",
+      "blocks": [
+        {
+          "type": "point",
+          "level": 1,
+          "label": "Brother/Sister",
+          "text": "An individual Companion, used by one another as an informal mode of address. “Good to see you again Brother” “As am I, Sister”"
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "label": "Cohort",
+          "text": "Has multiple uses within the Guild:"
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "text": "Children of the Guild, be they orphan or born into the guild, are schooled in reading, writing, history, etiquette, horsemanship and an elected craft (Smithy, Armorer, Apothecary, Business, Masonry, or Blade and Ranged Combat)."
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "text": "A group of Acquaints, typically of the same ‘class’, are also called a Cohort, though they would share the name of their Respite. For example, “Cohort of Abdera”."
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "text": "Those seeking to join who are at or older than the age of majority (18), are a Cohort, but are typically trained in smaller groups and separately from the children."
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "label": "Cadre",
+          "text": "A group up to 6 Companions"
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "label": "Guardian",
+          "text": "Members of the order who now tend to different needs of the Respites be they too young or old to go ranging. Also common among those who tend the inns and support structures within the organisation."
+        }
+      ]
+    },
+    {
+      "id": "formations",
+      "title": "Formations and Command",
+      "blocks": [],
+      "tables": [
+        {
+          "title": "Formations of the Guild",
+          "headers": [
+            "Formation",
+            "Typical Size",
+            "Command"
+          ],
+          "rows": [
+            [
+              "Companion",
+              "1 individual",
+              "—"
+            ],
+            [
+              "Cadre",
+              "Up to 6 Companions",
+              "Senior Companion"
+            ],
+            [
+              "Cohort",
+              "Variable group of Acquaints and Journeypersons",
+              "Mentor, Master or Elder, depending on Respite"
+            ],
+            [
+              "Corps",
+              "30–60 Companions; 5–10 Cadres",
+              "Senior Mentor Companion"
+            ],
+            [
+              "Company",
+              "300–600 Companions; 5–10 Corps",
+              "Senior Master Companion"
+            ],
+            [
+              "Crusade",
+              "600+ Companions, up to entire membership",
+              "Elected Esteemed Companion"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "title": "Codex of the Companion",
+      "blocks": [
+        {
+          "type": "point",
+          "level": 1,
+          "text": "1. Thou shalt respect all weaknesses, and shalt constitute thyself the defend'r of those folk"
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "text": "2. Thou shalt defend thy sibling, those gents shalt defend thee in returneth"
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "text": "3. Thou shalt not recoil before thine enemy."
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "text": "4. Thou shalt never lie, and shalt remain faithful to thy pledged word."
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "text": "5. Thou shalt not tieth one’s self to plot of landeth, familiar holidam, 'r earthly living"
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "text": "6. Thou shalt be generous, and give largesse to everyone."
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "text": "7. Thou shalt beest ev'rywh're and at each moment the champion of the right and the valorous 'gainst injustice and evil"
+        }
+      ]
+    },
+    {
+      "id": "respites",
+      "title": "The Respites",
+      "blocks": [
+        {
+          "type": "point",
+          "level": 1,
+          "label": "Ally",
+          "text": "May be a local inn or tavern who donates their services to individuals or small bands of Companions. A Companion may use an available small room or communal area to rest for one evening. Food would be provided, though nothing more than watered down wine or cold purified water for drink. A Chore or Task of the home must be completed at the Ally’s request as repayment for their room, board, and inconvenience of the owner and their family."
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "label": "Small Respite",
+          "text": "Small manor or converted Inn which is owned directly by the Guild. The Respite may contain several rooms, stable and/or a bunk house to support up to a Cadre amount of Companions. Rooms are typically occupied by multiple companions, though may not be co-inhabited by those of differing gender. Those Companions who have coupled, will typically share a single room. Companions will assist the Master Companion of the Respite in maintenance, upkeep and housekeeping during their stay. Guardians who call a Respite home are to be respected and their requests addressed if needed. Companions are guests in their home."
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "label": "Medium Sized Respite",
+          "text": "Typical walled manor possessing about an acre or so of land, the Respite is essentially a small compound or base in which it may possess its own stable, smithy, apothecary and multiple bunkhouses to support up to a Corps-sized (30- 60 Companions) force in both logistics and in military equipment. Guardians may live off- site, but are commonly seen around the establishment. Walls and defences may be in place to protect the Respite against local revolts and minor sieges. Will typically have food and supplies for a month’s long attack if needed."
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "label": "Large Respite",
+          "text": "These are the largest Respites the Guild has, being the equal to that of a large castle complex. Placed in a defensible location or raised ground, they may be able to house an entire Company-sized formation (300-600 Companions) in times of need, with additional area around the keep to support additional troops if needed outside of the walls. They act as regional headquarters under the command of a master Companion. Like with the Medium sized Respites in their support capabilities, they may also contain a sizable library for study and research, as well as perhaps for pleasure of the companions who call these structures home. These are also the normal locations for cohorts of the guild’s children to learn, train, and grow should it be close enough to settlements for recruitment. In times of war, they are also used for shelter by those refugees and those cut off on the road. Their supplies may last them months under siege if required, as they would have deep wells or ready access to flowing water such as streams, rivers, or glacier runoff."
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "label": "Frontier Respite",
+          "text": "Temporary redoubts made of tents and walled with a wooden palisade, these Respites generally hold up to a Corps-sized group of Companions and are not designed to last more than a few months at most."
+        },
+        {
+          "type": "point",
+          "level": 1,
+          "label": "Llanoverde Respite",
+          "text": "One of the largest Respites just outside Llanoverde, Guirnaldas, the Llanoverde Repite is the main headquarters of the Merciful Companions. At its centre is The Old Keep, a very small, square, squat castle that is the original home of the Merciful Companions. Over the last three centuries, additional land was purchased and both the fortification and the facilities of the Respite were expanded. Herein lies the Companion Archives, a record of every companion and any accomplishments of note. These are not meant to convey glory to the individual, but merely keep a historical record for reference sake. Many of the Guild’s Master and Elder companions reside here as well as the Esteemed Companion if they are not summoned abroad."
+        }
+      ]
+    }
+  ]
+}
