@@ -10,3 +10,6 @@
 .realm-article-link:hover,.lore-map-link:hover{background:#3b4b4b;border-color:#e1c087;color:#fff0cf}
 .realm-article-link:focus-visible,.lore-map-link:focus-visible{outline:2px solid #efd295;outline-offset:3px}
 .lore-map-link{margin:2px 0 15px;align-self:start}
+
+/* Full justification for encyclopedia paragraphs */
+.lore-intro p,.lore-entry-summary,.lore-entry-text p,.lore-prose-block p,.lore-paragraph{ text-align:justify; text-justify:inter-word; hyphens:auto; overflow-wrap:break-word; }
