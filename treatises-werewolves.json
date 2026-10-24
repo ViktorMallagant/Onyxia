@@ -1,0 +1,330 @@
+{
+  "id": "werewolves",
+  "title": "A Treatise on Werewolves",
+  "subtitle": "Supplemental Documentation on Werewolves and Lycanthropy",
+  "sections": [
+    {
+      "id": "detailed-lore",
+      "title": "Detailed Lore",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Until recently, there was no precedent for werewolves or the curse known as Lycanthropy. Recent rumours from Abdera abound that a huge, human-wolf hybrid escaped from the local Respite for the Merciful Companions and rampaged across the city and surrounding countryside slaughtering livestock and woodland creatures alike. Sightings of this beast or perhaps other similar monsters began to surface with greater frequency in Merania and Yuthia. The cause for such abominations is currently unknown."
+        }
+      ]
+    },
+    {
+      "id": "general-characteristics",
+      "title": "General Characteristics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "While the actual attributes of a werewolf can vary based on the species of the individual being “Turned,” they share the following common characteristics."
+        },
+        {
+          "type": "point",
+          "label": "Normal Form",
+          "text": "In its natural form, werewolves are indistinguishable from other members of their base species. Actions taken in wolf form are usually remembered as bits of a dream when the werewolf returns to normal from either of its alternate forms.",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Lupus Form (Pure Wolf)",
+          "text": "When in its pure wolf form, werewolves are indistinguishable from ordinary wolves. However they retain a primal version of their intelligence, though they must struggle to access any memories.",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Lycan Form (Hybrid)",
+          "text": "A hulking, muscular hybrid form of the base species with a significant amount of wolvish features. These are apex predators with a mixture of their original intelligence and personality combined with the wolf’s instinct, enhanced senses, and raw strength.",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "strengths",
+      "title": "Strengths",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Though lycanthropy is a curse, it is not without its advantages. These are listed below by their original Abderan names as well as what they are called in Onyxian Common Tongue."
+        },
+        {
+          "type": "point",
+          "label": "Celeris Sanatio (Rapid Healing)",
+          "text": "Wounds and broken bones heal at an accelerated rate, typically within hours or days. This applies to all forms. Note that the werewolf cannot regenerate severed limbs or sensory organs.",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Lenta Senescentia (Slow Aging)",
+          "text": "Werewolves in all forms have a greatly decreased ageing rate, approximately 25% of their base species norm.",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Immunitas Ad Morbum (Immunity to Disease)",
+          "text": "Applying to all forms, a lycanthrope is immune to normal infections, diseases, illnesses and most poisons.",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Magna Vis (Great Strength)",
+          "text": "While in their Lycan form, werewolves have immense physical strength, equating to roughly 20 members of their base species.",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Sensus Aucti (Heightened Senses)",
+          "text": "Werewolves have greatly enhanced sight, hearing, and sense of smell. Though most prominent in their Lupus and Lycan forms, even a werewolf in its natural state retains some degree of these acute senses.",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "weaknesses",
+      "title": "Weaknesses",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "At its very heart, lycanthropy is a transmittable curse and comes with many distinct disadvantages. As with strengths, these are first listed by their Abderan names."
+        },
+        {
+          "type": "point",
+          "label": "Argentum (Silver)",
+          "text": "Werewolves are allergic to silver. Wounds caused by silver coated weapons regenerate at normal speeds. A significant dose of powdered silver induced into the bloodstream can be fatal.",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Aconus Lupinus (Wolfsbane)",
+          "text": "Administering an extract of the wolfsbane plant can inhibit transformation or force a transformed werewolf back into its original form. A significant amount of wolfsbane can poison a lycanthrope, making it extremely weak and ill for days or weeks while a massive dose can cause death.",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Ignis (Fire)",
+          "text": "Werewolves suffer damage from fire at the same or slightly greater rate than a normal being of their base species.",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Mortalitas (Mortality)",
+          "text": "Though the curse bestows many benefits, a lycanthrope is still a mortal being. It can be killed by destroying its heart or brain, by complete dismemberment or any of the above methods. Note that Lycanthropy cannot be spread to true immortals such as Fae, Dark Fae or Vampires.",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Nullum Remedium (No Cure)",
+          "text": "There is no known method for removing the curse of Lycanthropy. Once turned, a werewolf will remain so until their death.",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Sterilitas (Sterility)",
+          "text": "Once cursed, werewolves cannot reproduce via sexual means. The species can only propagate by biting and passing the curse to other beings. The exception to this rule is that male lycanthropes in their original forms can impregnate female non-lycanthropes. The resulting offspring will not be cursed.",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Esuritio (The Hunger)",
+          "text": "Lycanthropes are driven to hunt, especially in their alternate forms. Consuming the flesh of sentient beings provides the werewolf with a short-term increase in vitality, stamina, healing rate, and strength. However, once sentient flesh is consumed, the lycanthrope begins to crave it more and more until it becomes an all-encompassing addiction.",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "transmission",
+      "title": "Transmission",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Not all beings bitten by a lycanthrope will necessarily become cursed into becoming one, there both a chance of death and chance of surviving uncursed, though the latter is extremely slim. Roll 1d20 and consult the following chart."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Lycanthropy Curse Transmission",
+          "headers": [
+            "Result",
+            "Chance",
+            "Roll (1d20)"
+          ],
+          "rows": [
+            [
+              "Death",
+              "30%",
+              "1–6"
+            ],
+            [
+              "Cursed",
+              "60%",
+              "7–18"
+            ],
+            [
+              "Recovery",
+              "10%",
+              "19–20"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-change",
+      "title": "The Change",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Shifting forms is the very essence of lycanthropy, though it can happen for different reasons. Regardless of the reason, this transformation is called The Change, however the reasons for undergoing the Change can have a multitude of effects on the werewolf’s ability to control the Change itself or control themselves after the Change occurs."
+        },
+        {
+          "type": "point",
+          "label": "First Change",
+          "text": "Under no circumstances can a lycanthrope resist their first change, which occurs on the rising of the first full moon after being cursed. The lycanthrope will shift into its hybrid form and remain so until sunrise on the following day.",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Unwilling Changes",
+          "text": "Subsequent full moons as well as excessive rage, hunger, and other external factors can and will exert their control on the lycanthrope. These are called Unwilling Changes and the werewolf may attempt to resist them. Roll 1d20 to resist this change and consult the following chart:",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Modifiers",
+          "text": "Successfully resisting an Unwilling Change or succeeding to Change willingly provides the lycanthrope with understanding and increased control over their abilities. These modifiers apply for the above chart and the charts below. Note, that for these charts (with one exception) the modifiers are not cumulative, meaning the highest possible modifier is a +4 and the lowest is a -4. The exception is the Path of the Wolf, where each score is added together to influence the total control a lycanthrope has over itself.",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Path of the Wolf",
+          "text": "As a lycanthrope resists unwilling changes or changes willingly, they gradually begin to understand more and more about the curse and how to deal with its aspects. Their progression along this path is represented numerically. When they reach the end of the path, they no longer have to roll to control themselves.",
+          "level": 1
+        },
+        {
+          "type": "point",
+          "label": "Willing Changes",
+          "text": "After a lycanthrope has achieved some control over Unwilling Changes (5 points on the Path of the Wolf), they may begin to attempt Willing Changes, starting at once per day. Roll 1d20 to change and consult the following chart: Subsequent changes after the first per day result in a cumulative -1 modifier until Total Control is achieved.",
+          "level": 1
+        }
+      ],
+      "tables": [
+        {
+          "title": "Unwilling Changes",
+          "headers": [
+            "Result",
+            "Chance",
+            "Roll (1d20)"
+          ],
+          "rows": [
+            [
+              "Uncontrolled Change",
+              "50%",
+              "1–10"
+            ],
+            [
+              "Controlled Change",
+              "30%",
+              "11–16"
+            ],
+            [
+              "No Change",
+              "20%",
+              "17–10"
+            ]
+          ]
+        },
+        {
+          "title": "Modifiers",
+          "headers": [
+            "Event",
+            "Modifier"
+          ],
+          "rows": [
+            [
+              "Successfully Resisted Unwilling Change",
+              "+2"
+            ],
+            [
+              "Successful Willing Change",
+              "+1"
+            ],
+            [
+              "Controlled Change",
+              "+1"
+            ],
+            [
+              "Failed Unwilling Change",
+              "−2"
+            ],
+            [
+              "Consumption of Sentient Flesh",
+              "−4"
+            ]
+          ]
+        },
+        {
+          "title": "Path of the Wolf",
+          "headers": [
+            "Steps on the Path",
+            "Benefits Granted",
+            "Points"
+          ],
+          "rows": [
+            [
+              "First Change (first full moon)",
+              "All Strengths and Weakness of Lycanthropy",
+              "0"
+            ],
+            [
+              "Resisted Unwilling Changes (excluding Full Moon changes)",
+              "Ability to Willingly Change once per day",
+              "5"
+            ],
+            [
+              "Limited Control of Wolf Forms",
+              "Ability to Willingly Change multiple times per day",
+              "10"
+            ],
+            [
+              "Deeper Understanding of Lycanthropy",
+              "Can communicate with wolves and speak while changed",
+              "15"
+            ],
+            [
+              "Total Control",
+              "Can Change at will",
+              "20"
+            ]
+          ]
+        },
+        {
+          "title": "Willing Changes",
+          "headers": [
+            "Result",
+            "Chance",
+            "Roll (1d20)"
+          ],
+          "rows": [
+            [
+              "No Change",
+              "30%",
+              "1–6"
+            ],
+            [
+              "Uncontrolled Change",
+              "40%",
+              "7–14"
+            ],
+            [
+              "Controlled Change",
+              "30%",
+              "15–10"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
