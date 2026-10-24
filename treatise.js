@@ -2,6 +2,9 @@
 (() => {
 'use strict';
 const $=id=>document.getElementById(id), type=document.body.dataset.treatise;
+const ONYXIA_ARTWORK_VERSION='20261024-refresh';
+// Re-request manuscript illustrations under a fresh URL after earlier cached 404 responses.
+document.querySelectorAll('img[src*="assets/lore/"]').forEach(img=>{const src=img.getAttribute('src');if(src&&!src.includes('onyxia-artwork=')){img.src=src+(src.includes('?')?'&':'?')+'onyxia-artwork='+ONYXIA_ARTWORK_VERSION;}});
 const menu=$('mobileMenu'), sidebar=$('sidebar');
 if(menu && sidebar) {menu.addEventListener('click',()=>{const open=sidebar.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));});sidebar.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>sidebar.classList.remove('open')));}
 if(!type) return;
