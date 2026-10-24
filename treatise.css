@@ -38,3 +38,6 @@
 .treatise-loading{font:500 24px var(--font-literary);color:#d1b784}
 @media(max-width:900px){.treatise-layout{grid-template-columns:1fr;gap:28px}.treatise-aside{position:relative;top:auto;max-height:none;padding:14px;border:1px solid #bda26d55}.treatise-aside nav{flex-direction:row;flex-wrap:wrap;gap:4px}.treatise-aside nav a{border:1px solid #bda26d40;font-size:11px;padding:8px}.treatise-body{max-width:100%}}
 @media(max-width:550px){.treatise-chapter{padding-bottom:23px;margin-bottom:29px}.treatise-aside{padding:10px}.treatise-chapter .treatise-point{padding-left:11px}.treatise-point[data-level="2"],.treatise-point[data-level="3"]{margin-left:14px}}
+
+/* Full justification for continuous treatises */
+.treatise-lead,.treatise-chapter>p,.treatise-chapter li,.treatise-point,.treatise-related p{ text-align:justify; text-justify:inter-word; hyphens:auto; overflow-wrap:break-word; }
