@@ -2,6 +2,11 @@
 (() => {
   'use strict';
   const $ = id => document.getElementById(id);
+  const ONYXIA_ARTWORK_VERSION = '20261024-refresh';
+  const artworkURL = src => src && src.includes('assets/lore/') && !src.includes('onyxia-artwork=') ? src + (src.includes('?')?'&':'?') + 'onyxia-artwork=' + ONYXIA_ARTWORK_VERSION : src;
+  // Bypass browser/CDN caches of earlier broken image links.
+  document.querySelectorAll('img[src*="assets/lore/"]').forEach(img => { img.src = artworkURL(img.getAttribute('src')); });
+
   const chapter = document.body.dataset.loreSection;
   if (!chapter) return;
   const cards = $('loreCards'), input = $('loreSearch'), filter = $('loreFilter');
@@ -20,7 +25,7 @@
   };
   const openPicture = (src, label) => {
     const img = modal.querySelector('img');
-    img.src = src; img.alt = label; modal.querySelector('p').textContent = label;
+    img.src = artworkURL(src); img.alt = label; modal.querySelector('p').textContent = label;
     if (typeof modal.showModal === 'function') modal.showModal();
     else window.open(src, '_blank', 'noopener,noreferrer');
   };
@@ -40,7 +45,7 @@
   const pictureButton = (src, label, cls) => {
     const btn = elem('button', cls);
     btn.type = 'button'; btn.setAttribute('aria-label', 'Enlarge illustration of ' + label);
-    const img = elem('img'); img.src = src; img.alt = label;
+    const img = elem('img'); img.src = artworkURL(src); img.alt = label;
     img.loading = 'lazy'; img.decoding = 'async'; btn.appendChild(img);
     btn.addEventListener('click', () => openPicture(src, label));
     return btn;
