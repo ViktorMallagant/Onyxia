@@ -88,6 +88,14 @@
     }
     const text=elem('div','lore-entry-text');item.blocks.forEach(b=>text.appendChild(contentBlock(b)));
     details.appendChild(text);
+    if (item.id === 'the-merciful-companions') {
+      const link=elem('a','lore-map-link','✧ Read the full Merciful Companions expansion');
+      link.href='merciful-companions.html'; details.insertBefore(link,text);
+    }
+    if (item.id === 'vampires') {
+      const link=elem('a','lore-map-link','✧ Read A Treatise on Vampires');
+      link.href='vampires.html'; details.insertBefore(link,text);
+    }
     if(item.table)details.appendChild(renderTable(item.table));
     if(images.length>1){const gallery=elem('div','lore-gallery');images.forEach((src,i)=>gallery.appendChild(pictureButton(src,`${item.title} · illustration ${i+1}`,'lore-gallery-photo')));details.appendChild(gallery);}
     const share=elem('a','lore-permalink','Link to this entry ↗');share.href='#'+item.id;details.appendChild(share);
