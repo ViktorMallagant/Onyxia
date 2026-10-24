@@ -10,3 +10,9 @@
 @media(max-width:530px){.hero{min-height:330px}.hero h1{font-size:62px}.hero-tagline br{display:none}.hero-tagline{font-size:20px}.content-section{padding:46px 17px 55px}.section-heading{align-items:flex-start}.section-seal{display:none}.atlas-topline{padding:10px 12px}.atlas-hint{display:none}.atlas-viewport{height:350px}.atlas-bottombar{padding:10px 12px;gap:5px}.atlas-status{font-size:10px}.toggle-markers{font-size:10px}.story-paper{padding:36px 24px}.story-prose p{font-size:20px}.plot-copy p{font-size:20px}.plot-feature{padding:18px;gap:13px}.plot-feature p{font-size:22px}.chronicle-controls{padding:13px}.regional-row{flex-wrap:wrap}.regional-row select{max-width:75%;min-width:130px}.regional-row #eventCount{width:100%;text-align:right}.year-scrubber{padding:16px}.scrubber-labels{font-size:8px}.scrubber-labels span:nth-child(2),.scrubber-labels span:nth-child(3){display:none}.timeline-container{padding-left:35px}.timeline-container:before{left:13px}.timeline-item:before{left:-33px;width:22px;height:22px}.entry-toggle{padding:16px 14px}.entry-details{padding:0 14px 17px}.entry-details p{font-size:19px}.footer small{font-size:8px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
 .realm-pin{transform:translate(-50%,-50%) scale(var(--pin-scale,1));}
+
+/* Shared illuminated chapter presentation */
+.plot-story-paper{margin:0 auto;}
+.plot-story-paper .story-prose p:last-child{color:#725136;font-style:italic;font-weight:600;}
+.story-prose p,.plot-copy p,.timeline-entry-body p,.entry-detail p{ text-align:justify; text-justify:inter-word; hyphens:auto; overflow-wrap:break-word; }
+@media (max-width:540px){.plot-story-paper .story-heading{letter-spacing:.12em;font-size:11px}}
