@@ -29,6 +29,23 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Validate script syntax and Bestiary data
+        run: |
+          node --check app.js
+          node --check lorebook.js
+          node --check treatise.js
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("lore-pages-data.json").read_text(encoding="utf-8"))
+          entries = data["bestiary"]["entries"]
+          assert len(entries) == 16
+          assert sum(e["filters"]["temperament"] == "Docile" for e in entries) == 8
+          assert all(any(b.get("label") == "Classification" for b in e["blocks"]) for e in entries)
+          assert len(next(e for e in entries if e["id"] == "moonkins")["images"]) == 2
+          print("Bestiary taxonomy and script syntax verified.")
+          PY
+
       - name: Prepare high-definition atlas
         run: |
           python -m pip install --quiet 'Pillow>=10,<13'
