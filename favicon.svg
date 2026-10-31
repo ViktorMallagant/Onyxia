@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Amethyst gem">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C8A3FF"/><stop offset="1" stop-color="#4D218C"/></linearGradient></defs>
+<rect width="64" height="64" rx="13" fill="#101D2A"/>
+<path d="M18 10 H45 L57 26 32 55 7 26 Z" fill="url(#g)" stroke="#E7D0FF" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M18 10 23 26 7 26Z" fill="#915DD4"/><path d="M45 10 41 26 57 26Z" fill="#492083"/>
+<path d="M18 10H45L41 26H23Z" fill="#CFA9FF"/>
+<path d="M7 26H23L32 55Z" fill="#7034B7"/><path d="M57 26H41L32 55Z" fill="#4E238C"/>
+<path d="M23 26H41L32 55Z" fill="#AD6EEB"/>
+<path d="M7 26H57M23 26L32 55 41 26" fill="none" stroke="#F2DDFF" stroke-width="1" stroke-opacity=".55"/>
+<path d="M18 10L12 19" stroke="#FFF0FF" stroke-width="2.2" stroke-linecap="round"/>
+</svg>

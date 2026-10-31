@@ -41,3 +41,11 @@
 
 /* Full justification for continuous treatises */
 .treatise-lead,.treatise-chapter>p,.treatise-chapter li,.treatise-point,.treatise-related p{ text-align:justify; text-justify:inter-word; hyphens:auto; overflow-wrap:break-word; }
+
+/* Full-bleed manuscript artwork above each Treatise card. */
+.treatise-directory a{padding:0 0 21px;overflow:hidden}
+.treatise-card-art{display:block;width:100%;height:190px;overflow:hidden;background:#0b1a25;border-bottom:1px solid #b5976d66}
+.treatise-card-art img{width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block;filter:saturate(.87);transition:transform .35s ease}
+.treatise-directory a:hover .treatise-card-art img{transform:scale(1.045)}
+.treatise-directory a>.symbol,.treatise-directory a>strong,.treatise-directory a>.desc,.treatise-directory a>small{margin-left:22px;margin-right:22px}
+.treatise-directory a>.symbol{margin-top:14px}
