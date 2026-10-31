@@ -2258,7 +2258,7 @@
           {
             "type": "field",
             "label": "Classification",
-            "text": "Reptiallian"
+            "text": "Reptilian"
           },
           {
             "type": "field",
@@ -2285,7 +2285,7 @@
           "assets/lore/bestiary/gurogi-05.webp"
         ],
         "filters": {
-          "category": "Reptiallian",
+          "category": "Reptilian",
           "realm": "Qaenyth and Yuthia Kingdoms",
           "playability": "",
           "temperament": "Predatory"
@@ -2302,7 +2302,7 @@
           {
             "type": "field",
             "label": "Classification",
-            "text": "Reptiallian"
+            "text": "Reptilian"
           },
           {
             "type": "field",
@@ -2329,7 +2329,7 @@
           "assets/lore/bestiary/levaithans-06.webp"
         ],
         "filters": {
-          "category": "Reptiallian",
+          "category": "Reptilian",
           "realm": "The oceans and seas of Onyxia",
           "playability": "",
           "temperament": "Predatory"
@@ -2579,7 +2579,7 @@
           {
             "type": "field",
             "label": "Classification",
-            "text": "Reptiallian"
+            "text": "Reptilian"
           },
           {
             "type": "field",
@@ -2606,7 +2606,7 @@
           "assets/lore/bestiary/sukulluku-11.webp"
         ],
         "filters": {
-          "category": "Reptiallian",
+          "category": "Reptilian",
           "realm": "Forests, fields and deserts across Onyxia",
           "playability": "",
           "temperament": "Docile"
@@ -2623,7 +2623,7 @@
           {
             "type": "field",
             "label": "Classification",
-            "text": "Reptiallian"
+            "text": "Reptilian"
           },
           {
             "type": "field",
@@ -2650,7 +2650,7 @@
           "assets/lore/bestiary/thawr-12.webp"
         ],
         "filters": {
-          "category": "Reptiallian",
+          "category": "Reptilian",
           "realm": "Deserts and plains across Onyxia",
           "playability": "",
           "temperament": "Docile"
