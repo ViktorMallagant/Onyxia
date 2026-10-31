@@ -3093,7 +3093,9 @@
             "text": "In a time remembered only by ancient texts the Prophet Goz'garon foretold the coming of the God of the Death, Zoggakomen. Those that wish to be reborn in the Eternal Night or curry favor with Zoggakomen will make living sacrifices in his name. From this religion, coupled with the Spectral Onyx Stone's residence in the capital, gave rise to a strong religion based on the art of necromancy throughout Qaenyth. However, this barbaric religion remains confined to the borders of this Kingdom, or so the greater population of Onyxia hopes."
           }
         ],
-        "images": [],
+        "images": [
+          "assets/lore/religions/cards/diov-kami.webp"
+        ],
         "filters": {
           "category": "Polytheist",
           "realm": "Obedotish Dynasty (Diov) and Shido Empire (Kami)",
@@ -3124,7 +3126,9 @@
             "text": "At the origin of the world, the inhabitants of Astazulum believed to have been blessed by divine sight and they saw the deities in all their forms and splendour, calling them For-Ellri which means \"Elders\" in the common tongue. They saw them in the elements, animals and plants, everywhere around them they believed divine life could be perceived giving them the chance to create a multitude of deities to explain natural phenomena, the seasons, and so on and so forth, this expanded south all the way to the now Republic of Merania, both realms being the only ones who profess this religion now. The main deity is called Astrid, the goddess of titanic strength."
           }
         ],
-        "images": [],
+        "images": [
+          "assets/lore/religions/cards/for-ellri.webp"
+        ],
         "filters": {
           "category": "Polytheist",
           "realm": "Astazulum Empire and Republic of Merania",
@@ -3177,7 +3181,9 @@
             "text": "It should be noted that most of the followers of the teachings of Goz’garon believe Zoggakomen to be a benevolent god who welcomes most of those who have died into an eternal embrace, reserving punishment only for the wicked. However, there are outliers from this mainstream religion that use necromancy for far more nefarious purposes."
           }
         ],
-        "images": [],
+        "images": [
+          "assets/lore/religions/cards/gozgaron.webp"
+        ],
         "filters": {
           "category": "Monotheist",
           "realm": "Qaenyth Kingdom",
@@ -3208,7 +3214,9 @@
             "text": "With the passing of the centuries in the heart of Yuthia a lady claimed to have been told by a beautiful being engulfed in brilliant light that he had taken pity on the world and wished to guide it to a brighter tomorrow, to a land of promise and inspire in each and every person the best versions of themselves, to come together in unity and balance, to work together and help one another. They called him Sċēaphierde, which means \"shepherd\" in the common tongue. This faith extended to other parts, such as of Avout and Guirnaldas."
           }
         ],
-        "images": [],
+        "images": [
+          "assets/lore/religions/cards/the-sceaphierde.webp"
+        ],
         "filters": {
           "category": "Monotheist",
           "realm": "Avout Kingdom, Guirnaldas Kingdom, and Yuthia Kingdom",

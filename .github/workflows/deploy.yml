@@ -48,7 +48,12 @@ jobs:
           magic_images = [img for e in magic for img in e["images"]]
           assert len(magic_images) == len(set(magic_images)) == 8
           assert all(Path(img).is_file() for img in magic_images), "Missing magic card artwork"
-          print("Bestiary taxonomy, magic artwork and script syntax verified.")
+          religions = data["religions"]["entries"]
+          assert len(religions) == 4
+          religion_images = [img for e in religions for img in e["images"]]
+          assert len(religion_images) == len(set(religion_images)) == 4
+          assert all(Path(img).is_file() for img in religion_images), "Missing religion card artwork"
+          print("Bestiary taxonomy, magic and religion artwork, and script syntax verified.")
           PY
 
       - name: Prepare high-definition atlas
@@ -123,7 +128,11 @@ jobs:
               'assets/lore/magic/cards/necromancy.webp',
               'assets/lore/magic/cards/nature.webp',
               'assets/lore/magic/cards/psychic.webp',
-              'assets/lore/magic/cards/transmutation.webp'
+              'assets/lore/magic/cards/transmutation.webp',
+              'assets/lore/religions/cards/diov-kami.webp',
+              'assets/lore/religions/cards/for-ellri.webp',
+              'assets/lore/religions/cards/gozgaron.webp',
+              'assets/lore/religions/cards/the-sceaphierde.webp'
           ]
           failures = []
           for path in paths:
