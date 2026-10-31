@@ -24,17 +24,24 @@
 .lore-military-heading .lore-military-value{font:500 19px/1.5 var(--font-literary);color:#d7d5c9}
 .lore-filter-row select#temperamentFilter{min-width:130px;max-width:190px}
 
-/* Portrait composition: lower the three specified cover photographs within
-   their existing frames without moving the overlaid chapter headings. */
+/* Per-chapter photographic framing (image only, not text or frame).
+   Desktop: Species + Bestiary = +200px total; Religions = +150px;
+   Magic + Organisations = +100px. */
+.lore-hero--shift-200{--hero-image-shift:200px}
+.lore-hero--shift-150{--hero-image-shift:150px}
+.lore-hero--shift-100{--hero-image-shift:100px}
 @media (min-width:801px){
-  .lore-hero--lower-image .lore-hero-image{
-    object-position:center calc(39% + 100px);
+  .lore-hero[class*="lore-hero--shift-"] .lore-hero-image{
+    object-position:center calc(39% + var(--hero-image-shift));
   }
 }
+/* Reduce the offset for tablet framing where the photo has less overflow. */
 @media (min-width:531px) and (max-width:800px){
-  .lore-hero--lower-image .lore-hero-image{
-    object-position:center calc(39% + 50px);
+  .lore-hero--shift-200{--hero-image-shift:100px}
+  .lore-hero--shift-150{--hero-image-shift:75px}
+  .lore-hero--shift-100{--hero-image-shift:50px}
+  .lore-hero[class*="lore-hero--shift-"] .lore-hero-image{
+    object-position:center calc(39% + var(--hero-image-shift));
   }
 }
-/* On narrow phones preserve full frame coverage: square pictures may have
-   insufficient extra height to permit a 100px downward adjustment. */
+/* Keep phone cropping unchanged to avoid empty edges around square artwork. */
