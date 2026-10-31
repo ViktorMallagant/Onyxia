@@ -16,3 +16,10 @@
 .plot-story-paper .story-prose p:last-child{color:#725136;font-style:italic;font-weight:600;}
 .story-prose p,.plot-copy p,.timeline-entry-body p,.entry-detail p{ text-align:justify; text-justify:inter-word; hyphens:auto; overflow-wrap:break-word; }
 @media (max-width:540px){.plot-story-paper .story-heading{letter-spacing:.12em;font-size:11px}}
+
+/* Native map transparency: show the actual loaded resolution and original image link. */
+.atlas-topline{flex-wrap:wrap}
+.atlas-resolution{font:600 10px/1.4 var(--font-ui);letter-spacing:.07em;color:#ecd3a3;margin-left:auto}
+.atlas-status a{color:#edd2a0;text-decoration:underline;text-underline-offset:3px}
+.atlas-status a:hover{color:#fff0cf}
+@media(max-width:680px){.atlas-resolution{font-size:9px;width:100%;text-align:right}}

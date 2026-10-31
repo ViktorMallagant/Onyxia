@@ -54,7 +54,10 @@
     paintMap();
   }
   function zoomAt(nextScale,screenX,screenY){
-    nextScale=Math.min(fitScale*6,Math.max(fitScale,nextScale));
+    // Zoom up to the genuine image resolution rather than a fixed 600% ceiling.
+    const nativeScale=mapImage.naturalWidth ? mapImage.naturalWidth/WIDTH : fitScale*6;
+    const detailLimit=Math.max(fitScale*6,Math.min(nativeScale,fitScale*24));
+    nextScale=Math.min(detailLimit,Math.max(fitScale,nextScale));
     const x=(screenX-tx)/scale, y=(screenY-ty)/scale;
     scale=nextScale;tx=screenX-x*scale;ty=screenY-y*scale;
     clampView();paintMap();
@@ -135,7 +138,16 @@
     }
     $('atlasEmpty').hidden=false;
   });
-  mapImage.addEventListener('load',()=>{$('atlasEmpty').hidden=true;fitMap();});
+  const updateAtlasMetadata=()=>{
+    const w=mapImage.naturalWidth,h=mapImage.naturalHeight;
+    if(w&&h){
+      $('mapResolution').textContent='SOURCE · '+w.toLocaleString('en-GB')+' × '+h.toLocaleString('en-GB');
+      $('mapResolution').title='Actual resolution of the image loaded by your browser';
+      $('fullAtlasLink').href=mapImage.currentSrc||mapImage.src;
+    }
+  };
+  mapImage.addEventListener('load',()=>{$('atlasEmpty').hidden=true;updateAtlasMetadata();fitMap();});
+  if(mapImage.complete&&mapImage.naturalWidth)updateAtlasMetadata();
   window.addEventListener('resize',()=>{const prevRatio=scale/fitScale;fitMap();if(prevRatio>1.02)zoomCenter(prevRatio);});
   fitMap();
 

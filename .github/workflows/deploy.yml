@@ -129,3 +129,36 @@ jobs:
           if failures:
               raise SystemExit('Live image check failed: '+'; '.join(failures))
           PY
+
+      - name: Verify native atlas on the live website
+        run: |
+          python - <<'PY'
+          import hashlib
+          import io
+          import time
+          import urllib.request
+          from pathlib import Path
+          from PIL import Image
+          base = '${{ steps.deployment.outputs.page_url }}'.rstrip('/') + '/'
+          master = Path('assets/onyxia-8000px-master.webp')
+          expected = hashlib.sha256(master.read_bytes()).hexdigest()
+          url = base + 'assets/onyxia-8000px-master.webp?v=' + expected[:12]
+          for attempt in range(7):
+              try:
+                  request = urllib.request.Request(url,headers={'Cache-Control':'no-cache','User-Agent':'Onyxia-atlas-verifier'})
+                  with urllib.request.urlopen(request,timeout=35) as response:
+                      data = response.read()
+                  actual = hashlib.sha256(data).hexdigest()
+                  with Image.open(io.BytesIO(data)) as image:
+                      dimensions = image.size
+                  if actual == expected and dimensions == (8000,4200):
+                      print(f'LIVE ATLAS VERIFIED: {dimensions[0]}x{dimensions[1]}, {len(data):,} bytes, SHA256 {actual[:12]}')
+                      break
+                  error = f'Unexpected image content SHA256 {actual[:12]}, dimensions {dimensions}'
+              except Exception as exc:
+                  error = str(exc)
+              if attempt < 6:
+                  time.sleep(4)
+          else:
+              raise SystemExit('Native atlas verification failed: '+error)
+          PY

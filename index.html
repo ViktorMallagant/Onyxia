@@ -54,18 +54,18 @@
       <section id="atlas" class="content-section atlas-section">
         <div class="section-heading"><div><span class="section-kicker">CHAPTER I · THE WORLD</span><h2>The Atlas of Onyxia</h2><p>Eight realms. Two great lands. A thousand stories yet to be told.</p></div><div class="section-seal" aria-hidden="true">✥</div></div>
         <div class="atlas-frame">
-          <div class="atlas-topline"><span><span class="live-gem"></span> CARTOGRAPHER'S VIEW</span><span class="atlas-hint">Drag to explore · Scroll to zoom · Select a realm</span></div>
+          <div class="atlas-topline"><span><span class="live-gem"></span> CARTOGRAPHER'S VIEW</span><span class="atlas-hint">Drag to explore · Scroll to zoom · Select a realm</span><span class="atlas-resolution" id="mapResolution" aria-live="polite">Loading atlas…</span></div>
           <div class="atlas-viewport" id="atlasViewport" aria-label="Interactive map of Onyxia" tabindex="0">
             <div class="atlas-stage" id="atlasStage">
-              <img id="worldMap" src="assets/onyxia-world-map@2x.webp" data-fallback-src="assets/onyxia-world-map-source.png" alt="Detailed fantasy world map of Onyxia, showing its realms, settlements, geography, and surrounding seas" draggable="false" width="1735" height="911" />
+              <img id="worldMap" src="assets/onyxia-8000px-master.webp" alt="Detailed fantasy world map of Onyxia, showing its realms, settlements, geography, and surrounding seas" draggable="false" width="1735" height="911" />
               <div class="realm-layer" id="realmLayer" aria-label="Clickable realm markers"></div>
             </div>
-            <div class="atlas-empty" id="atlasEmpty" hidden>The cartographer's map is missing. Add <code>assets/onyxia-world-map-source.png</code> (preferred) or <code>assets/onyxia-world-map.jpg</code> to the repository.</div>
+            <div class="atlas-empty" id="atlasEmpty" hidden>The high-resolution atlas could not be loaded. Please refresh this page or use the full-resolution map link below.</div>
             <div class="map-compass" aria-hidden="true"><span>N</span>✦</div>
             <div class="map-tools" aria-label="Map controls"><button type="button" id="zoomIn" aria-label="Zoom in" title="Zoom in">+</button><button type="button" id="zoomOut" aria-label="Zoom out" title="Zoom out">−</button><button type="button" id="resetMap" aria-label="Fit map to window" title="Fit map to window">⌖</button></div>
             <div class="map-scale" id="mapScale">100%</div>
           </div>
-          <div class="atlas-bottombar"><div class="atlas-status"><span id="mapStatus">Select a realm to discover its history.</span></div><label class="toggle-markers"><input type="checkbox" id="markerToggle" checked /><span>Realm markers</span></label></div>
+          <div class="atlas-bottombar"><div class="atlas-status"><span id="mapStatus">Select a realm to discover its history.</span> · <a id="fullAtlasLink" href="assets/onyxia-8000px-master.webp" target="_blank" rel="noopener">View full-resolution map ↗</a></div><label class="toggle-markers"><input type="checkbox" id="markerToggle" checked /><span>Realm markers</span></label></div>
         </div>
         <div class="realm-card" id="realmCard" hidden><div class="realm-card-head"><div><span class="mini-label">FROM THE ATLAS</span><h3 id="realmName"></h3></div><button type="button" id="closeRealm" aria-label="Close realm details">×</button></div><p id="realmDescription"></p><div class="realm-card-actions"><a id="realmArticle" class="realm-article-link" href="realms.html">Read the realm chronicle <span aria-hidden="true">↗</span></a><button id="realmHistory" type="button" class="text-action">See related history <span>↗</span></button><span id="realmEventCount"></span></div></div>
         <div class="realm-directory" id="realmDirectory" aria-label="Explore realms"></div>
