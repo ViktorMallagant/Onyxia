@@ -18,7 +18,7 @@
     ['all','All events'],['origin','Origins'],['war','Conflict'],['magic','Magic'],['crisis','Calamity'],['politics','Politics'],['peace','Renewal'],['present','Present']
   ];
   const categoryName = Object.fromEntries(categories);
-  const state = {category:'all',region:'all',search:'',highlightYear:1400,selectedRealm:null};
+  const state = {category:'all',region:'all',search:'',highlightYear:1402,selectedRealm:null};
 
   function renderProse(target, paragraphs) {
     const parent=$(target);

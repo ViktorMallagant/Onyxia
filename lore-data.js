@@ -5,10 +5,10 @@ window.ONYXIA_LORE = {
     "In the centuries that followed, life flourished upon two great islands. The Keeper of Time brought forth peoples of many kinds, and settlements rose beside rivers and coasts. Civilisations took root, cultures grew, and the first kingdoms began to claim their place in the world. Yet prosperity brought ambition, and difference too often bred suspicion. As the realms expanded, suspicion hardened into enmity. War became inevitable.",
     "For hundreds of years, the islands knew the march of armies. Weapons grew deadlier, armour stronger, and mines yielded the metals that fed an endless struggle for dominion. Lands were changed by conquest, and their peoples no less so. Fear and hatred endured where understanding might once have taken root.",
     "At last, through the grace of the Onyx Stone and the courage of adventurers and champions, the long years of bloodshed yielded to peace. Civilisations that had sought one another’s ruin began to rise together, and a new age dawned over Onyxia.",
-    "Now the Year 1400 of the Sun has come. Beneath these skies, the tales of heroes yet unknown are waiting to begin."
+    "Now the Year 1402 of the Sun has come. Beneath these skies, the tales of heroes yet unknown are waiting to begin."
   ],
   "plot": [
-    "Come closer, fellow traveller. You wish to know how Onyxia fares in the Year 1400 of the Sun? I have watched its years unfold, and though I guard the course of time, I have never stood wholly apart from those who dwell within it. Call this world my inspiration, but not mine alone to claim as a creation. The Onyx Stone gave it life; my magic helped its power take form.",
+    "Come closer, fellow traveller. You wish to know how Onyxia fares in the Year 1402 of the Sun? I have watched its years unfold, and though I guard the course of time, I have never stood wholly apart from those who dwell within it. Call this world my inspiration, but not mine alone to claim as a creation. The Onyx Stone gave it life; my magic helped its power take form.",
     "Fourteen centuries have passed since that first awakening. After ages of suffering, the realms have known peace, and peoples once divided by fear have mingled and given rise to new peoples. I have guarded this world so that its inhabitants might grow, stumble, make their own choices and discover what they may become. Some have failed. Many have proved themselves heroes. Each life remains a wonder to me, and I hope that yours shall be among the tales worth remembering.",
     "But hear me well: the world is not what it seems. I fear that some of the Onyx Stones have carried corruption since Onyxia’s earliest days, a darkness only now revealing itself. I have watched it take root in the hearts of creatures both humble and mighty. At times, I have felt its whisper even within myself. I shall not yield to it; yet my strength to resist cannot shield every being I have come to cherish.",
     "Already, creatures once counted among Onyxia’s most beautiful are being twisted by its touch. Shadows appear without warning across the realms, emerging from portals whose opening brings terror in its wake. Each kingdom has turned to the power of its Onyx Stone to drive them back. Yet banishing a shadow is not the same as ending the threat.",
@@ -235,7 +235,7 @@ window.ONYXIA_LORE = {
       "sort_index": 20
     },
     {
-      "year": 1400,
+      "year": 1402,
       "text": "Your adventures await…",
       "id": "event-22",
       "title": "Your adventures await",
