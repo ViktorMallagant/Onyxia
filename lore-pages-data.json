@@ -2791,7 +2791,9 @@
             "text": "It is a type of magic that can be casted to enhance the physical attributes of the caster, such as strength, speed, reaction time, stamina, resistance to damage, breathing underwater, etc."
           }
         ],
-        "images": [],
+        "images": [
+          "assets/lore/magic/cards/egoic.webp"
+        ],
         "filters": {
           "category": "",
           "realm": "Astazulum Empire",
@@ -2822,7 +2824,9 @@
             "text": "It is a type of magic where the caster can call upon or summon spirits or other kinds of entities for specific tasks such as gathering information or some practical application aimed at manifestation in the physical world."
           }
         ],
-        "images": [],
+        "images": [
+          "assets/lore/magic/cards/evocation.webp"
+        ],
         "filters": {
           "category": "",
           "realm": "Guirnaldas Kingdom",
@@ -2853,7 +2857,9 @@
             "text": "It is a type of magic where the caster can manipulate illusions/hallucinations, causing targets to see, hear, touch, smell or taste things differently from what they truly are. At its base, users can distort the shape and size of an object or area."
           }
         ],
-        "images": [],
+        "images": [
+          "assets/lore/magic/cards/illusion.webp"
+        ],
         "filters": {
           "category": "",
           "realm": "Shido Empire",
@@ -2884,7 +2890,9 @@
             "text": "Enchantment magic affects the minds and emotions of others, influencing or controlling their behaviour, it is the art of twisting the minds and souls of others to one's will."
           }
         ],
-        "images": [],
+        "images": [
+          "assets/lore/magic/cards/musical-enchantment.webp"
+        ],
         "filters": {
           "category": "",
           "realm": "Republic of Merania",
@@ -2920,7 +2928,9 @@
             "text": "Necromancy is outlawed in every realm except Qaenyth."
           }
         ],
-        "images": [],
+        "images": [
+          "assets/lore/magic/cards/necromancy.webp"
+        ],
         "filters": {
           "category": "",
           "realm": "Qaenyth Kingdom",
@@ -2951,7 +2961,9 @@
             "text": "It is a type of magic in which casters can manipulate the forces of nature to a degree. This is also where primary healing magic thrives."
           }
         ],
-        "images": [],
+        "images": [
+          "assets/lore/magic/cards/nature.webp"
+        ],
         "filters": {
           "category": "",
           "realm": "Avout Kingdom",
@@ -2982,7 +2994,9 @@
             "text": "It is a type of magic that can harness the spell-caster’s mental abilities to affect the human, and non-human, psyche, including their own. For example dreams, perceptions, consciousness, telepathy, telekinesis, etc."
           }
         ],
-        "images": [],
+        "images": [
+          "assets/lore/magic/cards/psychic.webp"
+        ],
         "filters": {
           "category": "",
           "realm": "Yuthia Kingdom",
@@ -3013,7 +3027,9 @@
             "text": "It is a type of magic where the caster can use a form of magic based on and/or take control of the transmutation of living or non-living things, ranging from simple changes and modifications to more complex and powerful transformations. The most common form of this school of magic within this realm is the casters transforming into animals."
           }
         ],
-        "images": [],
+        "images": [
+          "assets/lore/magic/cards/transmutation.webp"
+        ],
         "filters": {
           "category": "",
           "realm": "Obedotish Dynasty",

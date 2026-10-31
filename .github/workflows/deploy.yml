@@ -43,7 +43,12 @@ jobs:
           assert sum(e["filters"]["temperament"] == "Docile" for e in entries) == 8
           assert all(any(b.get("label") == "Classification" for b in e["blocks"]) for e in entries)
           assert len(next(e for e in entries if e["id"] == "moonkins")["images"]) == 2
-          print("Bestiary taxonomy and script syntax verified.")
+          magic = data["magic"]["entries"]
+          assert len(magic) == 8
+          magic_images = [img for e in magic for img in e["images"]]
+          assert len(magic_images) == len(set(magic_images)) == 8
+          assert all(Path(img).is_file() for img in magic_images), "Missing magic card artwork"
+          print("Bestiary taxonomy, magic artwork and script syntax verified.")
           PY
 
       - name: Prepare high-definition atlas
@@ -110,7 +115,15 @@ jobs:
               'assets/lore/covers/bestiary.webp',
               'assets/lore/realms/qaenyth-kingdom-07.webp',
               'assets/lore/species/vampires-07.webp',
-              'assets/lore/treatises/werewolves.webp'
+              'assets/lore/treatises/werewolves.webp',
+              'assets/lore/magic/cards/egoic.webp',
+              'assets/lore/magic/cards/evocation.webp',
+              'assets/lore/magic/cards/illusion.webp',
+              'assets/lore/magic/cards/musical-enchantment.webp',
+              'assets/lore/magic/cards/necromancy.webp',
+              'assets/lore/magic/cards/nature.webp',
+              'assets/lore/magic/cards/psychic.webp',
+              'assets/lore/magic/cards/transmutation.webp'
           ]
           failures = []
           for path in paths:
