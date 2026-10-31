@@ -45,3 +45,30 @@
   }
 }
 /* Keep phone cropping unchanged to avoid empty edges around square artwork. */
+
+/* Collapsed Magic cards: individual portrait framing offsets. */
+/* Adjust only closed cards: expanded cards and lightbox retain their original framing. */
+body[data-lore-section="magic"] .lore-entry#egoic:not(.expanded) .lore-cover-button img {
+  object-position: center calc(33% + 100px);
+}
+body[data-lore-section="magic"] .lore-entry#evocation:not(.expanded) .lore-cover-button img {
+  object-position: center calc(33% + 50px);
+}
+body[data-lore-section="magic"] .lore-entry#illusion:not(.expanded) .lore-cover-button img {
+  object-position: center calc(33% + 50px);
+}
+body[data-lore-section="magic"] .lore-entry#musical-enchantment:not(.expanded) .lore-cover-button img {
+  object-position: center calc(33% + 100px);
+}
+body[data-lore-section="magic"] .lore-entry#necromancy:not(.expanded) .lore-cover-button img {
+  object-position: center calc(33% + 100px);
+}
+body[data-lore-section="magic"] .lore-entry#nature:not(.expanded) .lore-cover-button img {
+  object-position: center calc(33% + 100px);
+}
+body[data-lore-section="magic"] .lore-entry#psychic:not(.expanded) .lore-cover-button img {
+  object-position: center calc(33% + 50px);
+}
+body[data-lore-section="magic"] .lore-entry#transmutation:not(.expanded) .lore-cover-button img {
+  object-position: center calc(33% + 75px);
+}
