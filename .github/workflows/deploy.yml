@@ -75,6 +75,10 @@ jobs:
           cat deploy/artwork/onyxia-art-*.txt | base64 --decode > /tmp/onyxia-artwork.zip
           echo "71a304549f99c10c3ce17fe3977c83f25007d07fcbfd094a92eb749288d436d9  /tmp/onyxia-artwork.zip" | sha256sum --check
           unzip -q -o /tmp/onyxia-artwork.zip -d _site
+          # The archived Magic cover mistakenly duplicates the Bestiary unicorn.
+          # The real wizard painting was extracted from the Magic manuscript.
+          cp _site/assets/lore/magic/introduction-01.webp _site/assets/lore/covers/magic.webp
+          cmp _site/assets/lore/magic/introduction-01.webp _site/assets/lore/covers/magic.webp
           test -f _site/assets/lore/covers/species.webp
           test -f _site/assets/lore/realms/qaenyth-kingdom-07.webp
 

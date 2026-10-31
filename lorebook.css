@@ -23,3 +23,18 @@
 .lore-military-heading{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
 .lore-military-heading .lore-military-value{font:500 19px/1.5 var(--font-literary);color:#d7d5c9}
 .lore-filter-row select#temperamentFilter{min-width:130px;max-width:190px}
+
+/* Portrait composition: lower the three specified cover photographs within
+   their existing frames without moving the overlaid chapter headings. */
+@media (min-width:801px){
+  .lore-hero--lower-image .lore-hero-image{
+    object-position:center calc(39% + 100px);
+  }
+}
+@media (min-width:531px) and (max-width:800px){
+  .lore-hero--lower-image .lore-hero-image{
+    object-position:center calc(39% + 50px);
+  }
+}
+/* On narrow phones preserve full frame coverage: square pictures may have
+   insufficient extra height to permit a 100px downward adjustment. */
