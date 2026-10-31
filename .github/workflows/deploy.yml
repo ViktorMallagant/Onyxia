@@ -67,6 +67,9 @@ jobs:
           test -s _site/lorebook.css
           test -s _site/lore-pages-data.json
 
+      - name: Stamp map URLs with generated image version
+        run: python tools/stamp_atlas.py
+
       - name: Restore chapter illustrations
         run: |
           cat deploy/artwork/onyxia-art-*.txt | base64 --decode > /tmp/onyxia-artwork.zip
