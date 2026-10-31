@@ -41,9 +41,20 @@
     tx=sw < cw ? (cw-sw)/2 : Math.min(overscroll, Math.max(cw-sw-overscroll,tx));
     ty=sh < ch ? (ch-sh)/2 : Math.min(overscroll, Math.max(ch-sh-overscroll,ty));
   }
+  // A GPU-transformed 1,735-pixel layer becomes blurry in Chrome when magnified.
+  // Resize the actual <img> box in CSS pixels instead, so the browser rasterises
+  // from the original 8,000-pixel source at the requested zoom level.
+  let lastPaintedScale = NaN;
   function paintMap(){
-    stage.style.transform=`translate3d(${tx}px, ${ty}px, 0) scale(${scale})`;
-    stage.style.setProperty('--pin-scale',String(1/scale));
+    if (scale !== lastPaintedScale) {
+      const width = WIDTH * scale, height = HEIGHT * scale;
+      stage.style.width = width + 'px';
+      stage.style.height = height + 'px';
+      lastPaintedScale = scale;
+    }
+    // Use layout position for pan, not a composited 3D transform.
+    stage.style.left = tx + 'px';
+    stage.style.top = ty + 'px';
     $('mapScale').textContent=Math.round(scale/fitScale*100)+'%';
   }
   function fitMap(){
@@ -88,7 +99,8 @@
   const layer=$('realmLayer'),directory=$('realmDirectory');
   realms.forEach(realm=>{
     const pin=document.createElement('button');pin.type='button';pin.className='realm-pin';pin.dataset.realm=realm.id;
-    pin.style.left=realm.x+'px';pin.style.top=realm.y+'px';pin.title=realm.name;pin.setAttribute('aria-label','Explore '+realm.name);
+    // Realm markers live in percentage positions over the resized image.
+    pin.style.left=(realm.x/WIDTH*100)+'%';pin.style.top=(realm.y/HEIGHT*100)+'%';pin.title=realm.name;pin.setAttribute('aria-label','Explore '+realm.name);
     pin.addEventListener('click',(e)=>{e.stopPropagation();if(!dragMoved)selectRealm(realm);});layer.appendChild(pin);
     const btn=document.createElement('button');btn.type='button';btn.dataset.realm=realm.id;btn.textContent=realm.name;
     btn.addEventListener('click',()=>{selectRealm(realm);viewport.scrollIntoView({behavior:'smooth',block:'center'});});directory.appendChild(btn);
