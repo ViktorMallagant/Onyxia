@@ -50,12 +50,14 @@ jobs:
         run: |
           python -m pip install --quiet 'Pillow>=10,<13'
           python tools/build_atlas.py
+          python tools/build_favicon.py
 
       - name: Prepare static website
         run: |
           mkdir -p _site
           # Include all chapter pages and their associated CSS, JS and lore data.
           cp ./*.html ./*.css ./*.js ./*.json .nojekyll _site/
+          cp favicon.svg favicon.ico favicon.png _site/
           cp -R assets _site/
           # Fail the build rather than quietly publishing broken chapter links.
           for page in realms species bestiary magic religions organisations economics; do
@@ -94,6 +96,9 @@ jobs:
           import urllib.request, time
           base = '${{ steps.deployment.outputs.page_url }}'.rstrip('/') + '/'
           paths = [
+              'favicon.svg',
+              'favicon.ico',
+              'favicon.png',
               'assets/lore/covers/species.webp',
               'assets/lore/covers/bestiary.webp',
               'assets/lore/realms/qaenyth-kingdom-07.webp',
