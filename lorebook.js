@@ -63,6 +63,33 @@
     }
     return elem('p', 'lore-paragraph', b.text);
   };
+  const renderRealmBlocks = (blocks, parent) => {
+    let group = '';
+    const ruler = /^(?:Jarless|Jarl|Duchess|Duke|Countess|Count|Earl|Earless|Sayyid|Queen|King|Chief|Warlord)\b/i;
+    for (const b of blocks) {
+      if (b.type === 'subheading') {
+        if (b.text === 'Resources') group = 'resources';
+        else if (b.text === 'People of Note') group = 'people';
+        else if (b.text === 'Cultural Notes') group = 'other';
+        if (group === 'resources' && b.text !== 'Resources') {
+          parent.appendChild(elem('p','lore-realm-list-item',b.text));continue;
+        }
+        if (group === 'people' && b.text !== 'People of Note') {
+          parent.appendChild(elem('p','lore-realm-list-item',b.text));continue;
+        }
+        if (group !== 'resources' && group !== 'people' && ruler.test(b.text)) {
+          parent.appendChild(elem('p','lore-realm-ruler',b.text));continue;
+        }
+      }
+      if (b.type === 'field' && b.label === 'Military Strength') {
+        const h=elem('h4','lore-subheading lore-military-heading');
+        h.appendChild(elem('span',null,'Military Strength:'));
+        h.appendChild(elem('span','lore-military-value',b.text));
+        parent.appendChild(h);continue;
+      }
+      parent.appendChild(contentBlock(b));
+    }
+  };
   const renderTable = t => {
     const wrap = elem('div','lore-table-scroll'); const table=elem('table','lore-price-table');
     const thead=elem('thead'), r=elem('tr');
@@ -91,7 +118,7 @@
       mapLink.href='index.html?realm='+encodeURIComponent(atlasIDs[item.id])+'#atlas';
       details.appendChild(mapLink);
     }
-    const text=elem('div','lore-entry-text');item.blocks.forEach(b=>text.appendChild(contentBlock(b)));
+    const text=elem('div','lore-entry-text');if(chapter==='realms' && item.kind==='realm')renderRealmBlocks(item.blocks,text);else item.blocks.forEach(b=>text.appendChild(contentBlock(b)));
     details.appendChild(text);
     if (item.id === 'the-merciful-companions') {
       const link=elem('a','lore-map-link','✧ Read the full Merciful Companions expansion');
@@ -121,6 +148,20 @@
       const p=elem('p'); p.textContent=asText(b);$('loreIntro').appendChild(p);
     }
     const entries=data.entries;
+    let temperamentSelect=null;
+    if(chapter==='bestiary'){
+      const row=document.querySelector('.lore-filter-row');
+      const label=elem('label',null,'Temperament');
+      label.htmlFor='temperamentFilter';
+      temperamentSelect=elem('select');
+      temperamentSelect.id='temperamentFilter';
+      for(const name of ['All temperaments','Docile','Predatory']){
+        const option=elem('option',null,name);
+        option.value=name==='All temperaments'?'all':name;
+        temperamentSelect.appendChild(option);
+      }
+      row.append(label,temperamentSelect);
+    }
     let options=[];
     if(chapter==='species') options=[...new Set(entries.map(e=>parseSimpleCategory(e.filters?.playability)).filter(Boolean))];
     else if(chapter==='bestiary')options=[...new Set(entries.map(e=>e.filters?.category).filter(Boolean))];
@@ -140,16 +181,17 @@
         if(chapter==='magic')category=item.filters?.realm || '';
         if(chapter==='realms')category=item.kind==='location'?'Enigmatic places':'Realm';
         const text=[item.title,...item.blocks.map(asText)].join(' ').toLocaleLowerCase('en-GB');
-        const visible=(selected==='all'||category===selected)&&(!phrase||text.includes(phrase));
+        const temperamentMatches=chapter!=='bestiary'||!temperamentSelect||temperamentSelect.value==='all'||item.filters?.temperament===temperamentSelect.value;
+        const visible=(selected==='all'||category===selected)&&temperamentMatches&&(!phrase||text.includes(phrase));
         article.hidden=!visible;if(visible)matches++;
       });
       $('loreCount').textContent=`${matches} of ${entries.length} ${entries.length===1?'entry':'entries'}`;
       $('loreEmpty').hidden=matches!==0;
     };
-    input.addEventListener('input',update);filter.addEventListener('change',update);
-    $('loreClear').addEventListener('click',()=>{input.value='';filter.value='all';update();input.focus();});
+    input.addEventListener('input',update);filter.addEventListener('change',update);if(temperamentSelect)temperamentSelect.addEventListener('change',update);
+    $('loreClear').addEventListener('click',()=>{input.value='';filter.value='all';if(temperamentSelect)temperamentSelect.value='all';update();input.focus();});
     update();
-    function revealHash(){const id=decodeURIComponent(location.hash.slice(1)); if(!id)return; const item=instances.find(x=>x.item.id===id); if(item){input.value='';filter.value='all';update();item.open(true);item.article.scrollIntoView({block:'start'});}}
+    function revealHash(){const id=decodeURIComponent(location.hash.slice(1)); if(!id)return; const item=instances.find(x=>x.item.id===id); if(item){input.value='';filter.value='all';if(temperamentSelect)temperamentSelect.value='all';update();item.open(true);item.article.scrollIntoView({block:'start'});}}
     window.addEventListener('hashchange',revealHash);revealHash();
   }).catch(e=>{console.error(e); $('loreCount').textContent='The archive could not be opened.';const p=elem('p','lore-empty','The chapter data failed to load. Please refresh or inspect the project files.');cards.appendChild(p);});
 })();

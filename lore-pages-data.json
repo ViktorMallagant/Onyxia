@@ -3,24 +3,7 @@
     "id": "realms",
     "title": "Realms & Kingdoms",
     "subtitle": "The domains of Onyxia, their rulers, peoples, riches and mysteries.",
-    "intro": [
-      {
-        "type": "subheading",
-        "text": "Onyxia"
-      },
-      {
-        "type": "subheading",
-        "text": "(Click here for a zoomable version of this map.)"
-      },
-      {
-        "type": "subheading",
-        "text": "Realms"
-      },
-      {
-        "type": "subheading",
-        "text": "Major locations in Onyxia"
-      }
-    ],
+    "intro": [],
     "entries": [
       {
         "id": "astazulum-empire",
@@ -1179,7 +1162,7 @@
     "intro": [
       {
         "type": "subheading",
-        "text": "Sentient Species\nShown in order of emergence into Onyxia"
+        "text": "Shown in order of emergence into Onyxia"
       }
     ],
     "entries": [
@@ -2038,7 +2021,7 @@
     "intro": [
       {
         "type": "paragraph",
-        "text": "Bestiary\nIf you find yourself here, dear Traveller, it is because you seek knowledge of the variety of fauna present in Onyxia. Many are of the familiar sort, cattle, horses, bear, wolf and swine. But there are those that are more rare, more exotic. These pages will familiarize you with these creatures, many of which are magical in nature. For it is important, is it not, that one knows the difference between beasts that are gentle and those which are deadly."
+        "text": "If you find yourself here, dear Traveller, it is because you seek knowledge of the variety of fauna present in Onyxia. Many are of the familiar sort, cattle, horses, bear, wolf and swine. But there are those that are more rare, more exotic. These pages will familiarize you with these creatures, many of which are magical in nature. For it is important, is it not, that one knows the difference between beasts that are gentle and those which are deadly."
       }
     ],
     "entries": [
@@ -2052,8 +2035,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
-            "text": "Equine"
+            "label": "Classification",
+            "text": "Mammalian"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Docile"
           },
           {
             "type": "field",
@@ -2075,9 +2063,10 @@
           "assets/lore/bestiary/aetherealis-01.webp"
         ],
         "filters": {
-          "category": "Equine",
+          "category": "Mammalian",
           "realm": "Plains of Yuthia Kingdom",
-          "playability": ""
+          "playability": "",
+          "temperament": "Docile"
         }
       },
       {
@@ -2090,8 +2079,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
-            "text": "Feline"
+            "label": "Classification",
+            "text": "Mammalian"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Predatory"
           },
           {
             "type": "field",
@@ -2113,9 +2107,10 @@
           "assets/lore/bestiary/coperus-lynuxi-02.webp"
         ],
         "filters": {
-          "category": "Feline",
+          "category": "Mammalian",
           "realm": "Qaenyth",
-          "playability": ""
+          "playability": "",
+          "temperament": "Predatory"
         }
       },
       {
@@ -2128,8 +2123,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
-            "text": "Dragon"
+            "label": "Classification",
+            "text": "Draconoid"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Docile"
           },
           {
             "type": "field",
@@ -2153,9 +2153,10 @@
           "assets/lore/bestiary/supplement-17.webp"
         ],
         "filters": {
-          "category": "Dragon",
+          "category": "Draconoid",
           "realm": "Obedotish Dynasty, Guirnaldas and Avout Kingdoms (subspecies pictured in this order)",
-          "playability": ""
+          "playability": "",
+          "temperament": "Docile"
         }
       },
       {
@@ -2168,8 +2169,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
-            "text": "Mammal"
+            "label": "Classification",
+            "text": "Mammalian"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Docile"
           },
           {
             "type": "field",
@@ -2191,9 +2197,10 @@
           "assets/lore/bestiary/fowlk-03.webp"
         ],
         "filters": {
-          "category": "Mammal",
+          "category": "Mammalian",
           "realm": "Astazulum Empire, Yuthia Kingdom and Shido Empire",
-          "playability": ""
+          "playability": "",
+          "temperament": "Docile"
         }
       },
       {
@@ -2206,8 +2213,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
-            "text": "Mammal"
+            "label": "Classification",
+            "text": "Mammalian"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Predatory"
           },
           {
             "type": "field",
@@ -2229,9 +2241,10 @@
           "assets/lore/bestiary/gryphons-04.webp"
         ],
         "filters": {
-          "category": "Mammal",
+          "category": "Mammalian",
           "realm": "Astazulum Empire, Avout Kingdom, Republic of Merania and Obedotish Dynasty",
-          "playability": ""
+          "playability": "",
+          "temperament": "Predatory"
         }
       },
       {
@@ -2244,8 +2257,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
-            "text": "Reptilian"
+            "label": "Classification",
+            "text": "Reptiallian"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Predatory"
           },
           {
             "type": "field",
@@ -2267,9 +2285,10 @@
           "assets/lore/bestiary/gurogi-05.webp"
         ],
         "filters": {
-          "category": "Reptilian",
+          "category": "Reptiallian",
           "realm": "Qaenyth and Yuthia Kingdoms",
-          "playability": ""
+          "playability": "",
+          "temperament": "Predatory"
         }
       },
       {
@@ -2282,8 +2301,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
-            "text": "Mammal"
+            "label": "Classification",
+            "text": "Reptiallian"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Predatory"
           },
           {
             "type": "field",
@@ -2305,9 +2329,10 @@
           "assets/lore/bestiary/levaithans-06.webp"
         ],
         "filters": {
-          "category": "Mammal",
+          "category": "Reptiallian",
           "realm": "The oceans and seas of Onyxia",
-          "playability": ""
+          "playability": "",
+          "temperament": "Predatory"
         }
       },
       {
@@ -2320,8 +2345,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
+            "label": "Classification",
             "text": "Elemental"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Predatory"
           },
           {
             "type": "field",
@@ -2357,7 +2387,8 @@
         "filters": {
           "category": "Elemental",
           "realm": "Underground, in the mountain range and volcanoes of the Republic of Merania",
-          "playability": ""
+          "playability": "",
+          "temperament": "Predatory"
         }
       },
       {
@@ -2370,8 +2401,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
-            "text": "Deer"
+            "label": "Classification",
+            "text": "Mammalian"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Docile"
           },
           {
             "type": "field",
@@ -2393,9 +2429,10 @@
           "assets/lore/bestiary/loki-deer-08.webp"
         ],
         "filters": {
-          "category": "Deer",
+          "category": "Mammalian",
           "realm": "Northern reaches of the Astazulum Empire",
-          "playability": ""
+          "playability": "",
+          "temperament": "Docile"
         }
       },
       {
@@ -2408,8 +2445,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
-            "text": "Monkey"
+            "label": "Classification",
+            "text": "Mammalian"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Docile"
           },
           {
             "type": "field",
@@ -2428,14 +2470,14 @@
           }
         ],
         "images": [
-          "assets/lore/bestiary/supplement-18.webp",
           "assets/lore/bestiary/supplement-19.webp",
           "assets/lore/bestiary/supplement-20.webp"
         ],
         "filters": {
-          "category": "Monkey",
+          "category": "Mammalian",
           "realm": "Astazulum Empire and Guirnaldas Kingdom (subspecies pictured in this order)",
-          "playability": ""
+          "playability": "",
+          "temperament": "Docile"
         }
       },
       {
@@ -2448,8 +2490,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
-            "text": "Equine"
+            "label": "Classification",
+            "text": "Mammalian"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Docile"
           },
           {
             "type": "field",
@@ -2471,9 +2518,10 @@
           "assets/lore/bestiary/pegasi-09.webp"
         ],
         "filters": {
-          "category": "Equine",
+          "category": "Mammalian",
           "realm": "Shido Empire and Republic of Merania",
-          "playability": ""
+          "playability": "",
+          "temperament": "Docile"
         }
       },
       {
@@ -2486,8 +2534,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
+            "label": "Classification",
             "text": "Insectoid"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Predatory"
           },
           {
             "type": "field",
@@ -2511,7 +2564,8 @@
         "filters": {
           "category": "Insectoid",
           "realm": "Forested regions of temperate and tropical climates across Onyxia",
-          "playability": ""
+          "playability": "",
+          "temperament": "Predatory"
         }
       },
       {
@@ -2524,8 +2578,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
-            "text": "Reptile"
+            "label": "Classification",
+            "text": "Reptiallian"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Docile"
           },
           {
             "type": "field",
@@ -2547,9 +2606,10 @@
           "assets/lore/bestiary/sukulluku-11.webp"
         ],
         "filters": {
-          "category": "Reptile",
+          "category": "Reptiallian",
           "realm": "Forests, fields and deserts across Onyxia",
-          "playability": ""
+          "playability": "",
+          "temperament": "Docile"
         }
       },
       {
@@ -2562,8 +2622,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
-            "text": "Mammal"
+            "label": "Classification",
+            "text": "Reptiallian"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Docile"
           },
           {
             "type": "field",
@@ -2585,9 +2650,10 @@
           "assets/lore/bestiary/thawr-12.webp"
         ],
         "filters": {
-          "category": "Mammal",
+          "category": "Reptiallian",
           "realm": "Deserts and plains across Onyxia",
-          "playability": ""
+          "playability": "",
+          "temperament": "Docile"
         }
       },
       {
@@ -2600,8 +2666,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
-            "text": "Mammal"
+            "label": "Classification",
+            "text": "Mammalian"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Predatory"
           },
           {
             "type": "field",
@@ -2623,9 +2694,10 @@
           "assets/lore/bestiary/trolls-13.webp"
         ],
         "filters": {
-          "category": "Mammal",
+          "category": "Mammalian",
           "realm": "Rare but can be found anywhere in Onyxia",
-          "playability": ""
+          "playability": "",
+          "temperament": "Predatory"
         }
       },
       {
@@ -2638,8 +2710,13 @@
           },
           {
             "type": "field",
-            "label": "Species",
-            "text": "Dragon"
+            "label": "Classification",
+            "text": "Draconoid"
+          },
+          {
+            "type": "field",
+            "label": "Temperament",
+            "text": "Predatory"
           },
           {
             "type": "field",
@@ -2661,9 +2738,10 @@
           "assets/lore/bestiary/vargdrakki-14.webp"
         ],
         "filters": {
-          "category": "Dragon",
+          "category": "Draconoid",
           "realm": "Frigid Mountains such as northern Astazulum and Guirnaldas, but also southern Shido and Obedotish",
-          "playability": ""
+          "playability": "",
+          "temperament": "Predatory"
         }
       }
     ],
@@ -2675,10 +2753,6 @@
     "title": "Magic",
     "subtitle": "Eight affinities bound to eight Onyx Stones, and the cost of choosing one.",
     "intro": [
-      {
-        "type": "subheading",
-        "text": "Magic"
-      },
       {
         "type": "image",
         "src": "assets/lore/magic/introduction-01.webp"
@@ -2956,10 +3030,6 @@
     "subtitle": "The beliefs, spirits and gods through which Onyxians understand their world.",
     "intro": [
       {
-        "type": "subheading",
-        "text": "Religions"
-      },
-      {
         "type": "image",
         "src": "assets/lore/religions/introduction-01.webp"
       },
@@ -3137,12 +3207,7 @@
     "id": "organisations",
     "title": "Organisations",
     "subtitle": "Orders, guilds and companies whose influence reaches beyond kingdoms.",
-    "intro": [
-      {
-        "type": "subheading",
-        "text": "Organizations"
-      }
-    ],
+    "intro": [],
     "entries": [
       {
         "id": "the-dawns-light-vanguard",

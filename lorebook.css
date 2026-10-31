@@ -13,3 +13,13 @@
 
 /* Full justification for encyclopedia paragraphs */
 .lore-intro p,.lore-entry-summary,.lore-entry-text p,.lore-prose-block p,.lore-paragraph{ text-align:justify; text-justify:inter-word; hyphens:auto; overflow-wrap:break-word; }
+
+/* Wide mastheads keep their heading and description on one line outside mobile. */
+@media (min-width:801px){.lore-hero-copy{width:100%;max-width:none}.lore-hero h1{font-size:clamp(30px,3.8vw,65px);white-space:nowrap;letter-spacing:.005em}.lore-hero-copy>p{width:100%;max-width:none;white-space:nowrap;font-size:clamp(13px,1.1vw,19px)}}
+@media (max-width:800px){.lore-hero h1,.lore-hero-copy>p{white-space:normal}}
+/* Province rulers, resources and people retain distinct manuscript hierarchy. */
+.lore-realm-ruler{font:500 16px/1.5 var(--font-literary)!important;color:#b9c5c5!important;margin:2px 0 12px 25px!important}
+.lore-realm-list-item{font:500 19px/1.5 var(--font-literary)!important;color:#d7d5c9!important;margin:3px 0 5px 8px!important}
+.lore-military-heading{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.lore-military-heading .lore-military-value{font:500 19px/1.5 var(--font-literary);color:#d7d5c9}
+.lore-filter-row select#temperamentFilter{min-width:130px;max-width:190px}
