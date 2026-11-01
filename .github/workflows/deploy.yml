@@ -52,7 +52,7 @@ jobs:
           assert len(religions) == 4
           religion_images = [img for e in religions for img in e["images"]]
           assert len(religion_images) == len(set(religion_images)) == 4
-          assert all(Path(img).is_file() for img in religion_images), "Missing religion card artwork"
+          assert all(Path(img.split("?", 1)[0]).is_file() for img in religion_images), "Missing religion card artwork"
           print("Bestiary taxonomy, magic and religion artwork, and script syntax verified.")
           PY
 
