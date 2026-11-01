@@ -156,6 +156,36 @@ jobs:
               raise SystemExit('Live image check failed: '+'; '.join(failures))
           PY
 
+      - name: Verify updated Sceaphierde image byte-for-byte on the live site
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+          import time
+          import urllib.request
+          path = 'assets/lore/religions/cards/the-sceaphierde.webp'
+          expected = hashlib.sha256(Path(path).read_bytes()).hexdigest()
+          base = '${{ steps.deployment.outputs.page_url }}'.rstrip('/') + '/'
+          url = base + path + '?v=20261101-male'
+          error = 'unavailable'
+          for attempt in range(7):
+              try:
+                  request = urllib.request.Request(url, headers={'User-Agent': 'Onyxia-religion-artwork-check', 'Cache-Control': 'no-cache'})
+                  with urllib.request.urlopen(request, timeout=20) as response:
+                      downloaded = response.read()
+                  actual = hashlib.sha256(downloaded).hexdigest()
+                  if actual == expected:
+                      print(f'Sceaphierde image verified on live site: {len(downloaded):,} bytes, SHA256 {expected[:16]}')
+                      break
+                  error = f'SHA mismatch: expected {expected[:16]}, received {actual[:16]}'
+              except Exception as exc:
+                  error = str(exc)
+              if attempt < 6:
+                  time.sleep(4)
+          else:
+              raise SystemExit('Updated Sceaphierde artwork not verified: ' + error)
+          PY
+
       - name: Verify native atlas on the live website
         run: |
           python - <<'PY'

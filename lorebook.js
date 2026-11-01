@@ -141,7 +141,7 @@
     const gate = x.match(/Level Gated\s*-\s*(\d+)/i);
     return gate ? `Level ${gate[1]} gated` : 'No level gate';
   };
-  fetch('lore-pages-data.json').then(r=> { if(!r.ok)throw Error('Archive unavailable (HTTP '+r.status+')');return r.json();}).then(all=>{
+  fetch(chapter==='religions'?'lore-pages-data.json?v=20261101-male':'lore-pages-data.json').then(r=> { if(!r.ok)throw Error('Archive unavailable (HTTP '+r.status+')');return r.json();}).then(all=>{
     const data=all[chapter];if(!data)throw Error('Unknown chapter '+chapter);
     for(const b of data.intro || []){
       if(b.type==='image')continue;
